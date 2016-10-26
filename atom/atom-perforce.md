@@ -32,4 +32,6 @@
 
 p4 cli 가 사용할 워크스페이스를 설정한다. 워크스페이스를 설정하지 않으면 파일이 `읽기전용` 모드로 열려서 수정후 저장할 수 없다.
 
-    p4 set P4CLIENT=[WORKSPACE_NAME]
+```
+p4 set P4CLIENT=[WORKSPACE_NAME]
+```

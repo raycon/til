@@ -1,8 +1,6 @@
 # VSCode Markdown
 
-VSCode 에서는 Markdown 문서를 작성하고 `미리보기(Ctrl+Shift+V)` 버튼을 누르면 미리보기가 열린다.
-`Ctrl+K V` 를 누르면 Markdown 문서의 오른쪽에 미리보기 화면이 열린다.
-Markdown 문서를 수정하면 미리보기도 실시간으로 갱신된다.
+VSCode 에서는 Markdown 문서를 작성하고 `미리보기(Ctrl+Shift+V)` 버튼을 누르면 미리보기가 열린다. `Ctrl+K V` 를 누르면 Markdown 문서의 오른쪽에 미리보기 화면이 열린다. Markdown 문서를 수정하면 미리보기도 실시간으로 갱신된다.
 
 ## 유용한 확장
 
