@@ -14,7 +14,7 @@ VSCode 는 터미널을 내장하고 있다. `` Ctrl+` `` 키로 실행한다. `
 
 ## 디버깅
 
-VSCode 는 노드 디버거를 기본으로 제공한다. `Ctrl+Shift+Z` 키로 디버거를 실행한다. 톱니바퀴 아이콘을 눌러서 실행 환경(.vscode/launch.json)을 설정한다. 이 파일에서 실행할 코드를 지정해준다.
+VSCode 는 노드 디버거를 기본으로 제공한다. `Ctrl+Shift+Z` 키로 디버거를 실행한다. 톱니바퀴 아이콘을 눌러서 실행 환경(`.vscode/launch.json`)을 설정한다. 이 파일에서 실행할 코드를 지정해준다.
 
 ```json
     "program": "${workspaceRoot}\\bin\\www",
@@ -45,13 +45,14 @@ IntelliSense 에 사용되는 모듈. 아래 명령어로 설치한다.
     rejectUnauthorized=false
 ```
 
-### Node, Express 타입 정의 설치
+### Node, Express, AWS 타입 정의 설치
 
 **프로젝트 루트**에서 아래 명령어를 실행한다.
 
 ```bash
     typings install dt~node --global --save
     typings install dt~express dt~serve-static dt~express-serve-static-core --global --save
+    typings install dt~aws-sdk --global --save
 ```
 
 프로젝트 루트에 `typings.json`파일과 `typings`폴더가 생성된다.
@@ -60,3 +61,13 @@ VS Code 를 종료하고 다시 시작하면 js 파일에서 node와 express관�
 ## ESLint
 
 JavaScript 문법을 검사하는 확장
+
+## process.env
+
+`launch.json` 파일에서 `process.env.KEY` 값으로 전달되는 값을 설정할 수 있다.
+
+```json
+"env": {
+    "NODE_ENV": "development",
+}
+```
