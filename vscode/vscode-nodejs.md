@@ -1,6 +1,6 @@
 # VSCode 에서 node.js 개발환경 설정하기
 
-> 원문 : https://code.visualstudio.com/Docs/runtimes/nodejs
+> 원문 : <https://code.visualstudio.com/Docs/runtimes/nodejs>
 
 ## 설치
 
@@ -11,42 +11,6 @@
 ## 터미널
 
 VSCode 는 터미널을 내장하고 있다. `` Ctrl+` `` 키로 실행한다. `` Ctrl+Shift+` ``키를 눌러서 창을 추가할 수 있다.
-
-## jsconfig.json
-
-자바스크립트를 편집할 때 VS Code는 `jsconfig.js` 파일을 찾는다. 이 파일이 없으면 Status Bar 오른쪽에 초록 아이콘이 표시되는데, 이를 누르면 `jsconfig.js` 파일을 생성할 수 있다.
-
-이 파일이 존재하면 VS Code 는 현재 폴더에 포함된 모든 파일이 동일한 프로젝트의 파일이라고 인식하게 된다.
-
-## Typings
-
-IntelliSense 에 사용되는 모듈. 아래 명령어로 설치한다.
-
-```bash
-    npm install -g Typings
-```
-
-### Typings Proxy Settings
-
-`~/.typingsrc` 파일을 만들고 아래 내용을 추가한다.
-
-```rc
-    proxy="http://xxx.xxx.xxx.xxx:80"
-    rejectUnauthorized=false
-```
-
-### Node, Express, AWS 타입 정의 설치
-
-**프로젝트 루트**에서 아래 명령어를 실행한다.
-
-```bash
-    typings install dt~node --global --save
-    typings install dt~express dt~serve-static dt~express-serve-static-core --global --save
-    typings install dt~aws-sdk --global --save
-```
-
-프로젝트 루트에 `typings.json`파일과 `typings`폴더가 생성된다.
-VS Code 를 종료하고 다시 시작하면 js 파일에서 node와 express관련 IntelliSense를 사용할 수 있다.
 
 ## ESLint
 
@@ -121,7 +85,7 @@ VS Code 의 디버그 화면에서 초록색 화살표 옆의 콤보박스를 �
             "type": "node",
             "request": "attach",
             "port": 5858,
-            "restart": false,
+            "restart": true,
             "timeout": 10000
         }
     ]
