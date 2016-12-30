@@ -25,3 +25,23 @@ NC='\033[0m' # No Color
 printf "I ${RED}love${NC} Stack Overflow\n"
 echo -e "I ${RED}love${NC} Stack Overflow"
 ```
+
+```bash
+BLA='\033[0;30m'
+RED='\033[0;31m'
+GRE='\033[0;32m'
+ORA='\033[0;33m'
+BLU='\033[0;34m'
+PUR='\033[0;35m'
+CYA='\033[0;36m'
+LGY='\033[0;37m'
+GRY='\033[1;30m'
+LRE='\033[1;31m'
+LGR='\033[1;32m'
+YEL='\033[1;33m'
+LBL='\033[1;34m'
+LPU='\033[1;35m'
+LCY='\033[1;36m'
+WHI='\033[1;37m'
+NOC='\033[0m'
+```

@@ -4,34 +4,45 @@
 
 Proxy 세팅 및 서버 인증서 확인을 안하도록 하는 설정 모음
 
+## AWS
+
+환경 변수 설정 :
+
+    set HTTP_PROXY=http://a.b.c.d:e
+    set HTTPS_PROXY=http://a.b.c.d:e
+
+`--no-verify-ssl` 옵션 사용으로 https 인증서 무시 :
+
+     aws s3 ls --no-verify-ssl
+
 ## APM (~/.atom/.apm/.apmrc)
 
-    proxy=http://xxx.xxx.xxx.xxx:80/
-    https-proxy=http://xxx.xxx.xxx.xxx:80/
+    proxy=http://a.b.c.d:e/
+    https-proxy=http://a.b.c.d:e/
     strict-ssl=false
 
 ## NPM (~/.npmrc)
 
-    proxy=http://xxx.xxx.xxx.xxx:80/
-    https-proxy=http://xxx.xxx.xxx.xxx:80/
+    proxy=http://a.b.c.d:e/
+    https-proxy=http://a.b.c.d:e/
     registry=http://registry.npmjs.org/
     strict-ssl=false
 
 ## bower (~/.bowerrc)
 
     {
-        "proxy": "http://xxx.xxx.xxx.xxx:80/",
-        "https-proxy": "http://xxx.xxx.xxx.xxx:80/",
+        "proxy": "http://a.b.c.d:e/",
+        "https-proxy": "http://a.b.c.d:e/",
         "strict-ssl": false
     }
 
 ## git (~/.gitconfig)
 
     [http]
-    proxy = http://xxx.xxx.xxx.xxx:80
+    proxy = http://a.b.c.d:e
     sslVerify = false
     [https]
-    proxy = http://xxx.xxx.xxx.xxx:80
+    proxy = http://a.b.c.d:e
     sslVerify = false
     [url "https://"]
     insteadOf = git://
@@ -47,7 +58,7 @@ Proxy 세팅 및 서버 인증서 확인을 안하도록 하는 설정 모음
 ## VSCode (~/AppData/Roaming/Code/User/settings.json)
 
     {
-        "http.proxy": "http://xxx.xxx.xxx.xxx:80",
+        "http.proxy": "http://a.b.c.d:e",
         "http.proxyStrictSSL": false,
         "http.proxyAuthorization": null
     }
@@ -87,13 +98,13 @@ Proxy 세팅 및 서버 인증서 확인을 안하도록 하는 설정 모음
 
 ### /etc/environment
 
-    http_proxy=http://xxx.xxx.xxx.xxx:80
-    https_proxy=http://xxx.xxx.xxx.xxx:80
-    ftp_proxy=http://xxx.xxx.xxx.xxx:80
+    http_proxy=http://a.b.c.d:e
+    https_proxy=http://a.b.c.d:e
+    ftp_proxy=http://a.b.c.d:e
 
 ### /etc/apt/apt.conf
 
-    Acquire::http::Proxy "http://xxx.xxx.xxx.xxx:80";
+    Acquire::http::Proxy "http://a.b.c.d:e";
 
 ## Certificates
 
