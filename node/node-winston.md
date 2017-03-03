@@ -150,11 +150,11 @@ logger.info('info log');
 var logger = new (winston.Logger)({
   transports: [
     new (winston.transports.File)({
-      filename: 'filelog-info.log',
+      filename: 'info.log',
       level: 'info'
     }),
     new (winston.transports.File)({
-      filename: 'filelog-error.log',
+      filename: 'error.log',
       level: 'error'
     })
   ]
@@ -184,11 +184,11 @@ var logger = new winston.Logger({
 ```javascript
 var logger = new (winston.Logger)({
   transports: [
-    new winston.transports.File({ filename: 'path/to/all-logs.log' })
+    new winston.transports.File({ filename: 'all-logs.log' })
   ],
   exceptionHandlers: [
     // exceptions.log 파일에 에러를 출력한다.
-    new winston.transports.File({ filename: 'path/to/exceptions.log' })
+    new winston.transports.File({ filename: 'exceptions.log' })
   ]
 });
 ```
@@ -217,7 +217,7 @@ var logger = new(winston.Logger)({
       timestamp: stamp,
       handleExceptions: true,
       humanReadableUnhandledException: true,
-      // 로그 로테이션
+      // 최대 파일 사이즈
       maxsize: 1024 * 1024 * 1, // 1MB
       // 최대 파일 개수 지정
       maxFiles: 5
@@ -284,7 +284,7 @@ var logger = new(winston.Logger)({
       timestamp: stamp,
       handleExceptions: true,
       humanReadableUnhandledException: true,
-      // 최대 파일 개수 지정, maxFiles 옵션이 없으면 파일이 계속 늘어난다.
+      // 최대 파일 개수 지정
       maxFiles: 7,
       // filename + datePattern 으로 로그 파일이 생성된다.
       datePattern: '.yyyy-MM-dd.log'
