@@ -144,16 +144,18 @@ logger.info('info log');
 
 ## 여러 파일에 출력
 
-로그 레벨에 따라서 출력되는 파일을 다르게 지정할 수 있다.
+로그 레벨에 따라서 출력되는 파일을 다르게 지정할 수 있다. 동일한 `transport`를 여러개 사용할 경우 `name`으로 각기 다른 이름을 지정해주어야 한다.
 
 ```javascript
 var logger = new (winston.Logger)({
   transports: [
     new (winston.transports.File)({
+      name:'info-file',
       filename: 'info.log',
       level: 'info'
     }),
     new (winston.transports.File)({
+      name:'error-file',
       filename: 'error.log',
       level: 'error'
     })
@@ -296,3 +298,70 @@ logger.info('info log');
 ```
 
 `file.yyyy-MM-dd.log` 파일이 생성되고, `maxFiles`가 7이므로 일주일이 지난 로그는 삭제된다.
+
+## 사용자 지정 레벨 사용
+
+기본 제공되는 레벨 이외에 임의의 레벨을 사용할 수 있다.
+
+```javascript
+var winston = require('winston');
+
+var custom = {
+  // 사용자 정의 로그 레벨
+  levels: {
+    aaa: 0,
+    bbb: 1,
+    ccc: 2,
+    ddd: 3,
+    eee: 4
+  },
+  // 로그 레벨별 색상 정의
+  colors: {
+    aaa: 'red',
+    bbb: 'yellow',
+    ccc: 'blue',
+    ddd: 'green',
+    eee: 'gray'
+  }
+};
+
+var logger = new(winston.Logger)({
+  // 레벨 지정
+  levels: custom.levels,
+  transports: [
+    new(winston.transports.Console)({
+      name: 'console-log',
+      level: 'eee',     // 콘솔 출력 레벨 지정
+      colorize: true    // 콘솔 출력에서 colors를 사용해서 표시하도록 설정
+    }),
+    new(winston.transports.File)({
+      name: 'file-log',
+      filename: 'ccc.log',
+      level: 'ccc',     // 파일 출력 레벨 지정
+    })
+  ]
+});
+
+// 콘솔에 출력될 색 지정
+winston.addColors(custom.colors);
+
+logger.aaa('aaa');
+logger.bbb('bbb');
+logger.ccc('ccc');
+logger.ddd('ddd');
+logger.eee('eee');
+```
+
+위와 같이 설정한 경우, 콘솔에는 다음과 같이 출력된다 :
+
+    aaa: aaa
+    bbb: bbb
+    ccc: ccc
+    ddd: ddd
+    eee: eee
+
+`ccc.log` 파일에는 다음과 같이 출력된다. ddd, eee 로그는 출력되지 않는다. :
+
+    {"level":"aaa","message":"aaa","timestamp":"2017-03-06T05:21:21.833Z"}
+    {"level":"bbb","message":"bbb","timestamp":"2017-03-06T05:21:21.836Z"}
+    {"level":"ccc","message":"ccc","timestamp":"2017-03-06T05:21:21.836Z"}
