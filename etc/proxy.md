@@ -55,6 +55,22 @@ Proxy 세팅 및 서버 인증서 확인을 안하도록 하는 설정 모음
     systemProp.http.proxyPassword=
     systemProp.http.nonProxyHosts=localhost
 
+## gralde mavenCentral() (~/.gradle/init.gradle)
+
+`https://repo1.maven.org/maven2/`에 접속할 수 없을 경우 아래 내용 추가
+
+    allprojects {
+        buildscript.repositories {
+            maven { url "http://repo1.maven.org/maven2/" }
+            jcenter{
+                url "jcenter.bintray.com"
+            }
+        }
+        repositories {
+            maven { url "http://repo1.maven.org/maven2/" }
+        }
+    }
+
 ## VSCode (~/AppData/Roaming/Code/User/settings.json)
 
     {
