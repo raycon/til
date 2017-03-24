@@ -73,8 +73,8 @@ dependencies {
 
 스프링에서 DB를 초기화하는 방법은 아래와 같은 두 가지 방법이 있다. 이 문서에서는 `spring.jpa.hibernate.ddl-auto`를 사용해서 정의하는 방법을 알아본다. 나머지 내용의 자세한 사항은 [Database initialization](https://docs.spring.io/spring-boot/docs/current/reference/html/howto-database-initialization.html) 문서를 참고한다.
 
-- `spring.jpa.generate-ddl` (Boolean) 스프링 기능
-- `spring.jpa.hibernate.ddl-auto` (Enum) Hibernate 기능
+- `spring.jpa.generate-ddl` (Boolean) 스프링 기능. 기본값 `false`
+- `spring.jpa.hibernate.ddl-auto` (Enum) Hibernate 기능. 기본값 사용하는 DB에 따라 다름
 
 `ddl-auto`는 다음과 같은 속성을 갖는다
 
@@ -84,10 +84,10 @@ dependencies {
 - `update` : 도메인 객체와 DB 스키마를 비교해서 DB를 업데이트한다.
 - `validate` : 도메인 객체가 DB 스키마와 일치하는지 검사한다.
 
-스프링 부트는 `H2`와 같은 내장 데이터베이스를 사용할 경우 `ddl-auto`의 값으로 `create-drop`을 기본으로 사용한다. 내장 데이터베이스가 아닐경우 `none`이 기본 값으로 사용된다. 따라서 `application.properties`에 이 속성을 명시적으로 정의할 필요는 없다.
+스프링 부트는 `H2`와 같은 내장 데이터베이스를 사용할 경우 `ddl-auto`의 값으로 `create-drop`을 기본으로 사용한다. 내장 데이터베이스가 아닐경우 `none`이 기본 값으로 사용된다.
 
 > 운영단계에서 `ddl-auto`값은 반드시 `none`이어야 한다. 아니면 어플리케이션이 재시작될 때 데이터가 모두 날아간다.
 
 ### import.sql
 
-프로젝트의 `src/main/resource` 폴더에 `import.sql`을 생성해 놓으면 어플리케이션이 시작될 때 정의된 쿼리가 수행된다. [spring-boot-sample-data-jpa](https://github.com/spring-projects/spring-boot/tree/master/spring-boot-samples/spring-boot-sample-data-jpa/src/main/resources) 프로젝트를 보면 참고할만한 `import.sql`이 정의되어 있다. 테이블을 생성하고, 데이터를 입력하는 동작을 확인할 수 있다.
+프로젝트의 `src/main/resource` 폴더에 `import.sql`을 생성해 놓으면 어플리케이션이 시작될 때 정의된 쿼리가 수행된다. 개발에 필요한 기초 데이터를 입력해 놓으면 편리하다. [spring-boot-sample-data-jpa](https://github.com/spring-projects/spring-boot/tree/master/spring-boot-samples/spring-boot-sample-data-jpa/src/main/resources) 프로젝트를 보면 참고할만한 `import.sql`이 정의되어 있다. 테이블을 생성하고, 데이터를 입력하는 동작을 확인할 수 있다.
