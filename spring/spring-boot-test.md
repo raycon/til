@@ -28,7 +28,9 @@ dependencies {
 
 ### @SpringBootTest
 
-스프링 어플리케이션을 테스트할 때 사용하며 모든 설정을 로드한다.
+스프링 어플리케이션 통합 테스트를 할 때 사용한다.
+
+- Autowired `TestRestTemplate`
 
 ### @JsonTest
 
@@ -84,6 +86,32 @@ MongoDB 로직을 테스트할 때 사용한다. 다음과 같은 설정을 로�
 - `RestTemplateBuilder`
 - `MockRestServiceServer`
 
+## @RunWith(SpringRunner.class)만 사용해서 Service 테스트
+
+테스트 종류 지정 없이 러너만 지정해서 사용할 수 있다. `@Autowired`, `@MockBean` 어노테이션을 사용할 수 있다.
+
+```java
+@RunWith(SpringRunner.class)
+public class SomeControllerTest {
+
+    @Autowired
+    MockMvc mockMvc;
+
+    @MockBean
+    SomeService serviceMock;
+
+    @Test
+    public void testCreateClientSuccessfully() throws Exception {
+        given(serviceMock.someMethod("Foo")).willReturn("Bar");
+
+        mockMvc.perform(post("/foo")
+            .contentType(MediaType.APPLICATION_JSON)
+            .andExpect(status().isOk())
+    }
+    ...
+}
+```
+
 ## DataSource 사용
 
 테스트에서 `in-memory embeded database` 대신 `DataSource`에 정의된 데이터베이스를 사용하려면 다음과 같이 설정한다 :
@@ -102,6 +130,22 @@ public class ExampleRepositoryTests {
 
 자동으로 설정된 테스트용 데이터베이스가 아무것도(`None`) 대체하지 않도록 설정하는 것을 의미한다.
 `@ActiveProfiles("profile-name")`을 사용해서 프로필을 지정할 수도 있다.
+
+## Property 정의
+
+```java
+@RunWith(SpringRunner.class)
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
+// 테스트에서 사용할 프로퍼티를 정의할 수 있다.
+@TestPropertySource(properties = {
+        "test.property.one=value",
+        "test.property.two=value"})
+public class PropertyTests {
+
+    //
+
+}
+```
 
 ## Example
 
