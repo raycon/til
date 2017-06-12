@@ -140,4 +140,6 @@ Proxy 세팅 및 서버 인증서 확인을 안하도록 하는 설정 모음
 
 ### Windows java 인증서 추가
 
-    keytool -storepass changeit -import -file "c:\인증서.crt" -keystore "C:\Program Files\Java\jre1.8.0_102\lib\security\cacerts" -alias mycert
+    %%JAVA_HOME%\bin\keytool.exe" -importcert -keystore "%JAVA_HOME%\jre\lib\security\cacerts" -file c:\인증서.crt
+
+비밀번호 `changeit` > 인증서 확인 창에서 `y` 입력
