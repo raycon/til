@@ -22,6 +22,12 @@ Return
 
 ```
 
+[Hotkeys](https://autohotkey.com/docs/Hotkeys.htm) 에서 매핑에 사용되는 키를 확인할 수 있다.
+
+    ^ : Ctrl
+    ! : Alt
+    # : Windows
+
 ## 스크립트 실행
 
 `.ahk` 파일을 더블클릭 하거나, 마우스 오른쪽 버튼으로 클릭하고 `Run Script`를 선택한다. 스크립트가 실행되면서 트레이에 `H` 모양 아이콘이 표시된다. 종료시에는 트레이 아이콘을 오른쪽 버튼으로 클릭하고 `Exit`을 선택한다.
@@ -40,9 +46,10 @@ ahk 스크립트 파일을 exe로 변환해서 배포할 수 있다. `.ahk` 파�
 
 ```ahk
 ; 볼륨 조절
-#PgUp::   Send {Volume_Up 2}
-#PgDn::   Send {Volume_Down 3}
-#Pause::  Send {Volume_Mute}
+^!PgUp::   Send {Volume_Up 2}
+^!PgDn::   Send {Volume_Down 3}
+^!Pause::  Send {Volume_Mute}
 
 ; 창 항상 위에 표시
-^SPACE::  Winset, Alwaysontop, , A
+^!SPACE::  Winset, Alwaysontop, , A
+```
