@@ -90,4 +90,4 @@ dependencies {
 
 ### import.sql
 
-프로젝트의 `src/main/resource` 폴더에 `import.sql`을 생성해 놓으면 어플리케이션이 시작될 때 정의된 쿼리가 수행된다. 개발에 필요한 기초 데이터를 입력해 놓으면 편리하다. [spring-boot-sample-data-jpa](https://github.com/spring-projects/spring-boot/tree/master/spring-boot-samples/spring-boot-sample-data-jpa/src/main/resources) 프로젝트를 보면 참고할만한 `import.sql`이 정의되어 있다. 테이블을 생성하고, 데이터를 입력하는 동작을 확인할 수 있다.
+Hibernate 기능을 사용하는 방법으로 프로젝트의 `src/main/resource` 폴더에 `import.sql`을 생성해 놓으면 어플리케이션이 시작될 때 정의된 쿼리가 수행된다. 개발에 필요한 기초 데이터를 입력해 놓으면 편리하다. [spring-boot-sample-data-jpa](https://github.com/spring-projects/spring-boot/tree/master/spring-boot-samples/spring-boot-sample-data-jpa/src/main/resources) 프로젝트를 보면 참고할만한 `import.sql`이 정의되어 있다. 테이블을 생성하고, 데이터를 입력하는 동작을 확인할 수 있다.
