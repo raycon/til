@@ -165,6 +165,8 @@ public class PropertyTests {
 
 - [@WebMvcTest](https://github.com/spring-projects/spring-boot/blob/master/spring-boot-samples/spring-boot-sample-test/src/test/java/sample/test/web/UserVehicleControllerTests.java)
 
+`@WebMvcTest`는 스프링 MVC에 필요한 빈만 구성한다. `@Controller`, `@ControllerAdvice`, `@JsonComponent`, `Filter`, `WebMvcConfigurer`, `HandlerMethodArgumentResolver`로 정의된 빈이 그 대상이 된다. `@Component`, `@Service`, `@Repository`로 정의된 빈은 생성하지 않는다. 컨트롤러에서 사용하는 빈이 있을 경우 테스트 클래스 안에 `@MockBean`으로 선언해야한다.
+
 ### 기타
 
 - [@SpringBootTest](https://github.com/spring-projects/spring-boot/blob/master/spring-boot-samples/spring-boot-sample-test/src/test/java/sample/test/SampleTestApplicationWebIntegrationTests.java)

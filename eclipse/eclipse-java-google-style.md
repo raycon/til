@@ -8,3 +8,5 @@
 ## Line Wrapping
 
 - `'enum' declation > Constants`: Wrap all elements, every element on a new line, Force split 체크
+- `Annotations > Element-value paris`: Wrap all elements, except first element if not necessary 체크
+- `Function Calls > Qualified invocations`: Wrap all elements, except first element if not necessary 체크
