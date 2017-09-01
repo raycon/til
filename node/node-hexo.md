@@ -34,6 +34,27 @@ deploy:
   repo: https://github.com/raycon/raycon.github.io
 ```
 
+## 글 작성
+
+    hexo new post title
+
+명렁어로 새로운 포스트를 생성하면 `source/_posts/2017-01-01-title.md` 파일이 만들어진다.
+
+## 이미지 표시
+
+`cource/images` 폴더를 만들고 이미지를 복사한 뒤 다음과 같이 사용한다 :
+
+    ![This is image](/images/filename.jpg)
+
+hexo에서 공식으로 권장하는 방법은 다음과 같이 플러그인을 사용하는 방법이다 :
+
+    {% asset_img example.jpg This is an example image %}
+    {% asset_img "spaced asset.jpg" "spaced title" %}
+
+> 안되네?
+
+pandoc 변환시 어떻게 되는지 확인 필요
+
 ## 서버 실행
 
 `hexo server` 명령어로 서버를 실행하고 <http://localhost:4000> 으로 접속하면 블로그 내용을 확인할 수 있다.
