@@ -1,4 +1,4 @@
-# Eclipse Content Assist
+# Change Content Assist Insertion Behavior
 
 이클립스에서 `Ctrl+Space`를 누르면 입력 가능한 변수나 메소드가 표시된다. 적당한 값을 찾아서 선택을 하면 자동으로 입력이 되는데, 이 때 동작이 살짝 이상하다.
 
