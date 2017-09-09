@@ -2,11 +2,10 @@
 
 > Today I Learned
 
-## Categories
+## Category
 
 - [atom](#atom)
 - [aws](#aws)
-- [drafts](#drafts)
 - [eclipse](#eclipse)
 - [etc](#etc)
 - [gradle](#gradle)
@@ -23,57 +22,47 @@
 - [vscode](#vscode)
 - [windows](#windows)
 
-## 76 TILs
+## TILs
 
-### ATOM
+### atom
 
 - [Perforce Package](atom/perforce-package.md)
 - [Proxy Settings](atom/proxy-settings.md)
 
-### AWS
+### aws
 
 - [Configure Profile](aws/configure-profile.md)
 - [Dynamodb Reserved Words](aws/dynamodb-reserved-words.md)
 - [Install Awscli](aws/install-awscli.md)
 
-### DRAFTS
-
-- [Eclipse Plugin Pmd](drafts/eclipse-plugin-pmd.md)
-- [Filter](drafts/filter.md)
-- [Git Credential](drafts/git-credential.md)
-- [Gradle Upload S3](drafts/gradle-upload-s3.md)
-- [Javascript](drafts/javascript.md)
-- [Slf4j](drafts/slf4j.md)
-- [Spring Exclude Commons Logging](drafts/spring-exclude-commons-logging.md)
-- [Vscode Extension](drafts/vscode-extension.md)
-
-### ECLIPSE
+### eclipse
 
 - [Change Content Assist Insertion Behavior](eclipse/change-content-assist-insertion-behavior.md)
 - [Change Delimiters](eclipse/change-delimiters.md)
 - [Custom Java Formatter](eclipse/custom-java-formatter.md)
 - [Import Static Methods](eclipse/import-static-methods.md)
+- [Organize Imports Shortcut Is Not Working](eclipse/organize-imports-shortcut-is-not-working.md)
 - [Plugin Shelled](eclipse/plugin-shelled.md)
 - [Plugins For Gradle](eclipse/plugins-for-gradle.md)
 - [Settings](eclipse/settings.md)
 
-### ETC
+### etc
 
 - [Proxy Settings](etc/proxy-settings.md)
 - [Youtube Compatible Video Format](etc/youtube-compatible-video-format.md)
 
-### GRADLE
+### gradle
 
 - [Build Version With Date](gradle/build-version-with-date.md)
 - [Build Without Tests](gradle/build-without-tests.md)
 - [Dependency Report](gradle/dependency-report.md)
 - [Update Wrapper Version](gradle/update-wrapper-version.md)
 
-### HIBERNATE
+### hibernate
 
 - [Multiple Bag Fetch Exception](hibernate/multiple-bag-fetch-exception.md)
 
-### JAVA
+### java
 
 - [Build Tools](java/build-tools.md)
 - [Change Fork Join Pool Size](java/change-fork-join-pool-size.md)
@@ -84,12 +73,12 @@
 - [Split List](java/split-list.md)
 - [String To Timestamp](java/string-to-timestamp.md)
 
-### JAVASCRIPT
+### javascript
 
 - [Format Date](javascript/format-date.md)
 - [Split Lines](javascript/split-lines.md)
 
-### LINUX
+### linux
 
 - [Alias](linux/alias.md)
 - [Bash Change Text Color](linux/bash-change-text-color.md)
@@ -98,7 +87,7 @@
 - [Shell Script](linux/shell-script.md)
 - [Symbolic Link](linux/symbolic-link.md)
 
-### NODE
+### node
 
 - [Env](node/env.md)
 - [Express](node/express.md)
@@ -107,12 +96,12 @@
 - [Server Port Error](node/server-port-error.md)
 - [Winston](node/winston.md)
 
-### PERFORCE
+### perforce
 
 - [Change Workspace](perforce/change-workspace.md)
 - [P4ignore](perforce/p4ignore.md)
 
-### SPRING
+### spring
 
 - [Apply Logback Xml To Eclipse Console](spring/apply-logback-xml-to-eclipse-console.md)
 - [Boot Configuration Properties](spring/boot-configuration-properties.md)
@@ -128,29 +117,29 @@
 - [Rest Template](spring/rest-template.md)
 - [Test Mock Mvc](spring/test-mock-mvc.md)
 
-### SYNOLOGY
+### synology
 
 - [Connect Via Https](synology/connect-via-https.md)
 
-### TYPESCRIPT
+### typescript
 
 - [Getting Started](typescript/getting-started.md)
 
-### VIM
+### vim
 
 - [Clear Search Highlighting](vim/clear-search-highlighting.md)
 - [Folding](vim/folding.md)
 - [Search And Replace](vim/search-and-replace.md)
 - [You Complete Me](vim/you-complete-me.md)
 
-### VSCODE
+### vscode
 
 - [Formatter](vscode/formatter.md)
 - [Markdown](vscode/markdown.md)
 - [Nodejs](vscode/nodejs.md)
 - [Proxy Settings](vscode/proxy-settings.md)
 
-### WINDOWS
+### windows
 
 - [Ahk Scripts](windows/ahk-scripts.md)
 - [Bat Datetime](windows/bat-datetime.md)
