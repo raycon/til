@@ -6,7 +6,6 @@
 
 - [atom](#atom)
 - [aws](#aws)
-- [drafts](#drafts)
 - [eclipse](#eclipse)
 - [etc](#etc)
 - [git](#git)
@@ -37,23 +36,13 @@
 - [Dynamodb Reserved Words](aws/dynamodb-reserved-words.md)
 - [Install Awscli](aws/install-awscli.md)
 
-### drafts
-
-- [Eclipse Plugin](drafts/eclipse-plugin-pmd.md)
-- [Filter](drafts/filter.md)
-- [Git Credential](drafts/git-credential.md)
-- [Gradle Upload S3](drafts/gradle-upload-s3.md)
-- [Javascript](drafts/javascript.md)
-- [Slf4j](drafts/slf4j.md)
-- [Spring Exclude Commons Logging](drafts/spring-exclude-commons-logging.md)
-- [Vscode Extension](drafts/vscode-extension.md)
-
 ### eclipse
 
 - [Change Content Assist Insertion Behavior](eclipse/change-content-assist-insertion-behavior.md)
 - [Change Delimiters](eclipse/change-delimiters.md)
 - [Custom Java Formatter](eclipse/custom-java-formatter.md)
 - [Import Static Methods](eclipse/import-static-methods.md)
+- [Organize Imports Shortcut Is Not Working](eclipse/organize-imports-shortcut-is-not-working.md)
 - [Plugin Shelled](eclipse/plugin-shelled.md)
 - [Plugins For Gradle](eclipse/plugins-for-gradle.md)
 - [Settings](eclipse/settings.md)
