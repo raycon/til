@@ -23,7 +23,7 @@
 - [vscode](#vscode)
 - [windows](#windows)
 
-## 73 TILs
+## 75 TILs
 
 ### atom
 
@@ -42,6 +42,7 @@
 - [Change Delimiters](eclipse/change-delimiters.md)
 - [Custom Java Formatter](eclipse/custom-java-formatter.md)
 - [Import Static Methods](eclipse/import-static-methods.md)
+- [Loading Gradle Project Preview Failed](eclipse/loading-gradle-project-preview-failed.md)
 - [Organize Imports Shortcut Is Not Working](eclipse/organize-imports-shortcut-is-not-working.md)
 - [Plugin Shelled](eclipse/plugin-shelled.md)
 - [Plugins For Gradle](eclipse/plugins-for-gradle.md)
@@ -50,6 +51,7 @@
 ### etc
 
 - [Proxy Settings](etc/proxy-settings.md)
+- [Software That I Use](etc/software-that-I-use.md)
 - [Youtube Compatible Video Format](etc/youtube-compatible-video-format.md)
 
 ### git
