@@ -79,6 +79,10 @@ Proxy 세팅 및 서버 인증서 확인을 안하도록 하는 설정 모음
         "http.proxyAuthorization": null
     }
 
+## Eclipse
+
+__Windows > Preference > General > Network Connections__ 에서 Active Provider 를 `Manual`로 설정하고 `HTTP`, `HTTPS` 프록시를 설정함. Proxy bypass 에는 `localhost`, `127.0.0.1`을 추가함
+
 ## Maven (~/.m2/settings.xml)
 
 ```xml
@@ -140,6 +144,8 @@ Proxy 세팅 및 서버 인증서 확인을 안하도록 하는 설정 모음
 
 ### Windows java 인증서 추가
 
-    %%JAVA_HOME%\bin\keytool.exe" -importcert -keystore "%JAVA_HOME%\jre\lib\security\cacerts" -file c:\인증서.crt
+JDK, JRE 둘 다 설정해 줘야 한다.
+
+    "%JAVA_HOME%\bin\keytool.exe" -importcert -keystore "%JAVA_HOME%\jre\lib\security\cacerts" -file c:\인증서.crt
 
 비밀번호 `changeit` > 인증서 확인 창에서 `y` 입력
