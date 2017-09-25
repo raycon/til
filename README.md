@@ -23,7 +23,7 @@
 - [vscode](#vscode)
 - [windows](#windows)
 
-## 75 TILs
+## 80 TILs
 
 ### atom
 
@@ -92,9 +92,13 @@
 - [Alias](linux/alias.md)
 - [Bash Change Text Color](linux/bash-change-text-color.md)
 - [Bash Files](linux/bash-files.md)
+- [Commands](linux/commands.md)
+- [Create Desktop Icon](linux/create-desktop-icon.md)
+- [Install Ubuntu](linux/install-ubuntu.md)
 - [Port Check](linux/port-check.md)
 - [Shell Script](linux/shell-script.md)
 - [Symbolic Link](linux/symbolic-link.md)
+- [Ubuntu Dpkg](linux/ubuntu-dpkg.md)
 
 ### node
 
@@ -153,3 +157,4 @@
 
 - [Ahk Scripts](windows/ahk-scripts.md)
 - [Bat Datetime](windows/bat-datetime.md)
+- [Remove Credentials](windows/remove-credentials.md)
