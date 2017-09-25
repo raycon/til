@@ -38,3 +38,7 @@ Network :
 - [Opera Browser](https://www.opera.com/ko)
 - [ADGUARD](https://adguard.com/en/welcome.html)
 - [Cloudberry Explorer](https://www.cloudberrylab.com/explorer/amazon-s3.aspx)
+
+SNS :
+
+- [Slack](https://slack.com/downloads/instructions/windows)
