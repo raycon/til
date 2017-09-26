@@ -132,3 +132,7 @@ Numix 테마 설치 :
 
     sudo dpkg -i <file>.deb
     sudo apt-get install -f # Install dependencies
+
+## Pandoc 설치
+
+    sudo apt-get install pandoc
