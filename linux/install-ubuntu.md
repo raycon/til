@@ -70,3 +70,82 @@
 ## gradle 설치
 
     sdk install gradle 4.2
+
+## Unity Tweak Tool 설치
+
+    sudo apt-get install unity-tweak-tool
+
+`Dash > Unity Tweak Tool` 실행해서 다음 항목 설정
+
+Launcher :
+
+- 투명도 0
+- Position Bottom
+- Icon size 36
+
+Panel :
+
+- 투명도 100
+- Indicators > Date 체크
+
+Switcher :
+
+- 모두 체크 해제
+
+Numix 테마 설치 :
+
+    sudo add-apt-repository ppa:numix/ppa
+    sudo apt-get update
+    sudo apt-get install numix-*
+
+- Theme > Numix
+- Icons > Numix Circle
+
+## Theme 설치
+
+    sudo add-apt-repository ppa:noobslab/themes
+    sudo apt-get update
+
+여러 테마를 설치할 수 있다.
+
+## Chrome 설치
+
+    sudo dpkg -i google-chrome-stable_current_amd64.deb
+    sudo apt-get -f install
+
+## Monaco Linux 폰트 설치
+
+- 폰트 [다운로드](https://github.com/hbin/top-programming-fonts/raw/master/Monaco-Linux.ttf)
+- `~/.local/share/fonts` 에 추가
+- `sudo fc-cache -fv`
+
+## Consolas 폰트 설치
+
+    sudo -i
+    apt-get install cabextract
+    vim consolas.sh
+
+consolas.sh :
+
+    #!/bin/sh
+    set -e
+    set -x
+    mkdir temp
+    cd temp
+    wget http://download.microsoft.com/download/E/6/7/E675FFFC-2A6D-4AB0-B3EB-27C9F8C8F696/PowerPointViewer.exe
+    cabextract -L -F ppviewer.cab PowerPointViewer.exe
+    cabextract ppviewer.cab
+
+consolas.sh 실행 :
+
+    chmod +x consolas.sh
+    ./consolas.sh
+    cp temp/CONSOLA* /usr/local/share/fonts/
+    fc-cache -fv
+
+## VSCode 설치
+
+[Running VS Code on Linux](https://code.visualstudio.com/docs/setup/linux) 참조
+
+    sudo dpkg -i <file>.deb
+    sudo apt-get install -f # Install dependencies
