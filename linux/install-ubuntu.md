@@ -136,3 +136,14 @@ Numix 테마 설치 :
 ## Pandoc 설치
 
     sudo apt-get install pandoc
+
+## Launchy 설치
+
+    sudo apt-get install launchy
+    sudo apt-get install launchy-skins
+    sudo apt-get install compizconfig-settings-manager
+
+- `Dash > CompizConfig Settings Manager > General options >key bindings > Window Menu` 를 `Disabled`로 변경
+- `Dash > System Settings > Keyboard > Shortcuts > Launchers > Keys to show the HUD` 를 선택하고 `Backspace`를 눌러서 `Disabled`로 변경
+- `~/.local/share/applications`에 바로가기 추가할 [desktop 파일 생성](create-desktop-icon.md)
+- 다운로드 받은 스킨을 `/usr/share/launchy/skins`에 복사한 뒤 설정에서 스킨 지정
