@@ -119,29 +119,12 @@ Numix 테마 설치 :
 - `~/.local/share/fonts` 에 추가
 - `sudo fc-cache -fv`
 
-## Consolas 폰트 설치
+## Consolas-powerline-vim 폰트 설치
 
-    sudo -i
-    apt-get install cabextract
-    vim consolas.sh
-
-consolas.sh :
-
-    #!/bin/sh
-    set -e
-    set -x
-    mkdir temp
-    cd temp
-    wget http://download.microsoft.com/download/E/6/7/E675FFFC-2A6D-4AB0-B3EB-27C9F8C8F696/PowerPointViewer.exe
-    cabextract -L -F ppviewer.cab PowerPointViewer.exe
-    cabextract ppviewer.cab
-
-consolas.sh 실행 :
-
-    chmod +x consolas.sh
-    ./consolas.sh
-    cp temp/CONSOLA* /usr/local/share/fonts/
+    git clone https://github.com/eugeii/consolas-powerline-vim.git
+    cp consolas-powerline-vim/CONSOLA* ~/.loca/share/fonts/
     fc-cache -fv
+    rm -rf consolas-powerline-vim/
 
 ## VSCode 설치
 
