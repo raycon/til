@@ -45,6 +45,16 @@
 
 [공식 홈페이지](https://symless.com) 에서 구매하는게 속 편하다.
 
+- 윈도우 : 홈페이지에서 다운
+- 우분투 : `sudo apt-get install synergy`
+
+우분투를 호스트로 사용할 경우, 윈도우에서 한/영키가 입력되지 않는다.
+
+- 윈도우를 호스트로 설정한다.
+- System Settings > Text Entry 에서 Korean (Hangul) (IBus)만 남기고 English 를 지운다.
+- Switch to next source using, Switch to previous source using 단축키를 없앤다.
+- IBus Setup 에서 Hangul toggle key 를 Hangul로 지정한다.
+
 ## Eclipse 설치
 
 - [공식 홈페이지](http://www.eclipse.org) 에서 EE 버전을 받는다.
@@ -147,3 +157,13 @@ Numix 테마 설치 :
 - `Dash > System Settings > Keyboard > Shortcuts > Launchers > Keys to show the HUD` 를 선택하고 `Backspace`를 눌러서 `Disabled`로 변경
 - `~/.local/share/applications`에 바로가기 추가할 [desktop 파일 생성](create-desktop-icon.md)
 - 다운로드 받은 스킨을 `/usr/share/launchy/skins`에 복사한 뒤 설정에서 스킨 지정
+
+## Ramme
+
+Electron 기반 비공식 인스타그램 클라이언트. [릴리즈](https://github.com/terkelg/ramme/releases)에서 `amd64.deb`를 받아서 설치한다.
+
+## gdebi
+
+`.deb` 패키지를 관리하는 프로그램.
+
+    sudo apt-get install gdebi
