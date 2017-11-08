@@ -14,6 +14,7 @@
 - [java](#java)
 - [javascript](#javascript)
 - [linux](#linux)
+- [mysql](#mysql)
 - [node](#node)
 - [perforce](#perforce)
 - [spring](#spring)
@@ -23,7 +24,7 @@
 - [vscode](#vscode)
 - [windows](#windows)
 
-## 80 TILs
+## 95 TILs
 
 ### atom
 
@@ -47,6 +48,7 @@
 - [Plugin Shelled](eclipse/plugin-shelled.md)
 - [Plugins For Gradle](eclipse/plugins-for-gradle.md)
 - [Settings](eclipse/settings.md)
+- [Useful Java Code Templates](eclipse/useful-java-code-templates.md)
 
 ### etc
 
@@ -56,6 +58,7 @@
 
 ### git
 
+- [Git In Bash](git/git-in-bash.md)
 - [Git Username Email](git/git-username-email.md)
 
 ### gradle
@@ -74,13 +77,18 @@
 
 - [Build Tools](java/build-tools.md)
 - [Change Fork Join Pool Size](java/change-fork-join-pool-size.md)
+- [Convert Object To Json](java/convert-object-to-json.md)
 - [Create Temp File](java/create-temp-file.md)
 - [Enum](java/enum.md)
 - [Fileutils](java/fileutils.md)
 - [Inputstream To Bytearray](java/inputstream-to-bytearray.md)
+- [Jackson Unrecognized Property Exception](java/jackson-unrecognized-property-exception.md)
 - [Junit](java/junit.md)
+- [Print Json](java/print-json.md)
+- [Read File From Resource](java/read-file-from-resource.md)
 - [Split List](java/split-list.md)
 - [String To Timestamp](java/string-to-timestamp.md)
+- [Validate Object](java/validate-object.md)
 
 ### javascript
 
@@ -90,15 +98,22 @@
 ### linux
 
 - [Alias](linux/alias.md)
+- [Auto Start Synergy](linux/auto-start-synergy.md)
 - [Bash Change Text Color](linux/bash-change-text-color.md)
 - [Bash Files](linux/bash-files.md)
 - [Commands](linux/commands.md)
+- [Configure Mouse Speed](linux/configure-mouse-speed.md)
 - [Create Desktop Icon](linux/create-desktop-icon.md)
 - [Install Ubuntu](linux/install-ubuntu.md)
 - [Port Check](linux/port-check.md)
+- [Profile Bashrc](linux/profile-bashrc.md)
 - [Shell Script](linux/shell-script.md)
 - [Symbolic Link](linux/symbolic-link.md)
 - [Ubuntu Dpkg](linux/ubuntu-dpkg.md)
+
+### mysql
+
+- [Turn On General Log](mysql/turn-on-general-log.md)
 
 ### node
 
@@ -124,8 +139,11 @@
 - [Boot Logback](spring/boot-logback.md)
 - [Boot Test](spring/boot-test.md)
 - [Boot Using Yaml Insteadof Properties](spring/boot-using-yaml-insteadof-properties.md)
+- [Component Vs Bean](spring/component-vs-bean.md)
 - [Get Complete Url From Request](spring/get-complete-url-from-request.md)
+- [Log Incoming Requests](spring/log-incoming-requests.md)
 - [Mdc With Logback](spring/mdc-with-logback.md)
+- [Print Jpa Queries](spring/print-jpa-queries.md)
 - [Proxy Settings](spring/proxy-settings.md)
 - [Read Properties From Xml](spring/read-properties-from-xml.md)
 - [Rest Template](spring/rest-template.md)
@@ -152,6 +170,7 @@
 - [Markdown](vscode/markdown.md)
 - [Nodejs](vscode/nodejs.md)
 - [Proxy Settings](vscode/proxy-settings.md)
+- [Vscode As Java Spring Ide](vscode/vscode-as-java-spring-ide.md)
 
 ### windows
 
