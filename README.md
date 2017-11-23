@@ -24,7 +24,7 @@
 - [vscode](#vscode)
 - [windows](#windows)
 
-## 95 TILs
+## 97 TILs
 
 ### atom
 
@@ -71,6 +71,7 @@
 
 ### hibernate
 
+- [Handling Soft Deletes](hibernate/handling-soft-deletes.md)
 - [Multiple Bag Fetch Exception](hibernate/multiple-bag-fetch-exception.md)
 
 ### java
@@ -144,6 +145,7 @@
 - [Log Incoming Requests](spring/log-incoming-requests.md)
 - [Mdc With Logback](spring/mdc-with-logback.md)
 - [Print Jpa Queries](spring/print-jpa-queries.md)
+- [Print Transaction Logs](spring/print-transaction-logs.md)
 - [Proxy Settings](spring/proxy-settings.md)
 - [Read Properties From Xml](spring/read-properties-from-xml.md)
 - [Rest Template](spring/rest-template.md)

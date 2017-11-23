@@ -8,9 +8,12 @@
           hibernate:
             show_sql: true
             format_sql: true
+            use_sql_comments: true
 
     logging:
       level:
         org:
           hibernate:
-            type: trace
+            type:
+              descriptor:
+                sql: trace
