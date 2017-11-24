@@ -24,7 +24,7 @@
 - [vscode](#vscode)
 - [windows](#windows)
 
-## 97 TILs
+## 98 TILs
 
 ### atom
 
@@ -141,6 +141,7 @@
 - [Boot Test](spring/boot-test.md)
 - [Boot Using Yaml Insteadof Properties](spring/boot-using-yaml-insteadof-properties.md)
 - [Component Vs Bean](spring/component-vs-bean.md)
+- [Externalized Configuration](spring/externalized-configuration.md)
 - [Get Complete Url From Request](spring/get-complete-url-from-request.md)
 - [Log Incoming Requests](spring/log-incoming-requests.md)
 - [Mdc With Logback](spring/mdc-with-logback.md)

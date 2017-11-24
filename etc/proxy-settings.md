@@ -47,6 +47,23 @@ Proxy 세팅 및 서버 인증서 확인을 안하도록 하는 설정 모음
     [url "https://"]
     insteadOf = git://
 
+프록시를 적용하지 않을 호스트를 지정할 수 있다.
+
+    no_proxy=.my.company,localhost,127.0.0.1,::1
+
+도메인별로 프록시를 설정할 수 있다.
+
+    [http]
+    sslVerify = true
+    [http "https://www.example.com/"]
+    sslVerify = false
+
+명령어는 다음과 같다.
+
+    $ git config --bool --get-urlmatch http.sslVerify https://www.example.com false
+    $ git config --get-urlmatch http https://www.example.com
+    http.sslverify false
+
 ## gradle (~/.gradle/gradle.properties)
 
     systemProp.http.proxyHost=xxx.xxx.xxx.xxx
