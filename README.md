@@ -24,7 +24,7 @@
 - [vscode](#vscode)
 - [windows](#windows)
 
-## 98 TILs
+## 99 TILs
 
 ### atom
 
@@ -179,4 +179,5 @@
 
 - [Ahk Scripts](windows/ahk-scripts.md)
 - [Bat Datetime](windows/bat-datetime.md)
+- [Disable Numlock At Startup](windows/disable-numlock-at-startup.md)
 - [Remove Credentials](windows/remove-credentials.md)
