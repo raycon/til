@@ -1,6 +1,9 @@
 # 스프링 부트 테스트
 
-> [Testing](https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-testing.html) 문서 참고
+참고 :
+
+- [Testing](https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-testing.html)
+- [Spring boot testing](http://www.baeldung.com/spring-boot-testing)
 
 ## Dependencies
 

@@ -13,6 +13,7 @@
 `Help > Eclipse Marketplace` 에서 아래 플러그인 설치
 
 - Eclipse Color Theme
+- JSON Tools : Color Theme 지원하는 JSON Tools Editor 를 사용할 수 있음
 - Buildship Gradle Integration 2.0
 - P4Eclipse 2016.1 > Perfoce SCM Support
 - Spring Tool Suite (STS) for Eclipse
