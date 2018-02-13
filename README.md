@@ -7,6 +7,7 @@
 - [atom](#atom)
 - [aws](#aws)
 - [eclipse](#eclipse)
+- [elastic](#elastic)
 - [etc](#etc)
 - [git](#git)
 - [gradle](#gradle)
@@ -24,7 +25,7 @@
 - [vscode](#vscode)
 - [windows](#windows)
 
-## 102 TILs
+## 108 TILs
 
 ### atom
 
@@ -51,6 +52,11 @@
 - [Settings](eclipse/settings.md)
 - [Useful Java Code Templates](eclipse/useful-java-code-templates.md)
 
+### elastic
+
+- [Elastic Search Example](elastic/elastic-search-example.md)
+- [Kibana](elastic/kibana.md)
+
 ### etc
 
 - [Proxy Settings](etc/proxy-settings.md)
@@ -60,6 +66,7 @@
 ### git
 
 - [Git In Bash](git/git-in-bash.md)
+- [Git Remote Repository](git/git-remote-repository.md)
 - [Git Username Email](git/git-username-email.md)
 
 ### gradle
@@ -84,6 +91,7 @@
 - [Enum](java/enum.md)
 - [Fileutils](java/fileutils.md)
 - [Inputstream To Bytearray](java/inputstream-to-bytearray.md)
+- [Jackson Snake Case](java/jackson-snake-case.md)
 - [Jackson Timezone](java/jackson-timezone.md)
 - [Jackson Unrecognized Property Exception](java/jackson-unrecognized-property-exception.md)
 - [Junit](java/junit.md)
@@ -92,6 +100,7 @@
 - [Split List](java/split-list.md)
 - [String To Timestamp](java/string-to-timestamp.md)
 - [Validate Object](java/validate-object.md)
+- [Web Inf](java/web-inf.md)
 
 ### javascript
 
@@ -143,6 +152,7 @@
 - [Boot Test](spring/boot-test.md)
 - [Boot Using Yaml Insteadof Properties](spring/boot-using-yaml-insteadof-properties.md)
 - [Component Vs Bean](spring/component-vs-bean.md)
+- [Enable Batch Processing](spring/enable-batch-processing.md)
 - [Externalized Configuration](spring/externalized-configuration.md)
 - [Get Complete Url From Request](spring/get-complete-url-from-request.md)
 - [Inject Mock Repository To Service](spring/inject-mock-repository-to-service.md)
