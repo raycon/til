@@ -21,3 +21,5 @@
     @Retention(RetentionPolicy.RUNTIME)
     @Documented
     public @interface Bean { ... }
+
+`@Repository`는 데이터 액세스 시의 예외를 전부 `DataAccessException`으로 변환하도록 작용한다.
