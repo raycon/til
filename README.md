@@ -25,7 +25,7 @@
 - [vscode](#vscode)
 - [windows](#windows)
 
-## 108 TILs
+## 113 TILs
 
 ### atom
 
@@ -89,6 +89,7 @@
 - [Convert Object To Json](java/convert-object-to-json.md)
 - [Create Temp File](java/create-temp-file.md)
 - [Enum](java/enum.md)
+- [Executable Jar](java/executable-jar.md)
 - [Fileutils](java/fileutils.md)
 - [Inputstream To Bytearray](java/inputstream-to-bytearray.md)
 - [Jackson Snake Case](java/jackson-snake-case.md)
@@ -145,6 +146,9 @@
 
 - [Apply Logback Xml To Eclipse Console](spring/apply-logback-xml-to-eclipse-console.md)
 - [Argument Resolver](spring/argument-resolver.md)
+- [Batch Job Parameter Chunk Size](spring/batch-job-parameter-chunk-size.md)
+- [Batch Reader With Job Parameters](spring/batch-reader-with-job-parameters.md)
+- [Batch Runidincrementer](spring/batch-runidincrementer.md)
 - [Boot Configuration Properties](spring/boot-configuration-properties.md)
 - [Boot Devtools](spring/boot-devtools.md)
 - [Boot H2 Database](spring/boot-H2-database.md)
@@ -194,3 +198,4 @@
 - [Bat Datetime](windows/bat-datetime.md)
 - [Disable Numlock At Startup](windows/disable-numlock-at-startup.md)
 - [Remove Credentials](windows/remove-credentials.md)
+- [Restart Aero Service](windows/restart-aero-service.md)
