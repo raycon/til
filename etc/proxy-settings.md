@@ -166,3 +166,5 @@ JDK, JRE 둘 다 설정해 줘야 한다.
     "%JAVA_HOME%\bin\keytool.exe" -importcert -keystore "%JAVA_HOME%\jre\lib\security\cacerts" -file c:\인증서.crt
 
 비밀번호 `changeit` > 인증서 확인 창에서 `y` 입력
+
+> 인증서 관리는 [KeyStore Explorer](http://keystore-explorer.org/)를 사용하면 편리하다.
