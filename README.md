@@ -4,198 +4,153 @@
 
 ## Category
 
-- [atom](#atom)
 - [aws](#aws)
-- [eclipse](#eclipse)
-- [elastic](#elastic)
-- [etc](#etc)
-- [git](#git)
-- [gradle](#gradle)
-- [hibernate](#hibernate)
-- [java](#java)
-- [javascript](#javascript)
-- [linux](#linux)
-- [mysql](#mysql)
-- [node](#node)
-- [perforce](#perforce)
-- [spring](#spring)
-- [synology](#synology)
-- [typescript](#typescript)
-- [vim](#vim)
-- [vscode](#vscode)
-- [windows](#windows)
+- [database](#database)
+- [editor](#editor)
+- [framework](#framework)
+- [language](#language)
+- [memo](#memo)
+- [os](#os)
+- [tool](#tool)
 
-## 113 TILs
-
-### atom
-
-- [Perforce Package](atom/perforce-package.md)
-- [Proxy Settings](atom/proxy-settings.md)
+## 116 TILs
 
 ### aws
 
-- [Configure Profile](aws/configure-profile.md)
+- [Aws Configure Profile](aws/aws-configure-profile.md)
+- [Aws Install Awscli](aws/aws-install-awscli.md)
 - [Dynamodb Reserved Words](aws/dynamodb-reserved-words.md)
-- [Install Awscli](aws/install-awscli.md)
 
-### eclipse
+### database
 
-- [Block Selection Mode](eclipse/block-selection-mode.md)
-- [Change Content Assist Insertion Behavior](eclipse/change-content-assist-insertion-behavior.md)
-- [Change Delimiters](eclipse/change-delimiters.md)
-- [Custom Java Formatter](eclipse/custom-java-formatter.md)
-- [Import Static Methods](eclipse/import-static-methods.md)
-- [Loading Gradle Project Preview Failed](eclipse/loading-gradle-project-preview-failed.md)
-- [Organize Imports Shortcut Is Not Working](eclipse/organize-imports-shortcut-is-not-working.md)
-- [Plugin Shelled](eclipse/plugin-shelled.md)
-- [Plugins For Gradle](eclipse/plugins-for-gradle.md)
-- [Settings](eclipse/settings.md)
-- [Useful Java Code Templates](eclipse/useful-java-code-templates.md)
+- [Elastic Search Example](database/elastic-search-example.md)
+- [Kibana](database/kibana.md)
+- [Mysql Turn On General Log](database/mysql-turn-on-general-log.md)
 
-### elastic
+### editor
 
-- [Elastic Search Example](elastic/elastic-search-example.md)
-- [Kibana](elastic/kibana.md)
+- [Atom Perforce Package](editor/atom-perforce-package.md)
+- [Atom Proxy Settings](editor/atom-proxy-settings.md)
+- [Eclipse Block Selection Mode](editor/eclipse-block-selection-mode.md)
+- [Eclipse Change Content Assist Insertion Behavior](editor/eclipse-change-content-assist-insertion-behavior.md)
+- [Eclipse Change Delimiters](editor/eclipse-change-delimiters.md)
+- [Eclipse Custom Java Formatter](editor/eclipse-custom-java-formatter.md)
+- [Eclipse Import Static Methods](editor/eclipse-import-static-methods.md)
+- [Eclipse Loading Gradle Project Preview Failed](editor/eclipse-loading-gradle-project-preview-failed.md)
+- [Eclipse Organize Imports Shortcut Is Not Working](editor/eclipse-organize-imports-shortcut-is-not-working.md)
+- [Eclipse Plugin Shelled](editor/eclipse-plugin-shelled.md)
+- [Eclipse Plugins For Gradle](editor/eclipse-plugins-for-gradle.md)
+- [Eclipse Settings](editor/eclipse-settings.md)
+- [Eclipse Useful Java Code Templates](editor/eclipse-useful-java-code-templates.md)
+- [Intellij Settings](editor/intellij-settings.md)
+- [Intellij Shortcuts](editor/intellij-shortcuts.md)
+- [Vim Clear Search Highlighting](editor/vim-clear-search-highlighting.md)
+- [Vim Folding](editor/vim-folding.md)
+- [Vim Search And Replace](editor/vim-search-and-replace.md)
+- [Vim You Complete Me](editor/vim-you-complete-me.md)
+- [Vscode Formatter](editor/vscode-formatter.md)
+- [Vscode Markdown](editor/vscode-markdown.md)
+- [Vscode Nodejs](editor/vscode-nodejs.md)
+- [Vscode Proxy Settings](editor/vscode-proxy-settings.md)
+- [Vscode Vscode As Java Spring Ide](editor/vscode-vscode-as-java-spring-ide.md)
 
-### etc
+### framework
 
-- [Proxy Settings](etc/proxy-settings.md)
-- [Software That I Use](etc/software-that-I-use.md)
-- [Youtube Compatible Video Format](etc/youtube-compatible-video-format.md)
+- [Hibernate Handling Soft Deletes](framework/hibernate-handling-soft-deletes.md)
+- [Hibernate Multiple Bag Fetch Exception](framework/hibernate-multiple-bag-fetch-exception.md)
+- [Node Env](framework/node-env.md)
+- [Node Express](framework/node-express.md)
+- [Node Hexo](framework/node-hexo.md)
+- [Node Npm](framework/node-npm.md)
+- [Node Server Port Error](framework/node-server-port-error.md)
+- [Node Winston](framework/node-winston.md)
+- [Spring Apply Logback Xml To Eclipse Console](framework/spring-apply-logback-xml-to-eclipse-console.md)
+- [Spring Argument Resolver](framework/spring-argument-resolver.md)
+- [Spring Batch Job Parameter Chunk Size](framework/spring-batch-job-parameter-chunk-size.md)
+- [Spring Batch Reader With Job Parameters](framework/spring-batch-reader-with-job-parameters.md)
+- [Spring Batch Runidincrementer](framework/spring-batch-runidincrementer.md)
+- [Spring Boot Configuration Properties](framework/spring-boot-configuration-properties.md)
+- [Spring Boot Devtools](framework/spring-boot-devtools.md)
+- [Spring Boot H2 Database](framework/spring-boot-H2-database.md)
+- [Spring Boot Logback](framework/spring-boot-logback.md)
+- [Spring Boot Test](framework/spring-boot-test.md)
+- [Spring Boot Using Yaml Insteadof Properties](framework/spring-boot-using-yaml-insteadof-properties.md)
+- [Spring Component Vs Bean](framework/spring-component-vs-bean.md)
+- [Spring Enable Batch Processing](framework/spring-enable-batch-processing.md)
+- [Spring Externalized Configuration](framework/spring-externalized-configuration.md)
+- [Spring Get Complete Url From Request](framework/spring-get-complete-url-from-request.md)
+- [Spring Inject Mock Repository To Service](framework/spring-inject-mock-repository-to-service.md)
+- [Spring Log Incoming Requests](framework/spring-log-incoming-requests.md)
+- [Springc With Logback](framework/spring-mdc-with-logback.md)
+- [Spring Print Jpa Queries](framework/spring-print-jpa-queries.md)
+- [Spring Print Transaction Logs](framework/spring-print-transaction-logs.md)
+- [Spring Proxy Settings](framework/spring-proxy-settings.md)
+- [Spring Read Properties From Xml](framework/spring-read-properties-from-xml.md)
+- [Spring Rest Template](framework/spring-rest-template.md)
+- [Spring Test Mock Mvc](framework/spring-test-mock-mvc.md)
 
-### git
+### language
 
-- [Git In Bash](git/git-in-bash.md)
-- [Git Remote Repository](git/git-remote-repository.md)
-- [Git Username Email](git/git-username-email.md)
+- [Java Build Tools](language/java-build-tools.md)
+- [Java Change Fork Join Pool Size](language/java-change-fork-join-pool-size.md)
+- [Java Convert Object To Json](language/java-convert-object-to-json.md)
+- [Java Create Temp File](language/java-create-temp-file.md)
+- [Java Enum](language/java-enum.md)
+- [Java Executable Jar](language/java-executable-jar.md)
+- [Java Fileutils](language/java-fileutils.md)
+- [Java Inputstream To Bytearray](language/java-inputstream-to-bytearray.md)
+- [Java Jackson Snake Case](language/java-jackson-snake-case.md)
+- [Java Jackson Timezone](language/java-jackson-timezone.md)
+- [Java Jackson Unrecognized Property Exception](language/java-jackson-unrecognized-property-exception.md)
+- [Java Junit](language/java-junit.md)
+- [Java Print Json](language/java-print-json.md)
+- [Java Read File From Resource](language/java-read-file-from-resource.md)
+- [Java Split List](language/java-split-list.md)
+- [Java String To Timestamp](language/java-string-to-timestamp.md)
+- [Java Validate Object](language/java-validate-object.md)
+- [Java Web Inf](language/java-web-inf.md)
+- [Js Format Date](language/js-format-date.md)
+- [Js Split Lines](language/js-split-lines.md)
+- [Ts Getting Started](language/ts-getting-started.md)
 
-### gradle
+### memo
 
-- [Build Version With Date](gradle/build-version-with-date.md)
-- [Build Without Tests](gradle/build-without-tests.md)
-- [Create Executable Jar](gradle/create-executable-jar.md)
-- [Dependency Report](gradle/dependency-report.md)
-- [Update Wrapper Version](gradle/update-wrapper-version.md)
+- [Memo Proxy Settings](memo/memo-proxy-settings.md)
+- [Memo Software That I Use](memo/memo-software-that-I-use.md)
+- [Memo Youtube Compatible Video Format](memo/memo-youtube-compatible-video-format.md)
 
-### hibernate
+### os
 
-- [Handling Soft Deletes](hibernate/handling-soft-deletes.md)
-- [Multiple Bag Fetch Exception](hibernate/multiple-bag-fetch-exception.md)
+- [Linux Alias](os/linux-alias.md)
+- [Linux Auto Start Synergy](os/linux-auto-start-synergy.md)
+- [Linux Bash Change Text Color](os/linux-bash-change-text-color.md)
+- [Linux Bash Files](os/linux-bash-files.md)
+- [Linux Commands](os/linux-commands.md)
+- [Linux Configure Mouse Speed](os/linux-configure-mouse-speed.md)
+- [Linux Create Desktop Icon](os/linux-create-desktop-icon.md)
+- [Linux Install Ubuntu](os/linux-install-ubuntu.md)
+- [Linux Port Check](os/linux-port-check.md)
+- [Linux Profile Bashrc](os/linux-profile-bashrc.md)
+- [Linux Shell Script](os/linux-shell-script.md)
+- [Linux Symbolic Link](os/linux-symbolic-link.md)
+- [Linux Ubuntu Dpkg](os/linux-ubuntu-dpkg.md)
+- [Synology Connect Via Https](os/synology-connect-via-https.md)
+- [Windows Ahk Scripts](os/windows-ahk-scripts.md)
+- [Windows Bat Datetime](os/windows-bat-datetime.md)
+- [Windows Disable Numlock At Startup](os/windows-disable-numlock-at-startup.md)
+- [Windows Remove Credentials](os/windows-remove-credentials.md)
+- [Windows Restart Aero Service](os/windows-restart-aero-service.md)
 
-### java
+### tool
 
-- [Build Tools](java/build-tools.md)
-- [Change Fork Join Pool Size](java/change-fork-join-pool-size.md)
-- [Convert Object To Json](java/convert-object-to-json.md)
-- [Create Temp File](java/create-temp-file.md)
-- [Enum](java/enum.md)
-- [Executable Jar](java/executable-jar.md)
-- [Fileutils](java/fileutils.md)
-- [Inputstream To Bytearray](java/inputstream-to-bytearray.md)
-- [Jackson Snake Case](java/jackson-snake-case.md)
-- [Jackson Timezone](java/jackson-timezone.md)
-- [Jackson Unrecognized Property Exception](java/jackson-unrecognized-property-exception.md)
-- [Junit](java/junit.md)
-- [Print Json](java/print-json.md)
-- [Read File From Resource](java/read-file-from-resource.md)
-- [Split List](java/split-list.md)
-- [String To Timestamp](java/string-to-timestamp.md)
-- [Validate Object](java/validate-object.md)
-- [Web Inf](java/web-inf.md)
-
-### javascript
-
-- [Format Date](javascript/format-date.md)
-- [Split Lines](javascript/split-lines.md)
-
-### linux
-
-- [Alias](linux/alias.md)
-- [Auto Start Synergy](linux/auto-start-synergy.md)
-- [Bash Change Text Color](linux/bash-change-text-color.md)
-- [Bash Files](linux/bash-files.md)
-- [Commands](linux/commands.md)
-- [Configure Mouse Speed](linux/configure-mouse-speed.md)
-- [Create Desktop Icon](linux/create-desktop-icon.md)
-- [Install Ubuntu](linux/install-ubuntu.md)
-- [Port Check](linux/port-check.md)
-- [Profile Bashrc](linux/profile-bashrc.md)
-- [Shell Script](linux/shell-script.md)
-- [Symbolic Link](linux/symbolic-link.md)
-- [Ubuntu Dpkg](linux/ubuntu-dpkg.md)
-
-### mysql
-
-- [Turn On General Log](mysql/turn-on-general-log.md)
-
-### node
-
-- [Env](node/env.md)
-- [Express](node/express.md)
-- [Hexo](node/hexo.md)
-- [Npm](node/npm.md)
-- [Server Port Error](node/server-port-error.md)
-- [Winston](node/winston.md)
-
-### perforce
-
-- [Change Workspace](perforce/change-workspace.md)
-- [P4ignore](perforce/p4ignore.md)
-
-### spring
-
-- [Apply Logback Xml To Eclipse Console](spring/apply-logback-xml-to-eclipse-console.md)
-- [Argument Resolver](spring/argument-resolver.md)
-- [Batch Job Parameter Chunk Size](spring/batch-job-parameter-chunk-size.md)
-- [Batch Reader With Job Parameters](spring/batch-reader-with-job-parameters.md)
-- [Batch Runidincrementer](spring/batch-runidincrementer.md)
-- [Boot Configuration Properties](spring/boot-configuration-properties.md)
-- [Boot Devtools](spring/boot-devtools.md)
-- [Boot H2 Database](spring/boot-H2-database.md)
-- [Boot Logback](spring/boot-logback.md)
-- [Boot Test](spring/boot-test.md)
-- [Boot Using Yaml Insteadof Properties](spring/boot-using-yaml-insteadof-properties.md)
-- [Component Vs Bean](spring/component-vs-bean.md)
-- [Enable Batch Processing](spring/enable-batch-processing.md)
-- [Externalized Configuration](spring/externalized-configuration.md)
-- [Get Complete Url From Request](spring/get-complete-url-from-request.md)
-- [Inject Mock Repository To Service](spring/inject-mock-repository-to-service.md)
-- [Log Incoming Requests](spring/log-incoming-requests.md)
-- [Mdc With Logback](spring/mdc-with-logback.md)
-- [Print Jpa Queries](spring/print-jpa-queries.md)
-- [Print Transaction Logs](spring/print-transaction-logs.md)
-- [Proxy Settings](spring/proxy-settings.md)
-- [Read Properties From Xml](spring/read-properties-from-xml.md)
-- [Rest Template](spring/rest-template.md)
-- [Test Mock Mvc](spring/test-mock-mvc.md)
-
-### synology
-
-- [Connect Via Https](synology/connect-via-https.md)
-
-### typescript
-
-- [Getting Started](typescript/getting-started.md)
-
-### vim
-
-- [Clear Search Highlighting](vim/clear-search-highlighting.md)
-- [Folding](vim/folding.md)
-- [Search And Replace](vim/search-and-replace.md)
-- [You Complete Me](vim/you-complete-me.md)
-
-### vscode
-
-- [Formatter](vscode/formatter.md)
-- [Markdown](vscode/markdown.md)
-- [Nodejs](vscode/nodejs.md)
-- [Proxy Settings](vscode/proxy-settings.md)
-- [Vscode As Java Spring Ide](vscode/vscode-as-java-spring-ide.md)
-
-### windows
-
-- [Ahk Scripts](windows/ahk-scripts.md)
-- [Bat Datetime](windows/bat-datetime.md)
-- [Disable Numlock At Startup](windows/disable-numlock-at-startup.md)
-- [Remove Credentials](windows/remove-credentials.md)
-- [Restart Aero Service](windows/restart-aero-service.md)
+- [Git In Bash](tool/git-in-bash.md)
+- [Git Remote Repository](tool/git-remote-repository.md)
+- [Git Username Email](tool/git-username-email.md)
+- [Gradle Build Version With Date](tool/gradle-build-version-with-date.md)
+- [Gradle Build Without Tests](tool/gradle-build-without-tests.md)
+- [Gradle Create Executable Jar](tool/gradle-create-executable-jar.md)
+- [Gradle Dependency Report](tool/gradle-dependency-report.md)
+- [Gradle Update Wrapper Version](tool/gradle-update-wrapper-version.md)
+- [Gradle](tool/gradle.md)
+- [P4 Change Workspace](tool/p4-change-workspace.md)
+- [P4 P4ignore](tool/p4-p4ignore.md)
