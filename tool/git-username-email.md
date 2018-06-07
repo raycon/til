@@ -27,6 +27,19 @@ Git username 확인 :
     git config user.name "User Name"
     git config user.email "user@email.com"
 
+## 특정 폴더에 적용되는 설정
+
+특정 폴더에만 설정을 다르게 적용할 수 있다. `~/.gitconfig` 파일에 다음 내용을 추가한다. 다음 예제는 폴더 경로에 `github`가 포함되면 `~/.githubconfig`를 사용하도록 설정한다.
+
+    [includeIf "gitdir:*/github/*"]
+        path = ~/.githubconfig
+
+`~/.githubconfig`를 다음과 같이 설정한다.
+
+    [user]
+        email = github.email@gmail.com
+        name = github.name
+
 ## 리모트 저장소에 적용되는 설정
 
 Github, Bitbucket 등과 같은 리모트 저장소에서 Commit이 구분되는 방법 :
