@@ -13,7 +13,7 @@
 - [os](#os)
 - [tool](#tool)
 
-## 116 TILs
+## 119 TILs
 
 ### aws
 
@@ -42,6 +42,8 @@
 - [Eclipse Plugins For Gradle](editor/eclipse-plugins-for-gradle.md)
 - [Eclipse Settings](editor/eclipse-settings.md)
 - [Eclipse Useful Java Code Templates](editor/eclipse-useful-java-code-templates.md)
+- [Intellij Enable Spring Boot Run Dashboard](editor/intellij-enable-spring-boot-run-dashboard.md)
+- [Intellij Entity From Database](editor/intellij-entity-from-database.md)
 - [Intellij Settings](editor/intellij-settings.md)
 - [Intellij Shortcuts](editor/intellij-shortcuts.md)
 - [Vim Clear Search Highlighting](editor/vim-clear-search-highlighting.md)
@@ -103,6 +105,7 @@
 - [Java Jackson Timezone](language/java-jackson-timezone.md)
 - [Java Jackson Unrecognized Property Exception](language/java-jackson-unrecognized-property-exception.md)
 - [Java Junit](language/java-junit.md)
+- [Java Lombok](language/java-lombok.md)
 - [Java Print Json](language/java-print-json.md)
 - [Java Read File From Resource](language/java-read-file-from-resource.md)
 - [Java Split List](language/java-split-list.md)
