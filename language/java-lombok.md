@@ -41,6 +41,11 @@ eclipse가 설치된 경로에 `lombok.jar`가 복사되고, `eclipse.ini`에 �
 - Lombok Plugin 검색
 - Install & Restart
 
+프로젝트 설정에서 다음 설정을 해야 에러가 발생하지 않는다.
+
+- `File > Settings > Build, Execution, Deployment > Compiler > Annotation Processors`
+- `Enable annotation processing` 체크
+
 ## Usage
 
 - <http://www.coolio.so/lombok-%EC%82%AC%EC%9A%A9%EB%B2%95/>

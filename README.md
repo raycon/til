@@ -13,7 +13,7 @@
 - [os](#os)
 - [tool](#tool)
 
-## 119 TILs
+## 120 TILs
 
 ### aws
 
@@ -25,6 +25,7 @@
 
 - [Elastic Search Example](database/elastic-search-example.md)
 - [Kibana](database/kibana.md)
+- [Mysql Function](database/mysql-function.md)
 - [Mysql Turn On General Log](database/mysql-turn-on-general-log.md)
 
 ### editor

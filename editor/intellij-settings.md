@@ -16,8 +16,11 @@ IntelliJ는 자체 jre를 사용한다. 다음 파일에 `인증서.crt`를 추�
 
 - `Settings > Build, Execution, Deployment > Compiler`에서 `Build project automatically`를 체크한다.
 - `Settings > Inspections`에서 `Spelling`을 체크 해제한다.
-- `Settings > Code Style >Alignment and Braces`에서 `Simple methods in one line`을 체크 해제한다.
-- `Settings > Editor > General > Editor Tabs`에서 `Tab Appearance > Placement`를 `Never`로 설정
+- `Settings > Code Style > Alignment and Braces`에서 `Simple methods in one line`을 체크 해제한다.
+- `Settings > Editor > General > Editor Tabs`에서
+    - `Tab Appearance > Placement`를 `Never`로 설정
+    - `Tab Closing Policy > Tab limit`을 `2`로 설정
+- `Settings > Editor > General > Breadcrumbs` 에서 `Show breadcrumbs` 해체
 
 ## Keymap
 
@@ -32,6 +35,7 @@ IntelliJ는 자체 jre를 사용한다. 다음 파일에 `인증서.crt`를 추�
 `Settings > Code Style > Java`
 
 - Chained method calls : Chop down if long
+- Blank Lines > Keep Maximum Blank Lines : 모두 1로 설정
 
 ## Color Scheme
 
