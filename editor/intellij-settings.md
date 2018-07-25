@@ -39,15 +39,7 @@ IntelliJ는 자체 jre를 사용한다. 다음 파일에 `인증서.crt`를 추�
 
 ## Color Scheme
 
-- [Oblivion](http://color-themes.com/?view=theme&id=563a1a6180b4acf11273ae3c) 다운로드
-- General > Code > Line number : Foreground `#606366`
-- General > Editor > Gutter background : Background `#313335`
-- General > Editor > Tear line : Foreground `#555555`
-- General > Editor > Tear line selection : Foreground `#787878`
-- General > Text > Default text : Background `#2B2B2B`
-- General > Editor > Selection background : Background `#214283`
-- General > Editor > Selection Foreground : 모두 체크 해제
-- General > Editor > Guides > Indent guide : Background `#373737`
+- [Oblivion](https://github.com/raycon/oblivion) 적용
 
 ## 유용한 단축키
 
