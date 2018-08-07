@@ -10,7 +10,8 @@ IntelliJ는 자체 jre를 사용한다. 다음 파일에 `인증서.crt`를 추�
 
 ## Plugins
 
-- `Markdown Navigator` : 마크다운 프리뷰, PDF 출력
+- `.ignore`: ignore 파일 문법 강조. 트리에서 색 지정
+- `Lombok Plugin`: Lombok을 사용하려면 필요하다.
 
 ## Settings
 

@@ -4,19 +4,18 @@
 
 ## Category
 
-- [.vscode](#.vscode)
-- [aws](#aws)
-- [database](#database)
-- [editor](#editor)
-- [framework](#framework)
-- [language](#language)
-- [memo](#memo)
-- [os](#os)
-- [tool](#tool)
+- [Category](#category)
+- [127 TILs](#127-tils)
+  - [aws](#aws)
+  - [database](#database)
+  - [editor](#editor)
+  - [framework](#framework)
+  - [language](#language)
+  - [memo](#memo)
+  - [os](#os)
+  - [tool](#tool)
 
-## 126 TILs
-
-### .vscode
+## 127 TILs
 
 ### aws
 
@@ -48,6 +47,7 @@
 - [Eclipse Useful Java Code Templates](editor/eclipse-useful-java-code-templates.md)
 - [Intellij Enable Spring Boot Run Dashboard](editor/intellij-enable-spring-boot-run-dashboard.md)
 - [Intellij Entity From Database](editor/intellij-entity-from-database.md)
+- [Intellij Hotswap](editor/intellij-hotswap.md)
 - [Intellij Settings](editor/intellij-settings.md)
 - [Intellij Shortcuts](editor/intellij-shortcuts.md)
 - [Intellij Unable To Find Main Class](editor/intellij-unable-to-find-main-class.md)
