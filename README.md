@@ -4,6 +4,7 @@
 
 ## Category
 
+- [.vscode](#.vscode)
 - [aws](#aws)
 - [database](#database)
 - [editor](#editor)
@@ -13,7 +14,9 @@
 - [os](#os)
 - [tool](#tool)
 
-## 120 TILs
+## 126 TILs
+
+### .vscode
 
 ### aws
 
@@ -47,6 +50,7 @@
 - [Intellij Entity From Database](editor/intellij-entity-from-database.md)
 - [Intellij Settings](editor/intellij-settings.md)
 - [Intellij Shortcuts](editor/intellij-shortcuts.md)
+- [Intellij Unable To Find Main Class](editor/intellij-unable-to-find-main-class.md)
 - [Vim Clear Search Highlighting](editor/vim-clear-search-highlighting.md)
 - [Vim Folding](editor/vim-folding.md)
 - [Vim Search And Replace](editor/vim-search-and-replace.md)
@@ -70,6 +74,7 @@
 - [Spring Apply Logback Xml To Eclipse Console](framework/spring-apply-logback-xml-to-eclipse-console.md)
 - [Spring Argument Resolver](framework/spring-argument-resolver.md)
 - [Spring Batch Job Parameter Chunk Size](framework/spring-batch-job-parameter-chunk-size.md)
+- [Spring Batch Meta Data](framework/spring-batch-meta-data.md)
 - [Spring Batch Reader With Job Parameters](framework/spring-batch-reader-with-job-parameters.md)
 - [Spring Batch Runidincrementer](framework/spring-batch-runidincrementer.md)
 - [Spring Boot Configuration Properties](framework/spring-boot-configuration-properties.md)
@@ -147,14 +152,18 @@
 
 ### tool
 
+- [Git Auto Crlf](tool/git-auto-crlf.md)
 - [Git In Bash](tool/git-in-bash.md)
 - [Git Remote Repository](tool/git-remote-repository.md)
+- [Git Submodule](tool/git-submodule.md)
 - [Git Username Email](tool/git-username-email.md)
+- [Gradle Archive Name](tool/gradle-archive-name.md)
 - [Gradle Build Version With Date](tool/gradle-build-version-with-date.md)
 - [Gradle Build Without Tests](tool/gradle-build-without-tests.md)
 - [Gradle Create Executable Jar](tool/gradle-create-executable-jar.md)
 - [Gradle Dependency Report](tool/gradle-dependency-report.md)
 - [Gradle Update Wrapper Version](tool/gradle-update-wrapper-version.md)
+- [Gradle Use Library Jar](tool/gradle-use-library-jar.md)
 - [Gradle](tool/gradle.md)
 - [P4 Change Workspace](tool/p4-change-workspace.md)
 - [P4 P4ignore](tool/p4-p4ignore.md)

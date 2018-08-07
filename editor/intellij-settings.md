@@ -29,6 +29,8 @@ IntelliJ는 자체 jre를 사용한다. 다음 파일에 `인증서.crt`를 추�
 - Split Vertically : `Alt + \`
 - Goto Next Splitter : `Alt + →`
 - Goto Previous Splitter : `Alt + ←`
+- Fully Expand Tree Node: `Ctrl+Wheel down`
+- Collapse Tree Node: `Ctrl+Wheel up`
 
 ## Code Style
 
