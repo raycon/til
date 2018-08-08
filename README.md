@@ -2,20 +2,20 @@
 
 > Today I Learned
 
-## Category
+## Categories
 
-- [Category](#category)
-- [127 TILs](#127-tils)
-  - [aws](#aws)
-  - [database](#database)
-  - [editor](#editor)
-  - [framework](#framework)
-  - [language](#language)
-  - [memo](#memo)
-  - [os](#os)
-  - [tool](#tool)
+Total `129` TILs
 
-## 127 TILs
+- [aws](#aws) *(3)*
+- [database](#database) *(4)*
+- [editor](#editor) *(28)*
+- [framework](#framework) *(33)*
+- [language](#language) *(22)*
+- [memo](#memo) *(3)*
+- [os](#os) *(19)*
+- [tool](#tool) *(17)*
+
+----
 
 ### aws
 
@@ -89,7 +89,7 @@
 - [Spring Get Complete Url From Request](framework/spring-get-complete-url-from-request.md)
 - [Spring Inject Mock Repository To Service](framework/spring-inject-mock-repository-to-service.md)
 - [Spring Log Incoming Requests](framework/spring-log-incoming-requests.md)
-- [Springc With Logback](framework/spring-mdc-with-logback.md)
+- [Spring Mdc With Logback](framework/spring-mdc-with-logback.md)
 - [Spring Print Jpa Queries](framework/spring-print-jpa-queries.md)
 - [Spring Print Transaction Logs](framework/spring-print-transaction-logs.md)
 - [Spring Proxy Settings](framework/spring-proxy-settings.md)
@@ -153,7 +153,9 @@
 ### tool
 
 - [Git Auto Crlf](tool/git-auto-crlf.md)
+- [Git Branch](tool/git-branch.md)
 - [Git In Bash](tool/git-in-bash.md)
+- [Git Log](tool/git-log.md)
 - [Git Remote Repository](tool/git-remote-repository.md)
 - [Git Submodule](tool/git-submodule.md)
 - [Git Username Email](tool/git-username-email.md)
