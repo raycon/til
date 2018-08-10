@@ -19,8 +19,8 @@ Total `129` TILs
 
 ### aws
 
+- [Aws Cli](aws/aws-cli.md)
 - [Aws Configure Profile](aws/aws-configure-profile.md)
-- [Aws Install Awscli](aws/aws-install-awscli.md)
 - [Dynamodb Reserved Words](aws/dynamodb-reserved-words.md)
 
 ### database
