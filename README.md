@@ -2,9 +2,29 @@
 
 > Today I Learned
 
+## Recently Modified
+
+- *2018-08-20* : [Linux Tar Gz](os/linux-tar-gz.md)
+- *2018-08-20* : [Dynamodb Read Consistency](database/dynamodb-read-consistency.md)
+- *2018-08-20* : [Dynamodb Throughput Settings](database/dynamodb-throughput-settings.md)
+- *2018-08-10* : [Gradle Init Java Library](tool/gradle-init-java-library.md)
+- *2018-08-09* : [Java Convert Object To Json](language/java-convert-object-to-json.md)
+- *2018-08-09* : [Aws Cli](aws/aws-cli.md)
+- *2018-08-08* : [Git Branch](tool/git-branch.md)
+- *2018-08-08* : [Git Log](tool/git-log.md)
+- *2018-08-07* : [Intellij Hotswap](editor/intellij-hotswap.md)
+- *2018-08-07* : [Intellij Settings](editor/intellij-settings.md)
+- *2018-08-07* : [Spring Batch Meta Data](framework/spring-batch-meta-data.md)
+- *2018-08-06* : [Git Auto Crlf](tool/git-auto-crlf.md)
+- *2018-08-06* : [Git Remote Repository](tool/git-remote-repository.md)
+- *2018-08-06* : [Gradle Archive Name](tool/gradle-archive-name.md)
+- *2018-08-03* : [Gradle Use Library Jar](tool/gradle-use-library-jar.md)
+
+----
+
 ## Categories
 
-Total `132` TILs
+Total `133` TILs
 
 - [aws](#aws) *(3)*
 - [database](#database) *(6)*
@@ -12,7 +32,7 @@ Total `132` TILs
 - [framework](#framework) *(33)*
 - [language](#language) *(22)*
 - [memo](#memo) *(3)*
-- [os](#os) *(19)*
+- [os](#os) *(20)*
 - [tool](#tool) *(18)*
 
 ----
@@ -144,6 +164,7 @@ Total `132` TILs
 - [Linux Profile Bashrc](os/linux-profile-bashrc.md)
 - [Linux Shell Script](os/linux-shell-script.md)
 - [Linux Symbolic Link](os/linux-symbolic-link.md)
+- [Linux Tar Gz](os/linux-tar-gz.md)
 - [Linux Ubuntu Dpkg](os/linux-ubuntu-dpkg.md)
 - [Synology Connect Via Https](os/synology-connect-via-https.md)
 - [Windows Ahk Scripts](os/windows-ahk-scripts.md)
