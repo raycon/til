@@ -4,16 +4,16 @@
 
 ## Categories
 
-Total `129` TILs
+Total `132` TILs
 
 - [aws](#aws) *(3)*
-- [database](#database) *(4)*
+- [database](#database) *(6)*
 - [editor](#editor) *(28)*
 - [framework](#framework) *(33)*
 - [language](#language) *(22)*
 - [memo](#memo) *(3)*
 - [os](#os) *(19)*
-- [tool](#tool) *(17)*
+- [tool](#tool) *(18)*
 
 ----
 
@@ -25,6 +25,8 @@ Total `129` TILs
 
 ### database
 
+- [Dynamodb Read Consistency](database/dynamodb-read-consistency.md)
+- [Dynamodb Throughput Settings](database/dynamodb-throughput-settings.md)
 - [Elastic Search Example](database/elastic-search-example.md)
 - [Kibana](database/kibana.md)
 - [Mysql Function](database/mysql-function.md)
@@ -164,6 +166,7 @@ Total `129` TILs
 - [Gradle Build Without Tests](tool/gradle-build-without-tests.md)
 - [Gradle Create Executable Jar](tool/gradle-create-executable-jar.md)
 - [Gradle Dependency Report](tool/gradle-dependency-report.md)
+- [Gradle Init Java Library](tool/gradle-init-java-library.md)
 - [Gradle Update Wrapper Version](tool/gradle-update-wrapper-version.md)
 - [Gradle Use Library Jar](tool/gradle-use-library-jar.md)
 - [Gradle](tool/gradle.md)
