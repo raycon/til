@@ -4,6 +4,11 @@
 
 ## Recently Modified
 
+- *2018-09-17* : [Mysql Variables](database/mysql-variables.md)
+- *2018-09-07* : [Linux Shell Exit Status](os/linux-shell-exit-status.md)
+- *2018-08-30* : [Tensorflow Install On Windows](framework/tensorflow-install-on-windows.md)
+- *2018-08-30* : [Python Ssl Error](language/python-ssl-error.md)
+- *2018-08-30* : [Elastic Field](database/elastic-field.md)
 - *2018-08-20* : [Linux Tar Gz](os/linux-tar-gz.md)
 - *2018-08-20* : [Dynamodb Read Consistency](database/dynamodb-read-consistency.md)
 - *2018-08-20* : [Dynamodb Throughput Settings](database/dynamodb-throughput-settings.md)
@@ -14,25 +19,20 @@
 - *2018-08-08* : [Git Log](tool/git-log.md)
 - *2018-08-07* : [Intellij Hotswap](editor/intellij-hotswap.md)
 - *2018-08-07* : [Intellij Settings](editor/intellij-settings.md)
-- *2018-08-07* : [Spring Batch Meta Data](framework/spring-batch-meta-data.md)
-- *2018-08-06* : [Git Auto Crlf](tool/git-auto-crlf.md)
-- *2018-08-06* : [Git Remote Repository](tool/git-remote-repository.md)
-- *2018-08-06* : [Gradle Archive Name](tool/gradle-archive-name.md)
-- *2018-08-03* : [Gradle Use Library Jar](tool/gradle-use-library-jar.md)
 
 ----
 
 ## Categories
 
-Total `133` TILs
+Total `138` TILs
 
 - [aws](#aws) *(3)*
-- [database](#database) *(6)*
+- [database](#database) *(8)*
 - [editor](#editor) *(28)*
-- [framework](#framework) *(33)*
-- [language](#language) *(22)*
+- [framework](#framework) *(34)*
+- [language](#language) *(23)*
 - [memo](#memo) *(3)*
-- [os](#os) *(20)*
+- [os](#os) *(21)*
 - [tool](#tool) *(18)*
 
 ----
@@ -47,10 +47,12 @@ Total `133` TILs
 
 - [Dynamodb Read Consistency](database/dynamodb-read-consistency.md)
 - [Dynamodb Throughput Settings](database/dynamodb-throughput-settings.md)
+- [Elastic Field](database/elastic-field.md)
 - [Elastic Search Example](database/elastic-search-example.md)
 - [Kibana](database/kibana.md)
 - [Mysql Function](database/mysql-function.md)
 - [Mysql Turn On General Log](database/mysql-turn-on-general-log.md)
+- [Mysql Variables](database/mysql-variables.md)
 
 ### editor
 
@@ -118,6 +120,7 @@ Total `133` TILs
 - [Spring Read Properties From Xml](framework/spring-read-properties-from-xml.md)
 - [Spring Rest Template](framework/spring-rest-template.md)
 - [Spring Test Mock Mvc](framework/spring-test-mock-mvc.md)
+- [Tensorflow Install On Windows](framework/tensorflow-install-on-windows.md)
 
 ### language
 
@@ -142,6 +145,7 @@ Total `133` TILs
 - [Java Web Inf](language/java-web-inf.md)
 - [Js Format Date](language/js-format-date.md)
 - [Js Split Lines](language/js-split-lines.md)
+- [Python Ssl Error](language/python-ssl-error.md)
 - [Ts Getting Started](language/ts-getting-started.md)
 
 ### memo
@@ -162,6 +166,7 @@ Total `133` TILs
 - [Linux Install Ubuntu](os/linux-install-ubuntu.md)
 - [Linux Port Check](os/linux-port-check.md)
 - [Linux Profile Bashrc](os/linux-profile-bashrc.md)
+- [Linux Shell Exit Status](os/linux-shell-exit-status.md)
 - [Linux Shell Script](os/linux-shell-script.md)
 - [Linux Symbolic Link](os/linux-symbolic-link.md)
 - [Linux Tar Gz](os/linux-tar-gz.md)
