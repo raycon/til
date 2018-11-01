@@ -5,7 +5,10 @@
 ```groovy
 jar {
     manifest {
-        attributes 'Main-Class': 'com.foo.bar.MainClass'
+        attributes 'Main-Class': 'com.example.app.MainApplication'
+    }
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
     }
 }
 ```

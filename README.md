@@ -4,6 +4,12 @@
 
 ## Recently Modified
 
+- *2018-10-31* : [Java File Encoding](language/java-file-encoding.md)
+- *2018-10-31* : [Java Apache Http](language/java-apache-http.md)
+- *2018-10-31* : [Gradle Create Executable Jar](tool/gradle-create-executable-jar.md)
+- *2018-10-31* : [Java Custom Thread Pool](language/java-custom-thread-pool.md)
+- *2018-10-26* : [Java Inputstream To String](language/java-inputstream-to-string.md)
+- *2018-10-26* : [Gradle Init](tool/gradle-init.md)
 - *2018-09-17* : [Mysql Variables](database/mysql-variables.md)
 - *2018-09-07* : [Linux Shell Exit Status](os/linux-shell-exit-status.md)
 - *2018-08-30* : [Tensorflow Install On Windows](framework/tensorflow-install-on-windows.md)
@@ -12,25 +18,19 @@
 - *2018-08-20* : [Linux Tar Gz](os/linux-tar-gz.md)
 - *2018-08-20* : [Dynamodb Read Consistency](database/dynamodb-read-consistency.md)
 - *2018-08-20* : [Dynamodb Throughput Settings](database/dynamodb-throughput-settings.md)
-- *2018-08-10* : [Gradle Init Java Library](tool/gradle-init-java-library.md)
 - *2018-08-09* : [Java Convert Object To Json](language/java-convert-object-to-json.md)
-- *2018-08-09* : [Aws Cli](aws/aws-cli.md)
-- *2018-08-08* : [Git Branch](tool/git-branch.md)
-- *2018-08-08* : [Git Log](tool/git-log.md)
-- *2018-08-07* : [Intellij Hotswap](editor/intellij-hotswap.md)
-- *2018-08-07* : [Intellij Settings](editor/intellij-settings.md)
 
 ----
 
 ## Categories
 
-Total `138` TILs
+Total `141` TILs
 
 - [aws](#aws) *(3)*
 - [database](#database) *(8)*
 - [editor](#editor) *(28)*
 - [framework](#framework) *(34)*
-- [language](#language) *(23)*
+- [language](#language) *(26)*
 - [memo](#memo) *(3)*
 - [os](#os) *(21)*
 - [tool](#tool) *(18)*
@@ -124,14 +124,17 @@ Total `138` TILs
 
 ### language
 
+- [Java Apache Http](language/java-apache-http.md)
 - [Java Build Tools](language/java-build-tools.md)
 - [Java Change Fork Join Pool Size](language/java-change-fork-join-pool-size.md)
 - [Java Convert Object To Json](language/java-convert-object-to-json.md)
 - [Java Create Temp File](language/java-create-temp-file.md)
+- [Java Custom Thread Pool](language/java-custom-thread-pool.md)
 - [Java Enum](language/java-enum.md)
-- [Java Executable Jar](language/java-executable-jar.md)
+- [Java File Encoding](language/java-file-encoding.md)
 - [Java Fileutils](language/java-fileutils.md)
 - [Java Inputstream To Bytearray](language/java-inputstream-to-bytearray.md)
+- [Java Inputstream To String](language/java-inputstream-to-string.md)
 - [Java Jackson Snake Case](language/java-jackson-snake-case.md)
 - [Java Jackson Timezone](language/java-jackson-timezone.md)
 - [Java Jackson Unrecognized Property Exception](language/java-jackson-unrecognized-property-exception.md)
@@ -192,7 +195,7 @@ Total `138` TILs
 - [Gradle Build Without Tests](tool/gradle-build-without-tests.md)
 - [Gradle Create Executable Jar](tool/gradle-create-executable-jar.md)
 - [Gradle Dependency Report](tool/gradle-dependency-report.md)
-- [Gradle Init Java Library](tool/gradle-init-java-library.md)
+- [Gradle Init](tool/gradle-init.md)
 - [Gradle Update Wrapper Version](tool/gradle-update-wrapper-version.md)
 - [Gradle Use Library Jar](tool/gradle-use-library-jar.md)
 - [Gradle](tool/gradle.md)
