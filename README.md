@@ -4,6 +4,12 @@
 
 ## Recently Modified
 
+- *2018-11-16* : [Intellij Run Tomcat](editor/intellij-run-tomcat.md)
+- *2018-11-16* : [Tomcat Change Port](tool/tomcat-change-port.md)
+- *2018-11-15* : [Logback Rolling Policy](framework/logback-rolling-policy.md)
+- *2018-11-13* : [Windows Ahk Scripts](os/windows-ahk-scripts.md)
+- *2018-11-05* : [Gradle Use Local Jar File](tool/gradle-use-local-jar-file.md)
+- *2018-11-02* : [Memo Oblivion Colors](memo/memo-oblivion-colors.md)
 - *2018-10-31* : [Java File Encoding](language/java-file-encoding.md)
 - *2018-10-31* : [Java Apache Http](language/java-apache-http.md)
 - *2018-10-31* : [Gradle Create Executable Jar](tool/gradle-create-executable-jar.md)
@@ -13,27 +19,21 @@
 - *2018-09-17* : [Mysql Variables](database/mysql-variables.md)
 - *2018-09-07* : [Linux Shell Exit Status](os/linux-shell-exit-status.md)
 - *2018-08-30* : [Tensorflow Install On Windows](framework/tensorflow-install-on-windows.md)
-- *2018-08-30* : [Python Ssl Error](language/python-ssl-error.md)
-- *2018-08-30* : [Elastic Field](database/elastic-field.md)
-- *2018-08-20* : [Linux Tar Gz](os/linux-tar-gz.md)
-- *2018-08-20* : [Dynamodb Read Consistency](database/dynamodb-read-consistency.md)
-- *2018-08-20* : [Dynamodb Throughput Settings](database/dynamodb-throughput-settings.md)
-- *2018-08-09* : [Java Convert Object To Json](language/java-convert-object-to-json.md)
 
 ----
 
 ## Categories
 
-Total `141` TILs
+Total `145` TILs
 
 - [aws](#aws) *(3)*
 - [database](#database) *(8)*
-- [editor](#editor) *(28)*
-- [framework](#framework) *(34)*
+- [editor](#editor) *(29)*
+- [framework](#framework) *(35)*
 - [language](#language) *(26)*
-- [memo](#memo) *(3)*
+- [memo](#memo) *(4)*
 - [os](#os) *(21)*
-- [tool](#tool) *(18)*
+- [tool](#tool) *(19)*
 
 ----
 
@@ -72,6 +72,7 @@ Total `141` TILs
 - [Intellij Enable Spring Boot Run Dashboard](editor/intellij-enable-spring-boot-run-dashboard.md)
 - [Intellij Entity From Database](editor/intellij-entity-from-database.md)
 - [Intellij Hotswap](editor/intellij-hotswap.md)
+- [Intellij Run Tomcat](editor/intellij-run-tomcat.md)
 - [Intellij Settings](editor/intellij-settings.md)
 - [Intellij Shortcuts](editor/intellij-shortcuts.md)
 - [Intellij Unable To Find Main Class](editor/intellij-unable-to-find-main-class.md)
@@ -89,6 +90,7 @@ Total `141` TILs
 
 - [Hibernate Handling Soft Deletes](framework/hibernate-handling-soft-deletes.md)
 - [Hibernate Multiple Bag Fetch Exception](framework/hibernate-multiple-bag-fetch-exception.md)
+- [Logback Rolling Policy](framework/logback-rolling-policy.md)
 - [Node Env](framework/node-env.md)
 - [Node Express](framework/node-express.md)
 - [Node Hexo](framework/node-hexo.md)
@@ -153,6 +155,7 @@ Total `141` TILs
 
 ### memo
 
+- [Memo Oblivion Colors](memo/memo-oblivion-colors.md)
 - [Memo Proxy Settings](memo/memo-proxy-settings.md)
 - [Memo Software That I Use](memo/memo-software-that-I-use.md)
 - [Memo Youtube Compatible Video Format](memo/memo-youtube-compatible-video-format.md)
@@ -197,7 +200,8 @@ Total `141` TILs
 - [Gradle Dependency Report](tool/gradle-dependency-report.md)
 - [Gradle Init](tool/gradle-init.md)
 - [Gradle Update Wrapper Version](tool/gradle-update-wrapper-version.md)
-- [Gradle Use Library Jar](tool/gradle-use-library-jar.md)
+- [Gradle Use Local Jar File](tool/gradle-use-local-jar-file.md)
 - [Gradle](tool/gradle.md)
 - [P4 Change Workspace](tool/p4-change-workspace.md)
 - [P4 P4ignore](tool/p4-p4ignore.md)
+- [Tomcat Change Port](tool/tomcat-change-port.md)
