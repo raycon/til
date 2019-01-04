@@ -127,6 +127,17 @@ __Windows > Preference > General > Network Connections__ 에서 Active Provider 
 </settings>
 ```
 
+## Ruby
+
+gem 소스 변경으로 `SSL verification error` 해결
+
+    gem sources -r https://rubygems.org/
+    gem sources -a http://rubygems.org/
+
+gem 인스톨시 proxy 지정
+
+    gem install --http-proxy http://host:port bundler
+
 ## Ubuntu
 
 ### /etc/hosts
