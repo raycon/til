@@ -10,7 +10,7 @@ gtter/setter, equals, hashCode, toString과 같은 메소드나 log 같은 필�
 
 ```gradle
 plugins {
-    id 'io.franzbecker.gradle-lombok' version '1.14'
+    id 'io.franzbecker.gradle-lombok' version '2.1'
 }
 ```
 

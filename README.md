@@ -5,7 +5,6 @@
 ## Recently Modified
 
 - *2019-02-18* : [Spring Swagger2](framework/spring-swagger2.md)
-- *2019-02-18* : [Spring Rest Docs](framework/spring-rest-docs.md)
 - *2019-02-18* : [Java Lombok](language/java-lombok.md)
 - *2019-01-04* : [Memo Proxy Settings](memo/memo-proxy-settings.md)
 - *2018-11-22* : [Intellij Run Tomcat](editor/intellij-run-tomcat.md)
@@ -19,17 +18,18 @@
 - *2018-10-31* : [Gradle Create Executable Jar](tool/gradle-create-executable-jar.md)
 - *2018-10-31* : [Java Custom Thread Pool](language/java-custom-thread-pool.md)
 - *2018-10-26* : [Java Inputstream To String](language/java-inputstream-to-string.md)
+- *2018-10-26* : [Gradle Init](tool/gradle-init.md)
 
 ----
 
 ## Categories
 
-Total `147` TILs
+Total `146` TILs
 
 - [aws](#aws) *(3)*
 - [database](#database) *(8)*
 - [editor](#editor) *(29)*
-- [framework](#framework) *(37)*
+- [framework](#framework) *(36)*
 - [language](#language) *(26)*
 - [memo](#memo) *(4)*
 - [os](#os) *(21)*
@@ -120,7 +120,6 @@ Total `147` TILs
 - [Spring Print Transaction Logs](framework/spring-print-transaction-logs.md)
 - [Spring Proxy Settings](framework/spring-proxy-settings.md)
 - [Spring Read Properties From Xml](framework/spring-read-properties-from-xml.md)
-- [Spring Rest Docs](framework/spring-rest-docs.md)
 - [Spring Rest Template](framework/spring-rest-template.md)
 - [Spring Swagger2](framework/spring-swagger2.md)
 - [Spring Test Mock Mvc](framework/spring-test-mock-mvc.md)

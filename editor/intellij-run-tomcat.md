@@ -11,4 +11,4 @@
   - `war exploded`를 선택할 경우 `▶` 버튼에서 다음 옵션이 활성화된다.
     - Update resources, Update classes and resources
     - 클래스 수정하고 Update classes... 를 선택해도 수정 사항 반영은 되지 않는다.
-    - 어떻게 작동하는지 알아볼 필요 있음
+    - TODO: 어떻게 작동하는지 알아볼 필요 있음

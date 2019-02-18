@@ -138,6 +138,10 @@ gem 인스톨시 proxy 지정
 
     gem install --http-proxy http://host:port bundler
 
+Gemfile의 소스를 `http`로 변경
+
+    source 'http://rubygems.org'
+
 ## Ubuntu
 
 ### /etc/hosts
