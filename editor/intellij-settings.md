@@ -44,6 +44,15 @@ IntelliJ는 자체 jre를 사용한다. 다음 파일에 `인증서.crt`를 추�
 
 - [Oblivion](https://github.com/raycon/oblivion) 적용
 
+## Encoding
+
+`Settings > Editor > File Encodings` 에서 다음과 같이 설정
+
+- Global Encoding : `UTF-8`
+- Project Encoding : `UTF-8`
+- Default encoding for properties files: `UTF-8`
+- Transparent native-to-ascii conversion 체크
+
 ## 유용한 단축키
 
 - `F2` : 다음 에러로 점프
