@@ -26,17 +26,14 @@
 
 Total `148` TILs
 
-- [TIL](#til)
-  - [Recently Modified](#recently-modified)
-  - [Categories](#categories)
-    - [aws](#aws)
-    - [database](#database)
-    - [editor](#editor)
-    - [framework](#framework)
-    - [language](#language)
-    - [memo](#memo)
-    - [os](#os)
-    - [tool](#tool)
+- [aws](#aws) *(3)*
+- [database](#database) *(8)*
+- [editor](#editor) *(29)*
+- [framework](#framework) *(38)*
+- [language](#language) *(26)*
+- [memo](#memo) *(4)*
+- [os](#os) *(21)*
+- [tool](#tool) *(19)*
 
 ----
 
