@@ -197,6 +197,8 @@ include::{snippets}/update-car/request-fields.adoc[]
 
 ### RestDocsMockMvcConfigurationCustomizer
 
+> Spring Boot에서 제공하는 기능 [참고](https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-testing.html#boot-features-testing-spring-boot-applications-testing-autoconfigured-rest-docs)
+> 
 추가적인 속성을 설정하고 싶을 때 `RestDocsMockMvcConfigurationCustomizer` 인터페이스를 상속받는 `@TestConfiguration`을 생성한다.
 
 ```java
@@ -228,6 +230,19 @@ static class CustomizationConfiguration implements RestDocsMockMvcConfigurationC
 public class CarControllerAutoConfigureAdvanceTest {
 ```
 
+## Encoding
+
+요청 응답의 샘플 데이터의 한글 인코딩이 깨질 경우, `contentType`을 `MediaType.APPLICATION_JSON_UTF8`로 설정한다.
+
+> `MediaType.APPLICATION_JSON`의 경우 깨짐
+
+```java
+        ResultActions result = mockMvc.perform(
+                put(request.getUri(), request.getVariables())
+                        .content(mapper.writeValueAsString(getSample()))
+                        .contentType(MediaType.APPLICATION_JSON_UTF8);
+```
+
 ## 참고
 
 - <https://docs.spring.io/spring-restdocs/docs/current/reference/html5/#documenting-your-api-request-parameters>
@@ -235,13 +250,17 @@ public class CarControllerAutoConfigureAdvanceTest {
 - <https://docs.spring.io/spring-restdocs/docs/current/reference/html5/>
 - adoc 템플릿
   - <https://raw.githubusercontent.com/eugenp/tutorials/master/spring-5/src/docs/asciidocs/api-guide.adoc>
-- @`AutoConfigureRestDocs`
+- @`AutoConfigureRestDocs`, `RestDocsMockMvcConfigurationCustomizer`
   - <https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-testing.html#boot-features-testing-spring-boot-applications-testing-autoconfigured-rest-docs>
 - Mustache
   - <https://taegon.kim/archives/4910>
   - <https://mustache.github.io/mustache.5.html>
-- ConstrainedFields
-  - <https://github.com/spring-projects/spring-restdocs/blob/v2.0.3.RELEASE/samples/rest-notes-spring-hateoas/src/test/java/com/example/notes/ApiDocumentation.java>
+- 테스트코드 참고
+  - <https://github.com/spring-projects/spring-restdocs/tree/v2.0.3.RELEASE/samples/rest-notes-spring-hateoas/src>
+  - 산출물
+    - <https://docs.spring.io/spring-restdocs/docs/1.0.1.RELEASE/samples/restful-notes/api-guide.html>
+  - ConstrainedFields
+    - <https://github.com/spring-projects/spring-restdocs/blob/v2.0.3.RELEASE/samples/rest-notes-spring-hateoas/src/test/java/com/example/notes/ApiDocumentation.java>
 - 스타일 변경
   - <https://github.com/asciidoctor/asciidoctor/tree/master/data/stylesheets>
 
@@ -250,3 +269,15 @@ public class CarControllerAutoConfigureAdvanceTest {
     attributes "snippets": snippetsDir,
             "stylesheet": "custom.css"
     ```
+
+- Encoding
+  - <https://docs.spring.io/spring-restdocs/docs/1.2.6.RELEASE/reference/html5/#configuration-snippet-encoding>
+- 기본 템플릿 코드
+  - <https://github.com/spring-projects/spring-restdocs/tree/master/spring-restdocs-core/src/main/resources/org/springframework/restdocs/templates/asciidoctor>
+- IDEA 에서 snippet 파일 수정시 이상한 자동완성이 작동할 경우
+  - Settings > Editor > File types > AsciiDoc > + > `*.snippet` 추가
+- 에러코드 정의 예제
+  - <https://docs.spring.io/spring-restdocs/docs/1.0.1.RELEASE/samples/restful-notes/api-guide.html#overview-http-status-codes>
+- {step} 사용 예제, Getting Started 만들 때 사용
+  - <https://github.com/spring-projects/spring-restdocs/blob/master/samples/rest-notes-spring-data-rest/src/test/java/com/example/notes/GettingStartedDocumentation.java>
+  - <https://docs.spring.io/spring-restdocs/docs/current/samples/restful-notes/getting-started-guide.html#_introduction>

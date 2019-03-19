@@ -12,6 +12,7 @@ IntelliJ는 자체 jre를 사용한다. 다음 파일에 `인증서.crt`를 추�
 
 - `.ignore`: ignore 파일 문법 강조. 트리에서 색 지정
 - `Lombok Plugin`: Lombok을 사용하려면 필요하다.
+- `CodeGlance`: 미니맵 스타일의 스크롤바를 사용할 수 있다.
 
 ## Settings
 

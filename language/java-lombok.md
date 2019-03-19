@@ -8,6 +8,8 @@ gtter/setter, equals, hashCode, toString과 같은 메소드나 log 같은 필�
 
 ### Gradle
 
+#### 플러그인 사용
+
 ```gradle
 plugins {
     id 'io.franzbecker.gradle-lombok' version '2.1'
@@ -15,6 +17,21 @@ plugins {
 ```
 
 `gradle-lombok` 플러그인을 지정하면 바로 사용 가능하다.
+
+#### 플러그인 미사용
+
+```gradle
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+dependencies {
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+}
+```
 
 ### Eclipse
 
