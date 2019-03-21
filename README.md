@@ -4,7 +4,8 @@
 
 ## Recently Modified
 
-- *2019-03-14* : [Spring Rest Docs](framework/spring-rest-docs.md)
+- *2019-03-21* : [Mybatis](framework/mybatis.md)
+- *2019-03-19* : [Spring Rest Docs](framework/spring-rest-docs.md)
 - *2019-03-12* : [Java Lombok](language/java-lombok.md)
 - *2019-03-07* : [Intellij Settings](editor/intellij-settings.md)
 - *2019-02-22* : [Spring Servlet Uri Components Builder](framework/spring-servlet-uri-components-builder.md)
@@ -18,18 +19,17 @@
 - *2018-11-02* : [Memo Oblivion Colors](memo/memo-oblivion-colors.md)
 - *2018-10-31* : [Java File Encoding](language/java-file-encoding.md)
 - *2018-10-31* : [Java Apache Http](language/java-apache-http.md)
-- *2018-10-31* : [Gradle Create Executable Jar](tool/gradle-create-executable-jar.md)
 
 ----
 
 ## Categories
 
-Total `148` TILs
+Total `149` TILs
 
 - [aws](#aws) *(3)*
 - [database](#database) *(8)*
 - [editor](#editor) *(29)*
-- [framework](#framework) *(38)*
+- [framework](#framework) *(39)*
 - [language](#language) *(26)*
 - [memo](#memo) *(4)*
 - [os](#os) *(21)*
@@ -91,6 +91,7 @@ Total `148` TILs
 - [Hibernate Handling Soft Deletes](framework/hibernate-handling-soft-deletes.md)
 - [Hibernate Multiple Bag Fetch Exception](framework/hibernate-multiple-bag-fetch-exception.md)
 - [Logback Rolling Policy](framework/logback-rolling-policy.md)
+- [Mybatis](framework/mybatis.md)
 - [Node Env](framework/node-env.md)
 - [Node Express](framework/node-express.md)
 - [Node Hexo](framework/node-hexo.md)
