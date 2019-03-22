@@ -46,6 +46,10 @@
     - [choose, when, otherwise](#choose-when-otherwise)
     - [trim, where, set](#trim-where-set)
     - [foreach](#foreach)
+  - [자바 API](#%EC%9E%90%EB%B0%94-api)
+    - [SqlSession](#sqlsession-1)
+    - [Mapper 사용하기](#mapper-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0)
+  - [Logging](#logging)
 
 ## 용어정리
 
@@ -135,44 +139,7 @@ SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(confi
 - 데이터베이스에 대해 SQL명령어를 실행하기 위해 필요한 모든 메소드 가지고 있음
 - 쿼리 실행, 매퍼 조회, 트랜잭션 관리를 하는데 사용
 
-```java
-package org.apache.ibatis.session;
-public interface SqlSession extends Closeable {
-  <T> T selectOne(String statement);
-  <T> T selectOne(String statement, Object parameter);
-  <E> List<E> selectList(String statement);
-  <E> List<E> selectList(String statement, Object parameter);
-  <E> List<E> selectList(String statement, Object parameter, RowBounds rowBounds);
-  <K, V> Map<K, V> selectMap(String statement, String mapKey);
-  <K, V> Map<K, V> selectMap(String statement, Object parameter, String mapKey);
-  <K, V> Map<K, V> selectMap(String statement, Object parameter, String mapKey, RowBounds rowBounds);
-  <T> Cursor<T> selectCursor(String statement);
-  <T> Cursor<T> selectCursor(String statement, Object parameter);
-  <T> Cursor<T> selectCursor(String statement, Object parameter, RowBounds rowBounds);
-  void select(String statement, Object parameter, ResultHandler handler);
-  void select(String statement, ResultHandler handler);
-  void select(String statement, Object parameter, RowBounds rowBounds, ResultHandler handler);
-  int insert(String statement);
-  int insert(String statement, Object parameter);
-  int update(String statement);
-  int update(String statement, Object parameter);
-  int delete(String statement);
-  int delete(String statement, Object parameter);
-  void commit();
-  void commit(boolean force);
-  void rollback();
-  void rollback(boolean force);
-  List<BatchResult> flushStatements();
-  @Override
-  void close();
-  void clearCache();
-  Configuration getConfiguration();
-  <T> T getMapper(Class<T> type);
-  Connection getConnection();
-}
-```
-
-세션에 쿼리 직접 사용:
+구문 ID로 쿼리 실행:
 
 ```java
 SqlSession session = sqlSessionFactory.openSession();
@@ -275,8 +242,8 @@ try {
 프로퍼티를 정의해서 설정 내 다른 프로퍼티의 값으로 사용할 수 있다. 여러 파일에 나눠서 저장할 수 있고, 이 때 설정 파일의 처리 순서는 다음과 같다:
 
 - `properties` 엘리먼트에 명시된 프로퍼티를 읽어들인다.
-- `resource`나 `url` 어트리뷰트를 사용해서 프로퍼티를 읽는다. 이미 값이 있을 경우 덮어쓴다.
-- 메소드 파라미터로 전달된 프로퍼티를 사용한다. 이미 값이 있을 경우 덮어쓴다.
+- `properties` 엘리먼트의 `resource`나 `url` 어트리뷰트를 사용해서 프로퍼티를 읽는다. 이미 값이 있을 경우 덮어쓴다.
+- `SqlSessionFactoryBuilder`의 `build()`메소드 파라미터로 전달된 프로퍼티를 사용한다. 이미 값이 있을 경우 덮어쓴다.
 
 ```xml
 <properties resource="org/mybatis/example/config.properties">
@@ -1185,3 +1152,127 @@ if, choose 구문을 사용할 때 다음과 같이 생성된 쿼리가 문법�
 ```
 
 `item`: 리스트의 `index` 번째 항목이나 맵의 `index` 키 값으로 저장된 객체를 의미한다.
+
+## 자바 API
+
+`SqlSessionFactoryBuilder`에 설정 파일을 전달해서 `SqlSessionFactory` 인스턴스를 생성한다.
+
+```java
+String resource = "org/mybatis/builder/mybatis-config.xml";
+InputStream inputStream = Resources.getResourceAsStream(resource);
+SqlSessionFactoryBuilder builder = new SqlSessionFactoryBuilder();
+SqlSessionFactory factory = builder.build(inputStream);
+```
+
+`SqlSessionFactory`는 `openSession(...)` 메소드로 `SqlSession` 인스턴스를 생성한다.
+
+```java
+SqlSession openSession()
+SqlSession openSession(boolean autoCommit)
+SqlSession openSession(Connection connection)
+SqlSession openSession(TransactionIsolationLevel level)
+SqlSession openSession(ExecutorType execType,TransactionIsolationLevel level)
+SqlSession openSession(ExecutorType execType)
+SqlSession openSession(ExecutorType execType, boolean autoCommit)
+SqlSession openSession(ExecutorType execType, Connection connection)
+Configuration getConfiguration();
+```
+
+- `autoComit`: 자동 커밋 활성화 여부를 지정
+- `Connection`: 자체 커넥션을 제공
+- `TransactionIsolationLevel`: `java.sql.Connection`에 정의된 트랜젝션 레벨을 사용하는 `enum`
+  - `NONE`, `READ_COMITTED`, `READ_UNCOMITTED`, `REPEATABLE_READ`, `SERIALIZABLE` 중 하나
+- `ExecutorType`:
+  - `SIMPLE`: 구문 실행마다 새로운 `PreparedStatement`를 생성한다.
+  - `REUSE`: `PreparedStatement`를 재사용한다.
+  - `BATCH`: 모든 update 구문을 배치처리하고, 중간에 select가 실행될 경우 필요하다면 경계를 표시(demarcate)한다.
+
+### SqlSession
+
+```java
+package org.apache.ibatis.session;
+public interface SqlSession extends Closeable {
+
+    // 오직 하나의 메소드만 리턴한다.
+    // 한개 이상을 리턴하거나 null이 리턴된다면 예외가 발생한다.
+    <T> T selectOne(String statement);
+    <T> T selectOne(String statement, Object parameter);
+    <E> List<E> selectList(String statement);
+    <E> List<E> selectList(String statement, Object parameter);
+    // rowBounds는 offset과 limit으로 페이지를 구현한다.
+    <E> List<E> selectList(String statement, Object parameter, RowBounds rowBounds);
+    // 객체의 프로퍼티 중 하나를 키로 사용한다.
+    <K, V> Map<K, V> selectMap(String statement, String mapKey);
+    <K, V> Map<K, V> selectMap(String statement, Object parameter, String mapKey);
+    <K, V> Map<K, V> selectMap(String statement, Object parameter, String mapKey, RowBounds rowBounds);
+    // 커서는 리스트와 동일한 결과를 제공한다. 하지만 데이터 조회는 iterator를 사용할 때 수행된다.
+    <T> Cursor<T> selectCursor(String statement);
+    <T> Cursor<T> selectCursor(String statement, Object parameter);
+    <T> Cursor<T> selectCursor(String statement, Object parameter, RowBounds rowBounds);
+    // 쿼리 결과를 ResultHandler로 처리한다.
+    void select(String statement, Object parameter, ResultHandler handler);
+    void select(String statement, ResultHandler handler);
+    void select(String statement, Object parameter, RowBounds rowBounds, ResultHandler handler);
+    // 반환되는 값은 실행된 구문에 영향을 받은 레코드 수를 의미한다.
+    int insert(String statement);
+    int insert(String statement, Object parameter);
+    int update(String statement);
+    int update(String statement, Object parameter);
+    int delete(String statement);
+    int delete(String statement, Object parameter);
+    // autoCommit이 false 이거나 외부 트랜잭션 관리자를 사용하지 않았을 경우
+    // commit, rollback 메소드로 트랜잭션을 제어할 수 있다.
+    // 기본적으로 마이바티스는 insert, update, delete를 호출해서 데이터가 변경된 경우만 커밋한다.
+    void commit();
+    void commit(boolean force);
+    void rollback();
+    void rollback(boolean force);
+    // ExecutorType을 BATCH로 설정한 경우 flushStatements 메소드로 배치 업데이트를 언제든 실행할 수 있다.
+    List<BatchResult> flushStatements();
+    // 사용 후 반드시 닫아야 한다.
+    @Override
+    void close();
+    // 세션 레벨의 캐시를 지운다
+    void clearCache();
+    Configuration getConfiguration();
+
+    <T> T getMapper(Class<T> type);
+    Connection getConnection();
+}
+```
+
+마이바티스는 로컬 캐시와 2-Level 캐시를 사용한다.
+
+로컬 캐시:
+
+- 새로운 세션과 함께 생성된다.
+- 수행된 쿼리의 결과가 캐시에 저장된다.
+- 같은 구문을 같은 파라미터로 수행하면 데이터베이스를 조회하지 않고 캐시를 사용한다.
+- 데이터 갱신이나 커밋, 롤백, 커넥션 close가 발생하는 경우 초기화된다.
+- `localCacheScope`가 `SESSION`일 경우 마이바티스는 항상 같은 객체를 반환하므로, 이 객체를 수정하면 안된다.
+
+`SqlSession`은 사용 후 반드시 닫아야 한다.
+
+### Mapper 사용하기
+
+`SqlSession`의 select, insert, update, delete를 사용하는 대신에 매퍼 클래스를 사용할 수 있다. 이 때 구문 ID를 전달하는 것 대신 메소드의 이름을 구문 ID와 동일하게 선언해야 한다.
+
+매퍼 어노테이션을 사용하면 쿼리와 매핑을 자바 코드로 선언할 수 있다. 자세한 사항은 [Quick Guide to MyBatis](https://www.baeldung.com/mybatis) 참고
+
+## Logging
+
+마이바티스는 다음 순서로 로그 구현체 중 하나를 사용한다.
+
+- SLF4J
+- Apache Commons Logging
+- Log4j 2
+- Log4j
+- JDK logging
+
+패키지, 매퍼 클래스, 메소드명을 지정해서 레벨을 설정할 수 있다. (네임스페이스를 사용하는것과 동일하다.)
+
+```properties
+log4j.logger.org.mybatis.example.BlogMapper.selectBlog=TRACE
+log4j.logger.org.mybatis.example.BlogMapper=TRACE
+log4j.logger.org.mybatis.example=DEBUG
+```
