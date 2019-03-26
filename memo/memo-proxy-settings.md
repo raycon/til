@@ -27,6 +27,7 @@ Proxy 세팅 및 서버 인증서 확인을 안하도록 하는 설정 모음
     https-proxy=http://a.b.c.d:e/
     registry=http://registry.npmjs.org/
     strict-ssl=false
+    cafile=c:\cafile.crt
 
 ## bower (~/.bowerrc)
 

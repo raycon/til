@@ -4,33 +4,33 @@
 
 ## Recently Modified
 
-- *2019-03-21* : [Mybatis](framework/mybatis.md)
+- *2019-03-26* : [Java Properties](language/java-properties.md)
+- *2019-03-25* : [Java Try With Resources](language/java-try-with-resources.md)
+- *2019-03-25* : [Memo Proxy Settings](memo/memo-proxy-settings.md)
+- *2019-03-22* : [Mybatis Spring Boot Autoconfigure](framework/mybatis-spring-boot-autoconfigure.md)
+- *2019-03-22* : [Mybatis Spring](framework/mybatis-spring.md)
+- *2019-03-22* : [Mybatis](framework/mybatis.md)
 - *2019-03-19* : [Spring Rest Docs](framework/spring-rest-docs.md)
 - *2019-03-12* : [Java Lombok](language/java-lombok.md)
 - *2019-03-07* : [Intellij Settings](editor/intellij-settings.md)
 - *2019-02-22* : [Spring Servlet Uri Components Builder](framework/spring-servlet-uri-components-builder.md)
 - *2019-02-18* : [Spring Swagger2](framework/spring-swagger2.md)
-- *2019-01-04* : [Memo Proxy Settings](memo/memo-proxy-settings.md)
 - *2018-11-22* : [Intellij Run Tomcat](editor/intellij-run-tomcat.md)
 - *2018-11-16* : [Tomcat Change Port](tool/tomcat-change-port.md)
 - *2018-11-15* : [Logback Rolling Policy](framework/logback-rolling-policy.md)
 - *2018-11-13* : [Windows Ahk Scripts](os/windows-ahk-scripts.md)
-- *2018-11-05* : [Gradle Use Local Jar File](tool/gradle-use-local-jar-file.md)
-- *2018-11-02* : [Memo Oblivion Colors](memo/memo-oblivion-colors.md)
-- *2018-10-31* : [Java File Encoding](language/java-file-encoding.md)
-- *2018-10-31* : [Java Apache Http](language/java-apache-http.md)
 
 ----
 
 ## Categories
 
-Total `149` TILs
+Total `153` TILs
 
 - [aws](#aws) *(3)*
 - [database](#database) *(8)*
 - [editor](#editor) *(29)*
-- [framework](#framework) *(39)*
-- [language](#language) *(26)*
+- [framework](#framework) *(41)*
+- [language](#language) *(28)*
 - [memo](#memo) *(4)*
 - [os](#os) *(21)*
 - [tool](#tool) *(19)*
@@ -91,6 +91,8 @@ Total `149` TILs
 - [Hibernate Handling Soft Deletes](framework/hibernate-handling-soft-deletes.md)
 - [Hibernate Multiple Bag Fetch Exception](framework/hibernate-multiple-bag-fetch-exception.md)
 - [Logback Rolling Policy](framework/logback-rolling-policy.md)
+- [Mybatis Spring Boot Autoconfigure](framework/mybatis-spring-boot-autoconfigure.md)
+- [Mybatis Spring](framework/mybatis-spring.md)
 - [Mybatis](framework/mybatis.md)
 - [Node Env](framework/node-env.md)
 - [Node Express](framework/node-express.md)
@@ -147,9 +149,11 @@ Total `149` TILs
 - [Java Junit](language/java-junit.md)
 - [Java Lombok](language/java-lombok.md)
 - [Java Print Json](language/java-print-json.md)
+- [Java Properties](language/java-properties.md)
 - [Java Read File From Resource](language/java-read-file-from-resource.md)
 - [Java Split List](language/java-split-list.md)
 - [Java String To Timestamp](language/java-string-to-timestamp.md)
+- [Java Try With Resources](language/java-try-with-resources.md)
 - [Java Validate Object](language/java-validate-object.md)
 - [Java Web Inf](language/java-web-inf.md)
 - [Js Format Date](language/js-format-date.md)
