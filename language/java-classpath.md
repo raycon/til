@@ -54,7 +54,7 @@ JVM은 클래스가 처음 사용될 때 다음과 같은 순서로 클래스를
 
 환경변수로 `CLASSPATH`를 설정한 뒤 실행할 수도 있다:
 
-    set CLASSPATH=D:\classes
+    set CLASSPATH=D:\program\classes
     java com.raegon.example.Main
 
 ## JAR 사용
