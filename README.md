@@ -4,7 +4,8 @@
 
 ## Recently Modified
 
-- *2019-03-27* : [Java Classpath](language/java-classpath.md)
+- *2019-03-29* : [Java Generics](language/java-generics.md)
+- *2019-03-28* : [Java Classpath](language/java-classpath.md)
 - *2019-03-26* : [Java Properties](language/java-properties.md)
 - *2019-03-25* : [Java Try With Resources](language/java-try-with-resources.md)
 - *2019-03-25* : [Memo Proxy Settings](memo/memo-proxy-settings.md)
@@ -18,19 +19,18 @@
 - *2019-02-18* : [Spring Swagger2](framework/spring-swagger2.md)
 - *2018-11-22* : [Intellij Run Tomcat](editor/intellij-run-tomcat.md)
 - *2018-11-16* : [Tomcat Change Port](tool/tomcat-change-port.md)
-- *2018-11-15* : [Logback Rolling Policy](framework/logback-rolling-policy.md)
 
 ----
 
 ## Categories
 
-Total `154` TILs
+Total `155` TILs
 
 - [aws](#aws) *(3)*
 - [database](#database) *(8)*
 - [editor](#editor) *(29)*
 - [framework](#framework) *(41)*
-- [language](#language) *(29)*
+- [language](#language) *(30)*
 - [memo](#memo) *(4)*
 - [os](#os) *(21)*
 - [tool](#tool) *(19)*
@@ -142,6 +142,7 @@ Total `154` TILs
 - [Java Enum](language/java-enum.md)
 - [Java File Encoding](language/java-file-encoding.md)
 - [Java Fileutils](language/java-fileutils.md)
+- [Java Generics](language/java-generics.md)
 - [Java Inputstream To Bytearray](language/java-inputstream-to-bytearray.md)
 - [Java Inputstream To String](language/java-inputstream-to-string.md)
 - [Java Jackson Snake Case](language/java-jackson-snake-case.md)
