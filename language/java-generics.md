@@ -473,6 +473,52 @@ class MyNode extends Node {
 
 ## Restrictions on Generics
 
+- 원시 타입을 사용해서 제네릭 타입의 인스턴스를 만들 수 없다.
+
+      Pair<int, char> p;  // Error
+
+- 타입 파라미터의 인스턴스를 만들 수 없다
+
+      T t = new T();  // Error
+
+- 타입 파라미터를 사용해서 정적 필드를 선언할 수 없다.
+
+      private static T t;  // Error
+
+- `instanceof`에 타입 파라미터를 사용할 수 없다.
+
+      if(list instanceof ArrayList<Integer>)  // Error
+
+- 형 변환을 할 수 없다
+
+      List<Integer> li = new ArrayList<>();
+      List<Number>  ln = (List<Number>) li; // Error
+
+- 제네릭 타입의 배열을 생성할 수 없다.
+
+      List<Integer>[] arrayOfLists = new List<Integer>[2];  // compile-time error
+
+- 제네릭 타입은 `Exception`이나 `Throwable`을 상속받을 수 없다.
+
+      // Extends Throwable indirectly
+      class MathException<T> extends Exception { /* . */ }    // compile-time error
+      // Extends Throwable directly
+      class QueueFullException<T> extends Throwable { /* ... */ // compile-time error
+
+- 타입 파라미터는 `catch` 구문에서 사용할 수 없다.
+
+      try {
+          ...
+      } catch(T e) {    // Error
+          ...
+      }
+
+- `Type Erasure` 이후 같은 시그니쳐를 갖는 메소드를 선언할 수 없다.
+
+      public class Example {
+          public void print(Set<String> strSet) { }
+          public void print(Set<Integer> intSet) { }
+      }
 
 ## 참고
 
