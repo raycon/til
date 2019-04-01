@@ -469,7 +469,10 @@ class MyNode extends Node {
 
 ### Non-Reifiable Types
 
-[Non-Refiable Types](https://docs.oracle.com/javase/tutorial/java/generics/nonReifiableVarargsType.html#non-reifiable-types) 요약 필요
+- `Reifiable Type`: 타입 정보를 런타임에 모두 사용 가능한 타입을 의미한다.
+- `Non-reifiable Type`: 컴파일 시점에 type erasure를 통해 타입 정보가 지워지는 타입을 의미한다. 예: `List<String>`, `List<Number>`
+
+varargs에 Non-Reifiable 파라미터를 사용할 경우, [Heap pollution](java-heap-pollution.md)이 발생할 가능성이 있다.
 
 ## Restrictions on Generics
 
@@ -529,3 +532,4 @@ class MyNode extends Node {
 - [Type Variables](https://docs.oracle.com/javase/specs/jls/se8/html/jls-4.html#jls-4.4)
 - [Definition of type variable and parameter](https://stackoverflow.com/questions/7075363/definition-of-type-variable-and-parameter)
 - [Why use a wild card capture helper method?](https://stackoverflow.com/questions/30763895/why-use-a-wild-card-capture-helper-method)
+- [Reification](https://en.wikipedia.org/wiki/Reification_(computer_science)#Data_reification_vs._data_refinement)
