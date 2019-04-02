@@ -16,6 +16,7 @@
     - [Upper Bound](#upper-bound)
     - [Multiple Bounds](#multiple-bounds)
   - [Generics, Inheritance, and Subtypes](#generics-inheritance-and-subtypes)
+    - [Generic Classes and Subtyping](#generic-classes-and-subtyping)
   - [Wildcards](#wildcards)
     - [Upper Bounded Wildcards](#upper-bounded-wildcards)
     - [Unbounded Wildcards](#unbounded-wildcards)
@@ -33,7 +34,7 @@
 
 ## Generic Types
 
-`Generic Type`은 파라미터화된 타입을 사용하는 `Generic Class`나 `Generic Interface`를 의미한다.
+`Generic Type`은 파라미터화된 타입(`Parameterized Type`)을 사용하는 `Generic Class`나 `Generic Interface`를 의미한다.
 
 `Generic Class`는 다음과 같이 정의한다:
 
@@ -44,6 +45,10 @@ class Name<T1, T2, ..., Tn> {
 ```
 
 `<>`안에 정의된 클래스 이름을 `Type Parameter`라고 부르며, `Type Variable` 이라고도 한다. 여기서 `T1`, `T2` 등의 타입 변수는 `primitive` 타입을 제외한 모든 타입(클래스, 인터페이스, 배열, 또 다른 타입 변수)이 될 수 있다.
+
+`T1`, `T2`등의 타입 변수는 다음과 같이 인스턴스 생성시 파라미터처럼 전달되어서 `Parameterized Type`이라고 부른다:
+
+    List<String> list = new ArrayList<>();
 
 `Type Parameter`는 `,`로 구분해서 여러개를 정의할 수 있다.
 
@@ -178,11 +183,29 @@ boxTest(new Box<Integer>(10));   // Error
 
 ![subtypes](https://docs.oracle.com/javase/tutorial/figures/java/generics-subtypeRelationship.gif)
 
-이를 해결하기 위해 `Wildcard`를 사용한다.
+### Generic Classes and Subtyping
+
+다음과 같은 인터페이스가 있을 경우:
+
+```java
+interface PayloadList<E,P> extends List<E> {
+  void setPayload(int index, P val);
+  ...
+}
+```
+
+다음과 같은 형태는 `List<String>`의 subtype 이다.
+
+    PayloadList<String,String>
+    PayloadList<String,Integer>
+    PayloadList<String,Exception>
+
 
 ## Wildcards
 
 제네릭 코드에서 물음표 `?`는 `Unknown Type`을 나타내는 `wildcard`로 쓰인다. 파라미터, 필드, 로컬 변수의 타입으로 쓰이며 가끔은 리턴 타입으로 쓰이기도 한다. `Type Argument`, 제네릭 인스턴스 생성, `supertype`으로는 쓰이지 않는다.
+
+와일드카드는 제네릭 클래스나 인터페이스 사이의 관계를 정의하기 위해 사용한다.
 
 ### Upper Bounded Wildcards
 
