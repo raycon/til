@@ -16,7 +16,7 @@
 
 ## 코드
 
-> 코드 첨부 필요
+예제 코드는 [Github](https://github.com/raycon/examples/tree/master/spring-restdocs)을 참고한다.
 
 ## 테스트
 

@@ -4,7 +4,8 @@
 
 ## Recently Modified
 
-- *2019-04-01* : [Java Generics](language/java-generics.md)
+- *2019-04-04* : [Java Generics](language/java-generics.md)
+- *2019-04-04* : [Spring Rest Docs](framework/spring-rest-docs.md)
 - *2019-04-01* : [Java Heap Pollution](language/java-heap-pollution.md)
 - *2019-03-28* : [Java Classpath](language/java-classpath.md)
 - *2019-03-26* : [Java Properties](language/java-properties.md)
@@ -13,14 +14,11 @@
 - *2019-03-22* : [Mybatis Spring Boot Autoconfigure](framework/mybatis-spring-boot-autoconfigure.md)
 - *2019-03-22* : [Mybatis Spring](framework/mybatis-spring.md)
 - *2019-03-22* : [Mybatis](framework/mybatis.md)
-- *2019-03-19* : [Spring Rest Docs](framework/spring-rest-docs.md)
 - *2019-03-12* : [Java Lombok](language/java-lombok.md)
 - *2019-03-07* : [Intellij Settings](editor/intellij-settings.md)
 - *2019-02-22* : [Spring Servlet Uri Components Builder](framework/spring-servlet-uri-components-builder.md)
 - *2019-02-18* : [Spring Swagger2](framework/spring-swagger2.md)
 - *2018-11-22* : [Intellij Run Tomcat](editor/intellij-run-tomcat.md)
-
-----
 
 ## Categories
 
@@ -34,8 +32,6 @@ Total `156` TILs
 - [memo](#memo) *(4)*
 - [os](#os) *(21)*
 - [tool](#tool) *(19)*
-
-----
 
 ### aws
 

@@ -337,7 +337,7 @@ void swapFirst(List<? extends Number> l1, List<? extends Number> l2) {
 
 제네릭은 컴파일 시점에 타입 체크를 하기 위해 도입되었다. 제네릭과 관련된 코드는 컴파일 시점에 사용되고 제거된다. 따라서 생성된 바이트코드는 일반적인 클래스, 인터페이스, 메소드만 포함하게 된다. 이 과정을 `Type Erasure`라고 부른다. 자바 컴파일러는 다음과 같은 순서로 제네릭 타입을 제거한다.
 
-- 제네릭 타입의 `Type Parameter`들을 파라미터의 `Bound`로 대체한다. `Unbounded Type Parameter <?>`는 `Object`로 대체된다. 
+- 제네릭 타입의 `Type Parameter`들을 파라미터의 `Bound`로 대체한다. `Unbounded Type Parameter <?>`는 `Object`로 대체된다.
 - 필요한 경우 형 변환 코드를 삽입한다.
 - 상속된 제네릭 타입의 다형성을 위해서 `Bridge Method`를 생성한다.
 
