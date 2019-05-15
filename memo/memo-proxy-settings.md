@@ -11,9 +11,16 @@ Proxy 세팅 및 서버 인증서 확인을 안하도록 하는 설정 모음
     set HTTP_PROXY=http://a.b.c.d:e
     set HTTPS_PROXY=http://a.b.c.d:e
 
-`--no-verify-ssl` 옵션 사용으로 https 인증서 무시 :
+### AWS CLI 인증서 설정
 
-     aws s3 ls --no-verify-ssl
+`AWS_CA_BUNDLE` 환경변수로 인증서 경로를 지정하거나
+
+    set AWS_CA_BUNDLE=c:\custom.crt
+
+`~/.aws/.credentials` 파일에 `ca_bundle` 값을 설정한다.
+
+    [default]
+    ca_bundle=c:\custom.crt
 
 ## APM (~/.atom/.apm/.apmrc)
 
