@@ -4,13 +4,13 @@
 
 ## Recently Modified
 
+- *2019-05-15* : [Memo Proxy Settings](memo/memo-proxy-settings.md)
 - *2019-04-04* : [Java Generics](language/java-generics.md)
 - *2019-04-04* : [Spring Rest Docs](framework/spring-rest-docs.md)
 - *2019-04-01* : [Java Heap Pollution](language/java-heap-pollution.md)
 - *2019-03-28* : [Java Classpath](language/java-classpath.md)
 - *2019-03-26* : [Java Properties](language/java-properties.md)
 - *2019-03-25* : [Java Try With Resources](language/java-try-with-resources.md)
-- *2019-03-25* : [Memo Proxy Settings](memo/memo-proxy-settings.md)
 - *2019-03-22* : [Mybatis Spring Boot Autoconfigure](framework/mybatis-spring-boot-autoconfigure.md)
 - *2019-03-22* : [Mybatis Spring](framework/mybatis-spring.md)
 - *2019-03-22* : [Mybatis](framework/mybatis.md)
