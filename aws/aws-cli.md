@@ -1,23 +1,20 @@
 # AWS CLI
 
+> <https://docs.aws.amazon.com/ko_kr/cli/latest/userguide/install-windows.html>
+
 ## Install
 
-Windows:
+Windows Installer:
 
 [64비트](https://s3.amazonaws.com/aws-cli/AWSCLI64.msi) 또는 [32비트](https://s3.amazonaws.com/aws-cli/AWSCLI32.msi) Windows 설치 프로그램을 다운로드해서 실행한다.
 
-Mac 및 Linux:
+PIP:
 
-Python 2.6.5 이상이 필요. pip를 사용하여 설치한다.
+다음 명령어로 설치
 
-    pip install awscli
+    pip3 install awscli --upgrade --user
 
-프록시 사용시 다음과 같이 설치:
+.py와 연결된 프로그램이 없다는 오류 발생시
 
-    set HTTP_PROXY=http://host:port
-    set HTTPS_PROXY=http://host:port
-    pip install --index-url=http://pypi.python.org/simple/ --trusted-host pypi.python.org awscli
-
-SSL 인증서 에러 발생시 다음과 같이 사용:
-
-    aws s3 ls --no-verify-ssl
+    assoc .py=pyautofile
+    ftype pyautofile="C:\Anaconda2\python.exe" "%1" %*
