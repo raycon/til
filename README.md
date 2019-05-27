@@ -4,6 +4,8 @@
 
 ## Recently Modified
 
+- *2019-05-27* : [Dynamodb Batch Write With Behavior](database/dynamodb-batch-write-with-behavior.md)
+- *2019-05-15* : [Aws Cli](aws/aws-cli.md)
 - *2019-05-15* : [Memo Proxy Settings](memo/memo-proxy-settings.md)
 - *2019-04-04* : [Java Generics](language/java-generics.md)
 - *2019-04-04* : [Spring Rest Docs](framework/spring-rest-docs.md)
@@ -17,15 +19,13 @@
 - *2019-03-12* : [Java Lombok](language/java-lombok.md)
 - *2019-03-07* : [Intellij Settings](editor/intellij-settings.md)
 - *2019-02-22* : [Spring Servlet Uri Components Builder](framework/spring-servlet-uri-components-builder.md)
-- *2019-02-18* : [Spring Swagger2](framework/spring-swagger2.md)
-- *2018-11-22* : [Intellij Run Tomcat](editor/intellij-run-tomcat.md)
 
 ## Categories
 
-Total `156` TILs
+Total `157` TILs
 
 - [aws](#aws) *(3)*
-- [database](#database) *(8)*
+- [database](#database) *(9)*
 - [editor](#editor) *(29)*
 - [framework](#framework) *(41)*
 - [language](#language) *(31)*
@@ -41,6 +41,7 @@ Total `156` TILs
 
 ### database
 
+- [Dynamodb Batch Write With Behavior](database/dynamodb-batch-write-with-behavior.md)
 - [Dynamodb Read Consistency](database/dynamodb-read-consistency.md)
 - [Dynamodb Throughput Settings](database/dynamodb-throughput-settings.md)
 - [Elastic Field](database/elastic-field.md)
