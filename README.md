@@ -4,34 +4,34 @@
 
 ## Recently Modified
 
-- *2019-05-27* : [Dynamodb Batch Write With Behavior](database/dynamodb-batch-write-with-behavior.md)
-- *2019-05-15* : [Aws Cli](aws/aws-cli.md)
-- *2019-05-15* : [Memo Proxy Settings](memo/memo-proxy-settings.md)
-- *2019-04-04* : [Java Generics](language/java-generics.md)
-- *2019-04-04* : [Spring Rest Docs](framework/spring-rest-docs.md)
-- *2019-04-01* : [Java Heap Pollution](language/java-heap-pollution.md)
-- *2019-03-28* : [Java Classpath](language/java-classpath.md)
-- *2019-03-26* : [Java Properties](language/java-properties.md)
-- *2019-03-25* : [Java Try With Resources](language/java-try-with-resources.md)
-- *2019-03-22* : [Mybatis Spring Boot Autoconfigure](framework/mybatis-spring-boot-autoconfigure.md)
-- *2019-03-22* : [Mybatis Spring](framework/mybatis-spring.md)
-- *2019-03-22* : [Mybatis](framework/mybatis.md)
-- *2019-03-12* : [Java Lombok](language/java-lombok.md)
-- *2019-03-07* : [Intellij Settings](editor/intellij-settings.md)
-- *2019-02-22* : [Spring Servlet Uri Components Builder](framework/spring-servlet-uri-components-builder.md)
+- *2019-06-21* : [Git Add And Commit](tool/git-add-and-commit.md)
+- *2019-06-21* : [Spring Boot Mysql Load Data Infile](framework/spring-boot-mysql-load-data-infile.md)
+- *2019-06-21* : [Spring Batch System Exit Code](framework/spring-batch-system-exit-code.md)
+- *2019-06-12* : [Java Run Command](language/java-run-command.md)
+- *2019-06-11* : [Git Auto Crlf](tool/git-auto-crlf.md)
+- *2019-06-11* : [Tomcat Change Port](tool/tomcat-change-port.md)
+- *2019-06-11* : [P4 P4ignore](tool/p4-p4ignore.md)
+- *2019-06-11* : [P4 Change Workspace](tool/p4-change-workspace.md)
+- *2019-06-11* : [Gradle](tool/gradle.md)
+- *2019-06-11* : [Gradle Use Local Jar File](tool/gradle-use-local-jar-file.md)
+- *2019-06-11* : [Gradle Update Wrapper Version](tool/gradle-update-wrapper-version.md)
+- *2019-06-11* : [Gradle Init](tool/gradle-init.md)
+- *2019-06-11* : [Gradle Dependency Report](tool/gradle-dependency-report.md)
+- *2019-06-11* : [Gradle Create Executable Jar](tool/gradle-create-executable-jar.md)
+- *2019-06-11* : [Gradle Build Without Tests](tool/gradle-build-without-tests.md)
 
 ## Categories
 
-Total `157` TILs
+Total `161` TILs
 
 - [aws](#aws) *(3)*
 - [database](#database) *(9)*
 - [editor](#editor) *(29)*
-- [framework](#framework) *(41)*
-- [language](#language) *(31)*
+- [framework](#framework) *(43)*
+- [language](#language) *(32)*
 - [memo](#memo) *(4)*
 - [os](#os) *(21)*
-- [tool](#tool) *(19)*
+- [tool](#tool) *(20)*
 
 ### aws
 
@@ -103,10 +103,12 @@ Total `157` TILs
 - [Spring Batch Meta Data](framework/spring-batch-meta-data.md)
 - [Spring Batch Reader With Job Parameters](framework/spring-batch-reader-with-job-parameters.md)
 - [Spring Batch Runidincrementer](framework/spring-batch-runidincrementer.md)
+- [Spring Batch System Exit Code](framework/spring-batch-system-exit-code.md)
 - [Spring Boot Configuration Properties](framework/spring-boot-configuration-properties.md)
 - [Spring Boot Devtools](framework/spring-boot-devtools.md)
 - [Spring Boot H2 Database](framework/spring-boot-H2-database.md)
 - [Spring Boot Logback](framework/spring-boot-logback.md)
+- [Spring Boot Mysql Load Data Infile](framework/spring-boot-mysql-load-data-infile.md)
 - [Spring Boot Test](framework/spring-boot-test.md)
 - [Spring Boot Using Yaml Insteadof Properties](framework/spring-boot-using-yaml-insteadof-properties.md)
 - [Spring Component Vs Bean](framework/spring-component-vs-bean.md)
@@ -151,6 +153,7 @@ Total `157` TILs
 - [Java Print Json](language/java-print-json.md)
 - [Java Properties](language/java-properties.md)
 - [Java Read File From Resource](language/java-read-file-from-resource.md)
+- [Java Run Command](language/java-run-command.md)
 - [Java Split List](language/java-split-list.md)
 - [Java String To Timestamp](language/java-string-to-timestamp.md)
 - [Java Try With Resources](language/java-try-with-resources.md)
@@ -194,6 +197,7 @@ Total `157` TILs
 
 ### tool
 
+- [Git Add And Commit](tool/git-add-and-commit.md)
 - [Git Auto Crlf](tool/git-auto-crlf.md)
 - [Git Branch](tool/git-branch.md)
 - [Git In Bash](tool/git-in-bash.md)
