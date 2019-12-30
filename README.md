@@ -7,7 +7,6 @@
 - *2019-09-05* : [Spring Boot Mysql Load Data Infile](framework/spring-boot-mysql-load-data-infile.md)
 - *2019-09-04* : [Windows Subsystem Linux](os/windows-subsystem-linux.md)
 - *2019-08-06* : [Intellij Settings](editor/intellij-settings.md)
-- *2019-07-22* : [Intellij Plugin Kjump](editor/intellij-plugin-kjump.md)
 - *2019-07-18* : [Spring Enable Batch Processing](framework/spring-enable-batch-processing.md)
 - *2019-07-09* : [Logback Rolling Policy](framework/logback-rolling-policy.md)
 - *2019-06-28* : [Spring Value](framework/spring-value.md)
@@ -19,16 +18,17 @@
 - *2019-06-11* : [Tomcat Change Port](tool/tomcat-change-port.md)
 - *2019-06-11* : [P4 P4ignore](tool/p4-p4ignore.md)
 - *2019-06-11* : [P4 Change Workspace](tool/p4-change-workspace.md)
+- *2019-06-11* : [Gradle](tool/gradle.md)
 
 ----
 
 ## Categories
 
-Total `164` TILs
+Total `163` TILs
 
 - [aws](#aws) *(3)*
 - [database](#database) *(9)*
-- [editor](#editor) *(30)*
+- [editor](#editor) *(29)*
 - [framework](#framework) *(44)*
 - [language](#language) *(32)*
 - [memo](#memo) *(4)*
@@ -73,7 +73,6 @@ Total `164` TILs
 - [Intellij Enable Spring Boot Run Dashboard](editor/intellij-enable-spring-boot-run-dashboard.md)
 - [Intellij Entity From Database](editor/intellij-entity-from-database.md)
 - [Intellij Hotswap](editor/intellij-hotswap.md)
-- [Intellij Plugin Kjump](editor/intellij-plugin-kjump.md)
 - [Intellij Run Tomcat](editor/intellij-run-tomcat.md)
 - [Intellij Settings](editor/intellij-settings.md)
 - [Intellij Shortcuts](editor/intellij-shortcuts.md)
