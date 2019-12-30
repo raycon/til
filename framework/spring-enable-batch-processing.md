@@ -15,7 +15,10 @@
 
 ## 자동 시작
 
-`@EnableBatchProcessing`을 설정하면 정의된 Job이 모두 실행된다. 이 동작을 변경하려면 `spring.batch.job.enabled`를 `false`로 설정한다.
+`@EnableBatchProcessing`을 설정하면 정의된 Job이 모두 실행된다. 이 동작을 변경하려면
+
+- `spring.batch.job.enabled = false`로 설정하거나
+- `spring.batch.job.names = ${job.name:NONE}`으로 설정한다.
 
 ## 커맨드 라인 실행
 

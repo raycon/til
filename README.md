@@ -4,34 +4,38 @@
 
 ## Recently Modified
 
+- *2019-09-05* : [Spring Boot Mysql Load Data Infile](framework/spring-boot-mysql-load-data-infile.md)
+- *2019-09-04* : [Windows Subsystem Linux](os/windows-subsystem-linux.md)
+- *2019-08-06* : [Intellij Settings](editor/intellij-settings.md)
+- *2019-07-22* : [Intellij Plugin Kjump](editor/intellij-plugin-kjump.md)
+- *2019-07-18* : [Spring Enable Batch Processing](framework/spring-enable-batch-processing.md)
+- *2019-07-09* : [Logback Rolling Policy](framework/logback-rolling-policy.md)
+- *2019-06-28* : [Spring Value](framework/spring-value.md)
+- *2019-06-27* : [Java Run Command](language/java-run-command.md)
+- *2019-06-21* : [Linux Shell Script](os/linux-shell-script.md)
 - *2019-06-21* : [Git Add And Commit](tool/git-add-and-commit.md)
-- *2019-06-21* : [Spring Boot Mysql Load Data Infile](framework/spring-boot-mysql-load-data-infile.md)
 - *2019-06-21* : [Spring Batch System Exit Code](framework/spring-batch-system-exit-code.md)
-- *2019-06-12* : [Java Run Command](language/java-run-command.md)
 - *2019-06-11* : [Git Auto Crlf](tool/git-auto-crlf.md)
 - *2019-06-11* : [Tomcat Change Port](tool/tomcat-change-port.md)
 - *2019-06-11* : [P4 P4ignore](tool/p4-p4ignore.md)
 - *2019-06-11* : [P4 Change Workspace](tool/p4-change-workspace.md)
-- *2019-06-11* : [Gradle](tool/gradle.md)
-- *2019-06-11* : [Gradle Use Local Jar File](tool/gradle-use-local-jar-file.md)
-- *2019-06-11* : [Gradle Update Wrapper Version](tool/gradle-update-wrapper-version.md)
-- *2019-06-11* : [Gradle Init](tool/gradle-init.md)
-- *2019-06-11* : [Gradle Dependency Report](tool/gradle-dependency-report.md)
-- *2019-06-11* : [Gradle Create Executable Jar](tool/gradle-create-executable-jar.md)
-- *2019-06-11* : [Gradle Build Without Tests](tool/gradle-build-without-tests.md)
+
+----
 
 ## Categories
 
-Total `161` TILs
+Total `164` TILs
 
 - [aws](#aws) *(3)*
 - [database](#database) *(9)*
-- [editor](#editor) *(29)*
-- [framework](#framework) *(43)*
+- [editor](#editor) *(30)*
+- [framework](#framework) *(44)*
 - [language](#language) *(32)*
 - [memo](#memo) *(4)*
-- [os](#os) *(21)*
+- [os](#os) *(22)*
 - [tool](#tool) *(20)*
+
+----
 
 ### aws
 
@@ -69,6 +73,7 @@ Total `161` TILs
 - [Intellij Enable Spring Boot Run Dashboard](editor/intellij-enable-spring-boot-run-dashboard.md)
 - [Intellij Entity From Database](editor/intellij-entity-from-database.md)
 - [Intellij Hotswap](editor/intellij-hotswap.md)
+- [Intellij Plugin Kjump](editor/intellij-plugin-kjump.md)
 - [Intellij Run Tomcat](editor/intellij-run-tomcat.md)
 - [Intellij Settings](editor/intellij-settings.md)
 - [Intellij Shortcuts](editor/intellij-shortcuts.md)
@@ -127,6 +132,7 @@ Total `161` TILs
 - [Spring Servlet Uri Components Builder](framework/spring-servlet-uri-components-builder.md)
 - [Spring Swagger2](framework/spring-swagger2.md)
 - [Spring Test Mock Mvc](framework/spring-test-mock-mvc.md)
+- [Spring Value](framework/spring-value.md)
 - [Tensorflow Install On Windows](framework/tensorflow-install-on-windows.md)
 
 ### language
@@ -194,6 +200,7 @@ Total `161` TILs
 - [Windows Disable Numlock At Startup](os/windows-disable-numlock-at-startup.md)
 - [Windows Remove Credentials](os/windows-remove-credentials.md)
 - [Windows Restart Aero Service](os/windows-restart-aero-service.md)
+- [Windows Subsystem Linux](os/windows-subsystem-linux.md)
 
 ### tool
 

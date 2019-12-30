@@ -32,3 +32,28 @@ function fun2(){
 ```
 
 $? contains the result code of the last command.
+
+## AND
+
+    if [ "$#" -eq 0 ] || [ "$#" -gt 1 ] ; then
+        echo "hello"
+    fi
+
+
+## Argument
+
+
+    makereport -u jsmith -p notebooks -d 10-20-2011 -f pdf
+
+```
+while getopts u:d:p:f: option
+do
+case "${option}"
+in
+u) USER=${OPTARG};;
+d) DATE=${OPTARG};;
+p) PRODUCT=${OPTARG};;
+f) FORMAT=$OPTARG;;
+esac
+done
+```

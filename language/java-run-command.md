@@ -65,3 +65,30 @@ builder.start();
 ProcessBuilder builder = new ProcessBuilder(commands).inheritIO();
 builder.start();
 ```
+
+`process.waitFor` 메소드를 사용해서 exitCode를 리턴할 수 있다.
+
+```java
+private int execute(String command) {
+    return execute(command.split(" "));
+}
+
+private int execute(String... command) {
+    try {
+        ProcessBuilder builder = new ProcessBuilder(decorate(command)).inheritIO();
+        Process process = builder.start();
+        return process.waitFor();
+    } catch (IOException | InterruptedException e) {
+        e.printStackTrace();
+    }
+    return -1;
+}
+
+private List<String> decorate(String... command) {
+    List<String> commands = new ArrayList<>(Arrays.asList(command));
+    if (SystemUtils.IS_OS_WINDOWS) {
+        commands.addAll(0, Arrays.asList("cmd", "/c"));
+    }
+    return commands;
+}
+```

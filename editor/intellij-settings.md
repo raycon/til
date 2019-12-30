@@ -8,6 +8,10 @@ IntelliJ는 자체 jre를 사용한다. 다음 파일에 `인증서.crt`를 추�
 
 인증서 관리 프로그램은 [KeyStore Explorer](http://keystore-explorer.org/)를 사용하면 편리하다.
 
+## Proxy
+
+- `Settings > Appearance & Behavior > System Settings > HTTP Proxy` 에서 프록시를 설정한다.
+
 ## Plugins
 
 - `.ignore`: ignore 파일 문법 강조. 트리에서 색 지정
@@ -18,11 +22,12 @@ IntelliJ는 자체 jre를 사용한다. 다음 파일에 `인증서.crt`를 추�
 
 - `Settings > Build, Execution, Deployment > Compiler`에서 `Build project automatically`를 체크한다.
 - `Settings > Inspections`에서 `Spelling`을 체크 해제한다.
-- `Settings > Code Style > Alignment and Braces`에서 `Simple methods in one line`을 체크 해제한다.
 - `Settings > Editor > General > Editor Tabs`에서
     - `Tab Appearance > Placement`를 `Never`로 설정
     - `Tab Closing Policy > Tab limit`을 `2`로 설정
 - `Settings > Editor > General > Breadcrumbs` 에서 `Show breadcrumbs` 해체
+- `View > Toolbar` 체크 설정
+- `View > Navigation Bar` 체크 해제
 
 ## Keymap
 

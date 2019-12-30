@@ -15,12 +15,17 @@ IGNORE 1 LINES
 
     java.sql.SQLSyntaxErrorException: The used command is not allowed with this MySQL version
 
+MySQL 서버의 `local_infile` 변수를 `TRUE`로 설정한다.
+
+    SET GLOBAL local_infile = TRUE;
+    SHOW GLOBAL VARIABLES LIKE 'local_infile';
+
 `datasource` 주소에 `allowLoadLocalInfile`을 `true`로 설정한다.
 
 ```yaml
 spring:
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306?allowLoadLocalInfile=false
+    url: jdbc:mysql://127.0.0.1:3306?allowLoadLocalInfile=true
 ```
 
 로드하는 데이터 중 `"Hello\"` 와 같은 값이 있을 경우, 이스케이프 문자를 제거해서 로드한다.

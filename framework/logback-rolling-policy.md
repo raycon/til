@@ -48,3 +48,40 @@
 
 </configuration>
 ```
+
+## 10분 단위로 롤링하기
+
+```xml
+<appender name="TenMinuteRollingFileAppender" class="com.raegon.logger.TenMinuteAppender">
+    <file>server.log</file>
+    <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+        <pattern>%msg%n</pattern>
+    </encoder>
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+        <fileNamePattern>server.log.%d{yyyyMMddHHmm}</fileNamePattern>
+    </rollingPolicy>
+</appender>
+
+<root level="INFO">
+    <appender-ref ref="STDOUT"/>
+    <appender-ref ref="TenMinuteRollingFileAppender"/>
+</root>
+```
+
+```java
+@Slf4j
+public class TenMinuteAppender<E> extends RollingFileAppender<E> {
+
+    private static LocalDateTime start = LocalDateTime.now();
+
+    @Override
+    public void rollover() {
+        LocalDateTime now = LocalDateTime.now();
+        if(now.isAfter(start.plusMinutes(10))) {
+            start = now;
+            super.rollover();
+        }
+    }
+
+}
+```
