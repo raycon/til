@@ -32,14 +32,21 @@ def recent(tils, limit):
 
 def link(root, path):
     path = relative(root, path)
-    directory = path.split('/')[-2]
-    filename = path.split('/')[-1]
-    filename = filename.replace(directory+"-", '', 1)
-    title = ' '.join(n.capitalize() for n in os.path.splitext(filename)[0].split('-'))
-    return f"[{title}]({path})"
+    return f"[{title(path)}]({path})"
 
 def total(root):
     return len(list(flat(tils(root))))
+
+def title(path):
+    with open(path, 'r', encoding='UTF-8') as f:
+        title = f.readline().strip()
+        if title.startswith('# '):
+            return title.replace('# ', '', 1)
+        else:
+            directory = path.split('/')[-2]
+            filename = path.split('/')[-1]
+            filename = filename.replace(directory+"-", '', 1)
+            return ' '.join(n.capitalize() for n in os.path.splitext(filename)[0].split('-'))
 
 def readme():
     lines = []
@@ -69,8 +76,10 @@ def readme():
 
     return lines
 
-output = open(os.path.join(root, "README.md"), 'w')
+output = open(os.path.join(root, "README.md"), 'w', encoding='UTF-8')
 for line in readme():
     output.write(line)
     output.write('\n')
 output.close()
+
+print ("Total %s TILs\n" % total(root))

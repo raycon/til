@@ -4,25 +4,25 @@
 
 ## Recently Modified
 
-- *2020-03-26* : [Username Email](git/git-username-email.md)
-- *2020-03-26* : [Submodule](git/git-submodule.md)
-- *2020-03-26* : [Remote Repository](git/git-remote-repository.md)
-- *2020-03-26* : [Log](git/git-log.md)
-- *2020-03-26* : [In Bash](git/git-in-bash.md)
-- *2020-03-26* : [Branch](git/git-branch.md)
-- *2020-03-26* : [Auto Crlf](git/git-auto-crlf.md)
-- *2020-03-26* : [Add And Commit](git/git-add-and-commit.md)
-- *2020-03-26* : [Youtube Compatible Video Format](memo/memo-youtube-compatible-video-format.md)
-- *2020-03-26* : [Software That I Use](memo/memo-software-that-I-use.md)
-- *2020-03-26* : [Proxy Settings](memo/memo-proxy-settings.md)
-- *2020-03-26* : [Oblivion Colors](memo/memo-oblivion-colors.md)
-- *2020-03-26* : [Variables](mysql/mysql-variables.md)
-- *2020-03-26* : [Turn On General Log](mysql/mysql-turn-on-general-log.md)
-- *2020-03-26* : [Function](mysql/mysql-function.md)
+- *2020-03-26* : [Auto Hot Key](windows/windows-ahk-scripts.md)
+- *2020-03-26* : [Git username and email](git/git-username-email.md)
+- *2020-03-26* : [Git Submodule](git/git-submodule.md)
+- *2020-03-26* : [Git remote repository](git/git-remote-repository.md)
+- *2020-03-26* : [Git 로그 출력](git/git-log.md)
+- *2020-03-26* : [Git in bash](git/git-in-bash.md)
+- *2020-03-26* : [Git branch](git/git-branch.md)
+- *2020-03-26* : [AutoCRLF](git/git-auto-crlf.md)
+- *2020-03-26* : [Git add and commit in one command](git/git-add-and-commit.md)
+- *2020-03-26* : [MySQL 변수 사용하기](mysql/mysql-variables.md)
+- *2020-03-26* : [Turn on general log](mysql/mysql-turn-on-general-log.md)
+- *2020-03-26* : [MySQL DATEDIFF](mysql/mysql-function.md)
+- *2020-03-26* : [Elasticsearch Example](elasticsearch/elastic-search-example.md)
+- *2020-03-26* : [Elasticsearch Field](elasticsearch/elastic-field.md)
+- *2020-03-26* : [DynamoDB Throughput Settings](dynamodb/dynamodb-throughput-settings.md)
 
 ## Categories
 
-Total `164` TILs
+Total `160` TILs
 
 - [aws](#aws) *(3)*
 - [dynamodb](#dynamodb) *(4)*
@@ -31,12 +31,11 @@ Total `164` TILs
 - [etc](#etc) *(5)*
 - [git](#git) *(8)*
 - [gradle](#gradle) *(9)*
+- [hibernate](#hibernate) *(2)*
 - [intellij](#intellij) *(7)*
 - [java](#java) *(28)*
 - [javascript](#javascript) *(2)*
-- [jpa](#jpa) *(2)*
 - [linux](#linux) *(15)*
-- [memo](#memo) *(4)*
 - [mybatis](#mybatis) *(3)*
 - [mysql](#mysql) *(3)*
 - [node](#node) *(6)*
@@ -52,239 +51,232 @@ Total `164` TILs
 
 ### aws
 
-- [Cli](aws/aws-cli.md)
-- [Configure Profile](aws/aws-configure-profile.md)
-- [Dynamodb Reserved Words](aws/dynamodb-reserved-words.md)
+- [AWS CLI](aws/aws-cli.md)
+- [AWS CLI 설정](aws/aws-configure-profile.md)
+- [Reserved Words in DynamoDB](aws/dynamodb-reserved-words.md)
 
 ### dynamodb
 
-- [Batch Write With Behavior](dynamodb/dynamodb-batch-write-with-behavior.md)
+- [Batch Write with Behavior](dynamodb/dynamodb-batch-write-with-behavior.md)
 - [Read Consistency](dynamodb/dynamodb-read-consistency.md)
-- [Reserved Words](dynamodb/dynamodb-reserved-words.md)
-- [Throughput Settings](dynamodb/dynamodb-throughput-settings.md)
+- [Reserved Words in DynamoDB](dynamodb/dynamodb-reserved-words.md)
+- [DynamoDB Throughput Settings](dynamodb/dynamodb-throughput-settings.md)
 
 ### eclipse
 
 - [Block Selection Mode](eclipse/eclipse-block-selection-mode.md)
 - [Change Content Assist Insertion Behavior](eclipse/eclipse-change-content-assist-insertion-behavior.md)
-- [Change Delimiters](eclipse/eclipse-change-delimiters.md)
-- [Custom Java Formatter](eclipse/eclipse-custom-java-formatter.md)
-- [Import Static Methods](eclipse/eclipse-import-static-methods.md)
-- [Loading Gradle Project Preview Failed](eclipse/eclipse-loading-gradle-project-preview-failed.md)
-- [Organize Imports Shortcut Is Not Working](eclipse/eclipse-organize-imports-shortcut-is-not-working.md)
-- [Plugin Shelled](eclipse/eclipse-plugin-shelled.md)
-- [Plugins For Gradle](eclipse/eclipse-plugins-for-gradle.md)
-- [Settings](eclipse/eclipse-settings.md)
-- [Useful Java Code Templates](eclipse/eclipse-useful-java-code-templates.md)
+- [개행문자 바꾸기](eclipse/eclipse-change-delimiters.md)
+- [Eclipse 포매터 설정](eclipse/eclipse-custom-java-formatter.md)
+- [Import static methods](eclipse/eclipse-import-static-methods.md)
+- [Loading gradle project preview failed](eclipse/eclipse-loading-gradle-project-preview-failed.md)
+- [Organize Imports Shortcut (Ctrl+Shift+O) is not working](eclipse/eclipse-organize-imports-shortcut-is-not-working.md)
+- [ShellEd](eclipse/eclipse-plugin-shelled.md)
+- [Gradle Eclipse Plugin](eclipse/eclipse-plugins-for-gradle.md)
+- [Eclipse 환경 설정](eclipse/eclipse-settings.md)
+- [Useful Eclipse Java Code Template](eclipse/eclipse-useful-java-code-templates.md)
 
 ### elasticsearch
 
-- [Elastic Field](elasticsearch/elastic-field.md)
-- [Elastic Search Example](elasticsearch/elastic-search-example.md)
+- [Elasticsearch Field](elasticsearch/elastic-field.md)
+- [Elasticsearch Example](elasticsearch/elastic-search-example.md)
 
 ### etc
 
-- [Memo Oblivion Colors](etc/memo-oblivion-colors.md)
-- [Memo Proxy Settings](etc/memo-proxy-settings.md)
-- [Memo Software That I Use](etc/memo-software-that-I-use.md)
-- [Memo Youtube Compatible Video Format](etc/memo-youtube-compatible-video-format.md)
-- [Synology Connect Via Https](etc/synology-connect-via-https.md)
+- [Oblivion Colors](etc/memo-oblivion-colors.md)
+- [Proxy settings](etc/memo-proxy-settings.md)
+- [Software that I use](etc/memo-software-that-I-use.md)
+- [유투브 업로드용 영상 만들기](etc/memo-youtube-compatible-video-format.md)
+- [시놀로지 서버에 HTTPS로 연결하는 방법](etc/synology-connect-via-https.md)
 
 ### git
 
-- [Add And Commit](git/git-add-and-commit.md)
-- [Auto Crlf](git/git-auto-crlf.md)
-- [Branch](git/git-branch.md)
-- [In Bash](git/git-in-bash.md)
-- [Log](git/git-log.md)
-- [Remote Repository](git/git-remote-repository.md)
-- [Submodule](git/git-submodule.md)
-- [Username Email](git/git-username-email.md)
+- [Git add and commit in one command](git/git-add-and-commit.md)
+- [AutoCRLF](git/git-auto-crlf.md)
+- [Git branch](git/git-branch.md)
+- [Git in bash](git/git-in-bash.md)
+- [Git 로그 출력](git/git-log.md)
+- [Git remote repository](git/git-remote-repository.md)
+- [Git Submodule](git/git-submodule.md)
+- [Git username and email](git/git-username-email.md)
 
 ### gradle
 
-- [Archive Name](gradle/gradle-archive-name.md)
-- [Build Version With Date](gradle/gradle-build-version-with-date.md)
-- [Build Without Tests](gradle/gradle-build-without-tests.md)
-- [Create Executable Jar](gradle/gradle-create-executable-jar.md)
-- [Dependency Report](gradle/gradle-dependency-report.md)
-- [Init](gradle/gradle-init.md)
-- [Update Wrapper Version](gradle/gradle-update-wrapper-version.md)
-- [Use Local Jar File](gradle/gradle-use-local-jar-file.md)
-- [Gradle](gradle/gradle.md)
+- [Gradle Archive Name](gradle/gradle-archive-name.md)
+- [빌드 버전에 현재 날짜 지정하는 방법](gradle/gradle-build-version-with-date.md)
+- [테스트 빌드 하지 않는 방법](gradle/gradle-build-without-tests.md)
+- [Create executable jar](gradle/gradle-create-executable-jar.md)
+- [Gradle 에서 dependency 확인하기](gradle/gradle-dependency-report.md)
+- [Gradle Init](gradle/gradle-init.md)
+- [gradlew 버전 업데이트 하는 방법](gradle/gradle-update-wrapper-version.md)
+- [로컬에 있는 JAR 파일 사용하기](gradle/gradle-use-local-jar-file.md)
+- [그레이들](gradle/gradle.md)
+
+### hibernate
+
+- [Handling soft deletes](hibernate/hibernate-handling-soft-deletes.md)
+- [MultipleBagFetchException](hibernate/hibernate-multiple-bag-fetch-exception.md)
 
 ### intellij
 
-- [Enable Spring Boot Run Dashboard](intellij/intellij-enable-spring-boot-run-dashboard.md)
-- [Entity From Database](intellij/intellij-entity-from-database.md)
-- [Hotswap](intellij/intellij-hotswap.md)
-- [Run Tomcat](intellij/intellij-run-tomcat.md)
-- [Settings](intellij/intellij-settings.md)
-- [Shortcuts](intellij/intellij-shortcuts.md)
-- [Unable To Find Main Class](intellij/intellij-unable-to-find-main-class.md)
+- [Enable spring boot run dashboard](intellij/intellij-enable-spring-boot-run-dashboard.md)
+- [Create entity class from database](intellij/intellij-entity-from-database.md)
+- [IntelliJ HotSwap](intellij/intellij-hotswap.md)
+- [톰캣에서 스프링 어플리케이션 실행](intellij/intellij-run-tomcat.md)
+- [IntelliJ Settings](intellij/intellij-settings.md)
+- [Intellij 자주 사용하는 단축키](intellij/intellij-shortcuts.md)
+- [오류: 기본 클래스 [Application]을(를) 찾거나 로드할 수 없습니다](intellij/intellij-unable-to-find-main-class.md)
 
 ### java
 
 - [Apache Http](java/java-apache-http.md)
-- [Build Tools](java/java-build-tools.md)
-- [Change Fork Join Pool Size](java/java-change-fork-join-pool-size.md)
+- [JAVA Build Tools](java/java-build-tools.md)
+- [ForkJoinPool 사이즈 변경](java/java-change-fork-join-pool-size.md)
 - [Classpath](java/java-classpath.md)
-- [Convert Object To Json](java/java-convert-object-to-json.md)
-- [Create Temp File](java/java-create-temp-file.md)
+- [Convert Object to JSON](java/java-convert-object-to-json.md)
+- [자바에서 제공하는 임시 폴더에 임시 파일 만들기](java/java-create-temp-file.md)
 - [Custom Thread Pool](java/java-custom-thread-pool.md)
-- [Enum](java/java-enum.md)
-- [File Encoding](java/java-file-encoding.md)
-- [Fileutils](java/java-fileutils.md)
+- [자바 열거형](java/java-enum.md)
+- [Java File Encoding](java/java-file-encoding.md)
+- [FileUtils](java/java-fileutils.md)
 - [Generics](java/java-generics.md)
 - [Heap Pollution](java/java-heap-pollution.md)
-- [Inputstream To Bytearray](java/java-inputstream-to-bytearray.md)
-- [Inputstream To String](java/java-inputstream-to-string.md)
+- [`InputStream` into a `ByteArray`](java/java-inputstream-to-bytearray.md)
+- [InputStream to String](java/java-inputstream-to-string.md)
 - [Jackson Snake Case](java/java-jackson-snake-case.md)
-- [Jackson Timezone](java/java-jackson-timezone.md)
-- [Jackson Unrecognized Property Exception](java/java-jackson-unrecognized-property-exception.md)
-- [Junit](java/java-junit.md)
+- [Jackson timezone](java/java-jackson-timezone.md)
+- [Jackson UnrecognizedPropertyException](java/java-jackson-unrecognized-property-exception.md)
+- [JUnit 기초](java/java-junit.md)
 - [Lombok](java/java-lombok.md)
-- [Print Json](java/java-print-json.md)
+- [JSON 출력하기](java/java-print-json.md)
 - [Properties](java/java-properties.md)
-- [Read File From Resource](java/java-read-file-from-resource.md)
-- [Run Command](java/java-run-command.md)
-- [Split List](java/java-split-list.md)
-- [String To Timestamp](java/java-string-to-timestamp.md)
-- [Try With Resources](java/java-try-with-resources.md)
-- [Validate Object](java/java-validate-object.md)
-- [Web Inf](java/java-web-inf.md)
+- [Read file from resource](java/java-read-file-from-resource.md)
+- [Java Run Command](java/java-run-command.md)
+- [자바 리스트 나누는 코드 예제](java/java-split-list.md)
+- [String to Timestamp](java/java-string-to-timestamp.md)
+- [Try with resources](java/java-try-with-resources.md)
+- [ObjectValidation](java/java-validate-object.md)
+- [WEB-INF](java/java-web-inf.md)
 
 ### javascript
 
-- [Js Format Date](javascript/js-format-date.md)
-- [Js Split Lines](javascript/js-split-lines.md)
-
-### jpa
-
-- [Hibernate Handling Soft Deletes](jpa/hibernate-handling-soft-deletes.md)
-- [Hibernate Multiple Bag Fetch Exception](jpa/hibernate-multiple-bag-fetch-exception.md)
+- [오늘 날짜 시간 포맷하는 방법](javascript/js-format-date.md)
+- [자바스크립트에서 문자열을 라인별로 나누는 방법](javascript/js-split-lines.md)
 
 ### linux
 
-- [Alias](linux/linux-alias.md)
+- [Alias 별칭 사용하기](linux/linux-alias.md)
 - [Auto Start Synergy](linux/linux-auto-start-synergy.md)
-- [Bash Change Text Color](linux/linux-bash-change-text-color.md)
-- [Bash Files](linux/linux-bash-files.md)
-- [Commands](linux/linux-commands.md)
-- [Configure Mouse Speed](linux/linux-configure-mouse-speed.md)
-- [Create Desktop Icon](linux/linux-create-desktop-icon.md)
+- [Bash 출력 글자 색상 변경](linux/linux-bash-change-text-color.md)
+- [bash files](linux/linux-bash-files.md)
+- [리눅스 명령어](linux/linux-commands.md)
+- [Configure mouse speed](linux/linux-configure-mouse-speed.md)
+- [Create desktop icon](linux/linux-create-desktop-icon.md)
 - [Install Ubuntu](linux/linux-install-ubuntu.md)
-- [Port Check](linux/linux-port-check.md)
-- [Profile Bashrc](linux/linux-profile-bashrc.md)
-- [Shell Exit Status](linux/linux-shell-exit-status.md)
+- [어떤 포트를 쓰고 있는지 확인하는 방법](linux/linux-port-check.md)
+- [.profile .bashrc .bash_profile](linux/linux-profile-bashrc.md)
+- [Exit Status](linux/linux-shell-exit-status.md)
 - [Shell Script](linux/linux-shell-script.md)
-- [Symbolic Link](linux/linux-symbolic-link.md)
-- [Tar Gz](linux/linux-tar-gz.md)
-- [Ubuntu Dpkg](linux/linux-ubuntu-dpkg.md)
-
-### memo
-
-- [Oblivion Colors](memo/memo-oblivion-colors.md)
-- [Proxy Settings](memo/memo-proxy-settings.md)
-- [Software That I Use](memo/memo-software-that-I-use.md)
-- [Youtube Compatible Video Format](memo/memo-youtube-compatible-video-format.md)
+- [심볼릭 링크](linux/linux-symbolic-link.md)
+- [tar.gz](linux/linux-tar-gz.md)
+- [Ubuntu dpkg](linux/linux-ubuntu-dpkg.md)
 
 ### mybatis
 
-- [Spring Boot Autoconfigure](mybatis/mybatis-spring-boot-autoconfigure.md)
-- [Spring](mybatis/mybatis-spring.md)
-- [Mybatis](mybatis/mybatis.md)
+- [MyBatis-Spring-Boot-Autoconfigure](mybatis/mybatis-spring-boot-autoconfigure.md)
+- [MyBatis Spring](mybatis/mybatis-spring.md)
+- [MyBatis](mybatis/mybatis.md)
 
 ### mysql
 
-- [Function](mysql/mysql-function.md)
-- [Turn On General Log](mysql/mysql-turn-on-general-log.md)
-- [Variables](mysql/mysql-variables.md)
+- [MySQL DATEDIFF](mysql/mysql-function.md)
+- [Turn on general log](mysql/mysql-turn-on-general-log.md)
+- [MySQL 변수 사용하기](mysql/mysql-variables.md)
 
 ### node
 
-- [Env](node/node-env.md)
-- [Express](node/node-express.md)
-- [Hexo](node/node-hexo.md)
-- [Npm](node/node-npm.md)
-- [Server Port Error](node/node-server-port-error.md)
+- [Dotenv](node/node-env.md)
+- [Node Express](node/node-express.md)
+- [HEXO 로 만드는 정적 블로그](node/node-hexo.md)
+- [NPM](node/node-npm.md)
+- [EADDRINUSE :::8080 (이미 사용하고 있는 포트) 에러 해결법](node/node-server-port-error.md)
 - [Winston](node/node-winston.md)
 
 ### python
 
-- [Ssl Error](python/python-ssl-error.md)
+- [Python SSLError 해결](python/python-ssl-error.md)
 
 ### react
 
-- [Create React App](react/react-create-react-app.md)
-- [Getting Started](react/react-getting-started.md)
+- [Creact React App](react/react-create-react-app.md)
+- [React](react/react-getting-started.md)
 
 ### spring
 
 - [Logback Rolling Policy](spring/logback-rolling-policy.md)
-- [Apply Logback Xml To Eclipse Console](spring/spring-apply-logback-xml-to-eclipse-console.md)
-- [Argument Resolver](spring/spring-argument-resolver.md)
-- [Component Vs Bean](spring/spring-component-vs-bean.md)
-- [Enable Batch Processing](spring/spring-enable-batch-processing.md)
+- [이클립스 콘솔에 logback-spring.xml 설정 적용하기](spring/spring-apply-logback-xml-to-eclipse-console.md)
+- [HandlerMethodArgumentResolver](spring/spring-argument-resolver.md)
+- [@Component vs @Bean](spring/spring-component-vs-bean.md)
+- [@EnableBatchProcessing](spring/spring-enable-batch-processing.md)
 - [Externalized Configuration](spring/spring-externalized-configuration.md)
-- [Get Complete Url From Request](spring/spring-get-complete-url-from-request.md)
-- [Inject Mock Repository To Service](spring/spring-inject-mock-repository-to-service.md)
+- [HttpServletRequest to complete URL](spring/spring-get-complete-url-from-request.md)
+- [Inject mock repository to service](spring/spring-inject-mock-repository-to-service.md)
 - [Log Incoming Requests](spring/spring-log-incoming-requests.md)
-- [Mdc With Logback](spring/spring-mdc-with-logback.md)
-- [Print Jpa Queries](spring/spring-print-jpa-queries.md)
-- [Print Transaction Logs](spring/spring-print-transaction-logs.md)
-- [Proxy Settings](spring/spring-proxy-settings.md)
-- [Read Properties From Xml](spring/spring-read-properties-from-xml.md)
-- [Rest Docs](spring/spring-rest-docs.md)
-- [Rest Template](spring/spring-rest-template.md)
-- [Servlet Uri Components Builder](spring/spring-servlet-uri-components-builder.md)
-- [Swagger2](spring/spring-swagger2.md)
-- [Test Mock Mvc](spring/spring-test-mock-mvc.md)
-- [Value](spring/spring-value.md)
+- [MDC with Logback](spring/spring-mdc-with-logback.md)
+- [Print JPA Queries](spring/spring-print-jpa-queries.md)
+- [Print transaction logs](spring/spring-print-transaction-logs.md)
+- [프록시 환경에서 스프링 사용하기](spring/spring-proxy-settings.md)
+- [src/main/resources 폴더의 xml 파일 읽는법](spring/spring-read-properties-from-xml.md)
+- [Spring RestDocs](spring/spring-rest-docs.md)
+- [Spring 에서 Rest 요청 보내기](spring/spring-rest-template.md)
+- [ServletUriComponentsBuilder](spring/spring-servlet-uri-components-builder.md)
+- [Spring Swagger2](spring/spring-swagger2.md)
+- [MockMvc 사용법](spring/spring-test-mock-mvc.md)
+- [@Value](spring/spring-value.md)
 
 ### spring-batch
 
-- [Job Parameter Chunk Size](spring-batch/spring-batch-job-parameter-chunk-size.md)
-- [Meta Data](spring-batch/spring-batch-meta-data.md)
-- [Reader With Job Parameters](spring-batch/spring-batch-reader-with-job-parameters.md)
-- [Runidincrementer](spring-batch/spring-batch-runidincrementer.md)
-- [System Exit Code](spring-batch/spring-batch-system-exit-code.md)
+- [Batch chunk size](spring-batch/spring-batch-job-parameter-chunk-size.md)
+- [Spring Batch Meta-Data](spring-batch/spring-batch-meta-data.md)
+- [Spring Batch Reader With Job Parameters](spring-batch/spring-batch-reader-with-job-parameters.md)
+- [RunIdIncrementer 정의](spring-batch/spring-batch-runidincrementer.md)
+- [Spring Batch System Exit Code](spring-batch/spring-batch-system-exit-code.md)
 
 ### spring-boot
 
-- [Configuration Properties](spring-boot/spring-boot-configuration-properties.md)
-- [Devtools](spring-boot/spring-boot-devtools.md)
-- [H2 Database](spring-boot/spring-boot-H2-database.md)
-- [Logback](spring-boot/spring-boot-logback.md)
-- [Mysql Load Data Infile](spring-boot/spring-boot-mysql-load-data-infile.md)
-- [Test](spring-boot/spring-boot-test.md)
-- [Using Yaml Insteadof Properties](spring-boot/spring-boot-using-yaml-insteadof-properties.md)
+- [@ConfigurationProperties](spring-boot/spring-boot-configuration-properties.md)
+- [Spring Boot DevTools](spring-boot/spring-boot-devtools.md)
+- [스프링 부트에서 H2 데이터베이스 사용하기](spring-boot/spring-boot-H2-database.md)
+- [스프링 부트에서 로그백 사용하기](spring-boot/spring-boot-logback.md)
+- [Spring Boot and MySQL Load Data](spring-boot/spring-boot-mysql-load-data-infile.md)
+- [스프링 부트 테스트](spring-boot/spring-boot-test.md)
+- [Using YAML instead of Properties](spring-boot/spring-boot-using-yaml-insteadof-properties.md)
 
 ### typescript
 
-- [Ts Getting Started](typescript/ts-getting-started.md)
+- [Typescript](typescript/ts-getting-started.md)
 
 ### vim
 
 - [Clear Search Highlighting](vim/vim-clear-search-highlighting.md)
-- [Folding](vim/vim-folding.md)
-- [Search And Replace](vim/vim-search-and-replace.md)
-- [You Complete Me](vim/vim-you-complete-me.md)
+- [Vim Folding](vim/vim-folding.md)
+- [VIM 에서 텍스트를 찾거나, 교체하는 방법](vim/vim-search-and-replace.md)
+- [VIM - YouCompleteMe](vim/vim-you-complete-me.md)
 
 ### vscode
 
-- [Formatter](vscode/vscode-formatter.md)
-- [Javascript](vscode/vscode-javascript.md)
-- [Markdown](vscode/vscode-markdown.md)
-- [Nodejs](vscode/vscode-nodejs.md)
-- [Proxy Settings](vscode/vscode-proxy-settings.md)
-- [Vscode As Java Spring Ide](vscode/vscode-vscode-as-java-spring-ide.md)
+- [VSCode Formatter](vscode/vscode-formatter.md)
+- [VSCode for JavaScript](vscode/vscode-javascript.md)
+- [VSCode Markdown](vscode/vscode-markdown.md)
+- [VSCode 에서 node.js 개발환경 설정하기](vscode/vscode-nodejs.md)
+- [VSCode Proxy](vscode/vscode-proxy-settings.md)
+- [VSCode를 JAVA 스프링 IDE로 사용하기](vscode/vscode-vscode-as-java-spring-ide.md)
 
 ### windows
 
-- [Ahk Scripts](windows/windows-ahk-scripts.md)
-- [Bat Datetime](windows/windows-bat-datetime.md)
-- [Disable Numlock At Startup](windows/windows-disable-numlock-at-startup.md)
+- [Auto Hot Key](windows/windows-ahk-scripts.md)
+- [배치 파일에서 날짜, 시간 쓰는법](windows/windows-bat-datetime.md)
+- [윈도우 실행 시 NumLock 켜지는 동작 바꾸기](windows/windows-disable-numlock-at-startup.md)
 - [Remove Credentials](windows/windows-remove-credentials.md)
-- [Restart Aero Service](windows/windows-restart-aero-service.md)
-- [Subsystem Linux](windows/windows-subsystem-linux.md)
+- [Restart aero service](windows/windows-restart-aero-service.md)
+- [Windows 10에서 우분투 사용하기](windows/windows-subsystem-linux.md)
