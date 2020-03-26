@@ -5,7 +5,7 @@ from datetime import datetime
 root = os.getcwd()
 
 # Exclude
-excludes = (root, "drafts")
+excludes = (root, "drafts", "archive")
 
 def relative(root, path):
     return '/'.join(path.replace(root, '').split(os.path.sep)[1:])
@@ -32,7 +32,9 @@ def recent(tils, limit):
 
 def link(root, path):
     path = relative(root, path)
+    directory = path.split('/')[-2]
     filename = path.split('/')[-1]
+    filename = filename.replace(directory+"-", '', 1)
     title = ' '.join(n.capitalize() for n in os.path.splitext(filename)[0].split('-'))
     return f"[{title}]({path})"
 

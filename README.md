@@ -4,222 +4,287 @@
 
 ## Recently Modified
 
-- *2019-09-05* : [Spring Boot Mysql Load Data Infile](framework/spring-boot-mysql-load-data-infile.md)
-- *2019-09-04* : [Windows Subsystem Linux](os/windows-subsystem-linux.md)
-- *2019-08-06* : [Intellij Settings](editor/intellij-settings.md)
-- *2019-07-18* : [Spring Enable Batch Processing](framework/spring-enable-batch-processing.md)
-- *2019-07-09* : [Logback Rolling Policy](framework/logback-rolling-policy.md)
-- *2019-06-28* : [Spring Value](framework/spring-value.md)
-- *2019-06-27* : [Java Run Command](language/java-run-command.md)
-- *2019-06-21* : [Linux Shell Script](os/linux-shell-script.md)
-- *2019-06-21* : [Git Add And Commit](tool/git-add-and-commit.md)
-- *2019-06-21* : [Spring Batch System Exit Code](framework/spring-batch-system-exit-code.md)
-- *2019-06-11* : [Git Auto Crlf](tool/git-auto-crlf.md)
-- *2019-06-11* : [Tomcat Change Port](tool/tomcat-change-port.md)
-- *2019-06-11* : [P4 P4ignore](tool/p4-p4ignore.md)
-- *2019-06-11* : [P4 Change Workspace](tool/p4-change-workspace.md)
-- *2019-06-11* : [Gradle](tool/gradle.md)
-
-----
+- *2020-03-26* : [Username Email](git/git-username-email.md)
+- *2020-03-26* : [Submodule](git/git-submodule.md)
+- *2020-03-26* : [Remote Repository](git/git-remote-repository.md)
+- *2020-03-26* : [Log](git/git-log.md)
+- *2020-03-26* : [In Bash](git/git-in-bash.md)
+- *2020-03-26* : [Branch](git/git-branch.md)
+- *2020-03-26* : [Auto Crlf](git/git-auto-crlf.md)
+- *2020-03-26* : [Add And Commit](git/git-add-and-commit.md)
+- *2020-03-26* : [Youtube Compatible Video Format](memo/memo-youtube-compatible-video-format.md)
+- *2020-03-26* : [Software That I Use](memo/memo-software-that-I-use.md)
+- *2020-03-26* : [Proxy Settings](memo/memo-proxy-settings.md)
+- *2020-03-26* : [Oblivion Colors](memo/memo-oblivion-colors.md)
+- *2020-03-26* : [Variables](mysql/mysql-variables.md)
+- *2020-03-26* : [Turn On General Log](mysql/mysql-turn-on-general-log.md)
+- *2020-03-26* : [Function](mysql/mysql-function.md)
 
 ## Categories
 
-Total `163` TILs
+Total `164` TILs
 
 - [aws](#aws) *(3)*
-- [database](#database) *(9)*
-- [editor](#editor) *(29)*
-- [framework](#framework) *(44)*
-- [language](#language) *(32)*
+- [dynamodb](#dynamodb) *(4)*
+- [eclipse](#eclipse) *(11)*
+- [elasticsearch](#elasticsearch) *(2)*
+- [etc](#etc) *(5)*
+- [git](#git) *(8)*
+- [gradle](#gradle) *(9)*
+- [intellij](#intellij) *(7)*
+- [java](#java) *(28)*
+- [javascript](#javascript) *(2)*
+- [jpa](#jpa) *(2)*
+- [linux](#linux) *(15)*
 - [memo](#memo) *(4)*
-- [os](#os) *(22)*
-- [tool](#tool) *(20)*
-
-----
+- [mybatis](#mybatis) *(3)*
+- [mysql](#mysql) *(3)*
+- [node](#node) *(6)*
+- [python](#python) *(1)*
+- [react](#react) *(2)*
+- [spring](#spring) *(20)*
+- [spring-batch](#spring-batch) *(5)*
+- [spring-boot](#spring-boot) *(7)*
+- [typescript](#typescript) *(1)*
+- [vim](#vim) *(4)*
+- [vscode](#vscode) *(6)*
+- [windows](#windows) *(6)*
 
 ### aws
 
-- [Aws Cli](aws/aws-cli.md)
-- [Aws Configure Profile](aws/aws-configure-profile.md)
+- [Cli](aws/aws-cli.md)
+- [Configure Profile](aws/aws-configure-profile.md)
 - [Dynamodb Reserved Words](aws/dynamodb-reserved-words.md)
 
-### database
+### dynamodb
 
-- [Dynamodb Batch Write With Behavior](database/dynamodb-batch-write-with-behavior.md)
-- [Dynamodb Read Consistency](database/dynamodb-read-consistency.md)
-- [Dynamodb Throughput Settings](database/dynamodb-throughput-settings.md)
-- [Elastic Field](database/elastic-field.md)
-- [Elastic Search Example](database/elastic-search-example.md)
-- [Kibana](database/kibana.md)
-- [Mysql Function](database/mysql-function.md)
-- [Mysql Turn On General Log](database/mysql-turn-on-general-log.md)
-- [Mysql Variables](database/mysql-variables.md)
+- [Batch Write With Behavior](dynamodb/dynamodb-batch-write-with-behavior.md)
+- [Read Consistency](dynamodb/dynamodb-read-consistency.md)
+- [Reserved Words](dynamodb/dynamodb-reserved-words.md)
+- [Throughput Settings](dynamodb/dynamodb-throughput-settings.md)
 
-### editor
+### eclipse
 
-- [Atom Perforce Package](editor/atom-perforce-package.md)
-- [Atom Proxy Settings](editor/atom-proxy-settings.md)
-- [Eclipse Block Selection Mode](editor/eclipse-block-selection-mode.md)
-- [Eclipse Change Content Assist Insertion Behavior](editor/eclipse-change-content-assist-insertion-behavior.md)
-- [Eclipse Change Delimiters](editor/eclipse-change-delimiters.md)
-- [Eclipse Custom Java Formatter](editor/eclipse-custom-java-formatter.md)
-- [Eclipse Import Static Methods](editor/eclipse-import-static-methods.md)
-- [Eclipse Loading Gradle Project Preview Failed](editor/eclipse-loading-gradle-project-preview-failed.md)
-- [Eclipse Organize Imports Shortcut Is Not Working](editor/eclipse-organize-imports-shortcut-is-not-working.md)
-- [Eclipse Plugin Shelled](editor/eclipse-plugin-shelled.md)
-- [Eclipse Plugins For Gradle](editor/eclipse-plugins-for-gradle.md)
-- [Eclipse Settings](editor/eclipse-settings.md)
-- [Eclipse Useful Java Code Templates](editor/eclipse-useful-java-code-templates.md)
-- [Intellij Enable Spring Boot Run Dashboard](editor/intellij-enable-spring-boot-run-dashboard.md)
-- [Intellij Entity From Database](editor/intellij-entity-from-database.md)
-- [Intellij Hotswap](editor/intellij-hotswap.md)
-- [Intellij Run Tomcat](editor/intellij-run-tomcat.md)
-- [Intellij Settings](editor/intellij-settings.md)
-- [Intellij Shortcuts](editor/intellij-shortcuts.md)
-- [Intellij Unable To Find Main Class](editor/intellij-unable-to-find-main-class.md)
-- [Vim Clear Search Highlighting](editor/vim-clear-search-highlighting.md)
-- [Vim Folding](editor/vim-folding.md)
-- [Vim Search And Replace](editor/vim-search-and-replace.md)
-- [Vim You Complete Me](editor/vim-you-complete-me.md)
-- [Vscode Formatter](editor/vscode-formatter.md)
-- [Vscode Markdown](editor/vscode-markdown.md)
-- [Vscode Nodejs](editor/vscode-nodejs.md)
-- [Vscode Proxy Settings](editor/vscode-proxy-settings.md)
-- [Vscode Vscode As Java Spring Ide](editor/vscode-vscode-as-java-spring-ide.md)
+- [Block Selection Mode](eclipse/eclipse-block-selection-mode.md)
+- [Change Content Assist Insertion Behavior](eclipse/eclipse-change-content-assist-insertion-behavior.md)
+- [Change Delimiters](eclipse/eclipse-change-delimiters.md)
+- [Custom Java Formatter](eclipse/eclipse-custom-java-formatter.md)
+- [Import Static Methods](eclipse/eclipse-import-static-methods.md)
+- [Loading Gradle Project Preview Failed](eclipse/eclipse-loading-gradle-project-preview-failed.md)
+- [Organize Imports Shortcut Is Not Working](eclipse/eclipse-organize-imports-shortcut-is-not-working.md)
+- [Plugin Shelled](eclipse/eclipse-plugin-shelled.md)
+- [Plugins For Gradle](eclipse/eclipse-plugins-for-gradle.md)
+- [Settings](eclipse/eclipse-settings.md)
+- [Useful Java Code Templates](eclipse/eclipse-useful-java-code-templates.md)
 
-### framework
+### elasticsearch
 
-- [Hibernate Handling Soft Deletes](framework/hibernate-handling-soft-deletes.md)
-- [Hibernate Multiple Bag Fetch Exception](framework/hibernate-multiple-bag-fetch-exception.md)
-- [Logback Rolling Policy](framework/logback-rolling-policy.md)
-- [Mybatis Spring Boot Autoconfigure](framework/mybatis-spring-boot-autoconfigure.md)
-- [Mybatis Spring](framework/mybatis-spring.md)
-- [Mybatis](framework/mybatis.md)
-- [Node Env](framework/node-env.md)
-- [Node Express](framework/node-express.md)
-- [Node Hexo](framework/node-hexo.md)
-- [Node Npm](framework/node-npm.md)
-- [Node Server Port Error](framework/node-server-port-error.md)
-- [Node Winston](framework/node-winston.md)
-- [Spring Apply Logback Xml To Eclipse Console](framework/spring-apply-logback-xml-to-eclipse-console.md)
-- [Spring Argument Resolver](framework/spring-argument-resolver.md)
-- [Spring Batch Job Parameter Chunk Size](framework/spring-batch-job-parameter-chunk-size.md)
-- [Spring Batch Meta Data](framework/spring-batch-meta-data.md)
-- [Spring Batch Reader With Job Parameters](framework/spring-batch-reader-with-job-parameters.md)
-- [Spring Batch Runidincrementer](framework/spring-batch-runidincrementer.md)
-- [Spring Batch System Exit Code](framework/spring-batch-system-exit-code.md)
-- [Spring Boot Configuration Properties](framework/spring-boot-configuration-properties.md)
-- [Spring Boot Devtools](framework/spring-boot-devtools.md)
-- [Spring Boot H2 Database](framework/spring-boot-H2-database.md)
-- [Spring Boot Logback](framework/spring-boot-logback.md)
-- [Spring Boot Mysql Load Data Infile](framework/spring-boot-mysql-load-data-infile.md)
-- [Spring Boot Test](framework/spring-boot-test.md)
-- [Spring Boot Using Yaml Insteadof Properties](framework/spring-boot-using-yaml-insteadof-properties.md)
-- [Spring Component Vs Bean](framework/spring-component-vs-bean.md)
-- [Spring Enable Batch Processing](framework/spring-enable-batch-processing.md)
-- [Spring Externalized Configuration](framework/spring-externalized-configuration.md)
-- [Spring Get Complete Url From Request](framework/spring-get-complete-url-from-request.md)
-- [Spring Inject Mock Repository To Service](framework/spring-inject-mock-repository-to-service.md)
-- [Spring Log Incoming Requests](framework/spring-log-incoming-requests.md)
-- [Spring Mdc With Logback](framework/spring-mdc-with-logback.md)
-- [Spring Print Jpa Queries](framework/spring-print-jpa-queries.md)
-- [Spring Print Transaction Logs](framework/spring-print-transaction-logs.md)
-- [Spring Proxy Settings](framework/spring-proxy-settings.md)
-- [Spring Read Properties From Xml](framework/spring-read-properties-from-xml.md)
-- [Spring Rest Docs](framework/spring-rest-docs.md)
-- [Spring Rest Template](framework/spring-rest-template.md)
-- [Spring Servlet Uri Components Builder](framework/spring-servlet-uri-components-builder.md)
-- [Spring Swagger2](framework/spring-swagger2.md)
-- [Spring Test Mock Mvc](framework/spring-test-mock-mvc.md)
-- [Spring Value](framework/spring-value.md)
-- [Tensorflow Install On Windows](framework/tensorflow-install-on-windows.md)
+- [Elastic Field](elasticsearch/elastic-field.md)
+- [Elastic Search Example](elasticsearch/elastic-search-example.md)
 
-### language
+### etc
 
-- [Java Apache Http](language/java-apache-http.md)
-- [Java Build Tools](language/java-build-tools.md)
-- [Java Change Fork Join Pool Size](language/java-change-fork-join-pool-size.md)
-- [Java Classpath](language/java-classpath.md)
-- [Java Convert Object To Json](language/java-convert-object-to-json.md)
-- [Java Create Temp File](language/java-create-temp-file.md)
-- [Java Custom Thread Pool](language/java-custom-thread-pool.md)
-- [Java Enum](language/java-enum.md)
-- [Java File Encoding](language/java-file-encoding.md)
-- [Java Fileutils](language/java-fileutils.md)
-- [Java Generics](language/java-generics.md)
-- [Java Heap Pollution](language/java-heap-pollution.md)
-- [Java Inputstream To Bytearray](language/java-inputstream-to-bytearray.md)
-- [Java Inputstream To String](language/java-inputstream-to-string.md)
-- [Java Jackson Snake Case](language/java-jackson-snake-case.md)
-- [Java Jackson Timezone](language/java-jackson-timezone.md)
-- [Java Jackson Unrecognized Property Exception](language/java-jackson-unrecognized-property-exception.md)
-- [Java Junit](language/java-junit.md)
-- [Java Lombok](language/java-lombok.md)
-- [Java Print Json](language/java-print-json.md)
-- [Java Properties](language/java-properties.md)
-- [Java Read File From Resource](language/java-read-file-from-resource.md)
-- [Java Run Command](language/java-run-command.md)
-- [Java Split List](language/java-split-list.md)
-- [Java String To Timestamp](language/java-string-to-timestamp.md)
-- [Java Try With Resources](language/java-try-with-resources.md)
-- [Java Validate Object](language/java-validate-object.md)
-- [Java Web Inf](language/java-web-inf.md)
-- [Js Format Date](language/js-format-date.md)
-- [Js Split Lines](language/js-split-lines.md)
-- [Python Ssl Error](language/python-ssl-error.md)
-- [Ts Getting Started](language/ts-getting-started.md)
+- [Memo Oblivion Colors](etc/memo-oblivion-colors.md)
+- [Memo Proxy Settings](etc/memo-proxy-settings.md)
+- [Memo Software That I Use](etc/memo-software-that-I-use.md)
+- [Memo Youtube Compatible Video Format](etc/memo-youtube-compatible-video-format.md)
+- [Synology Connect Via Https](etc/synology-connect-via-https.md)
+
+### git
+
+- [Add And Commit](git/git-add-and-commit.md)
+- [Auto Crlf](git/git-auto-crlf.md)
+- [Branch](git/git-branch.md)
+- [In Bash](git/git-in-bash.md)
+- [Log](git/git-log.md)
+- [Remote Repository](git/git-remote-repository.md)
+- [Submodule](git/git-submodule.md)
+- [Username Email](git/git-username-email.md)
+
+### gradle
+
+- [Archive Name](gradle/gradle-archive-name.md)
+- [Build Version With Date](gradle/gradle-build-version-with-date.md)
+- [Build Without Tests](gradle/gradle-build-without-tests.md)
+- [Create Executable Jar](gradle/gradle-create-executable-jar.md)
+- [Dependency Report](gradle/gradle-dependency-report.md)
+- [Init](gradle/gradle-init.md)
+- [Update Wrapper Version](gradle/gradle-update-wrapper-version.md)
+- [Use Local Jar File](gradle/gradle-use-local-jar-file.md)
+- [Gradle](gradle/gradle.md)
+
+### intellij
+
+- [Enable Spring Boot Run Dashboard](intellij/intellij-enable-spring-boot-run-dashboard.md)
+- [Entity From Database](intellij/intellij-entity-from-database.md)
+- [Hotswap](intellij/intellij-hotswap.md)
+- [Run Tomcat](intellij/intellij-run-tomcat.md)
+- [Settings](intellij/intellij-settings.md)
+- [Shortcuts](intellij/intellij-shortcuts.md)
+- [Unable To Find Main Class](intellij/intellij-unable-to-find-main-class.md)
+
+### java
+
+- [Apache Http](java/java-apache-http.md)
+- [Build Tools](java/java-build-tools.md)
+- [Change Fork Join Pool Size](java/java-change-fork-join-pool-size.md)
+- [Classpath](java/java-classpath.md)
+- [Convert Object To Json](java/java-convert-object-to-json.md)
+- [Create Temp File](java/java-create-temp-file.md)
+- [Custom Thread Pool](java/java-custom-thread-pool.md)
+- [Enum](java/java-enum.md)
+- [File Encoding](java/java-file-encoding.md)
+- [Fileutils](java/java-fileutils.md)
+- [Generics](java/java-generics.md)
+- [Heap Pollution](java/java-heap-pollution.md)
+- [Inputstream To Bytearray](java/java-inputstream-to-bytearray.md)
+- [Inputstream To String](java/java-inputstream-to-string.md)
+- [Jackson Snake Case](java/java-jackson-snake-case.md)
+- [Jackson Timezone](java/java-jackson-timezone.md)
+- [Jackson Unrecognized Property Exception](java/java-jackson-unrecognized-property-exception.md)
+- [Junit](java/java-junit.md)
+- [Lombok](java/java-lombok.md)
+- [Print Json](java/java-print-json.md)
+- [Properties](java/java-properties.md)
+- [Read File From Resource](java/java-read-file-from-resource.md)
+- [Run Command](java/java-run-command.md)
+- [Split List](java/java-split-list.md)
+- [String To Timestamp](java/java-string-to-timestamp.md)
+- [Try With Resources](java/java-try-with-resources.md)
+- [Validate Object](java/java-validate-object.md)
+- [Web Inf](java/java-web-inf.md)
+
+### javascript
+
+- [Js Format Date](javascript/js-format-date.md)
+- [Js Split Lines](javascript/js-split-lines.md)
+
+### jpa
+
+- [Hibernate Handling Soft Deletes](jpa/hibernate-handling-soft-deletes.md)
+- [Hibernate Multiple Bag Fetch Exception](jpa/hibernate-multiple-bag-fetch-exception.md)
+
+### linux
+
+- [Alias](linux/linux-alias.md)
+- [Auto Start Synergy](linux/linux-auto-start-synergy.md)
+- [Bash Change Text Color](linux/linux-bash-change-text-color.md)
+- [Bash Files](linux/linux-bash-files.md)
+- [Commands](linux/linux-commands.md)
+- [Configure Mouse Speed](linux/linux-configure-mouse-speed.md)
+- [Create Desktop Icon](linux/linux-create-desktop-icon.md)
+- [Install Ubuntu](linux/linux-install-ubuntu.md)
+- [Port Check](linux/linux-port-check.md)
+- [Profile Bashrc](linux/linux-profile-bashrc.md)
+- [Shell Exit Status](linux/linux-shell-exit-status.md)
+- [Shell Script](linux/linux-shell-script.md)
+- [Symbolic Link](linux/linux-symbolic-link.md)
+- [Tar Gz](linux/linux-tar-gz.md)
+- [Ubuntu Dpkg](linux/linux-ubuntu-dpkg.md)
 
 ### memo
 
-- [Memo Oblivion Colors](memo/memo-oblivion-colors.md)
-- [Memo Proxy Settings](memo/memo-proxy-settings.md)
-- [Memo Software That I Use](memo/memo-software-that-I-use.md)
-- [Memo Youtube Compatible Video Format](memo/memo-youtube-compatible-video-format.md)
+- [Oblivion Colors](memo/memo-oblivion-colors.md)
+- [Proxy Settings](memo/memo-proxy-settings.md)
+- [Software That I Use](memo/memo-software-that-I-use.md)
+- [Youtube Compatible Video Format](memo/memo-youtube-compatible-video-format.md)
 
-### os
+### mybatis
 
-- [Linux Alias](os/linux-alias.md)
-- [Linux Auto Start Synergy](os/linux-auto-start-synergy.md)
-- [Linux Bash Change Text Color](os/linux-bash-change-text-color.md)
-- [Linux Bash Files](os/linux-bash-files.md)
-- [Linux Commands](os/linux-commands.md)
-- [Linux Configure Mouse Speed](os/linux-configure-mouse-speed.md)
-- [Linux Create Desktop Icon](os/linux-create-desktop-icon.md)
-- [Linux Install Ubuntu](os/linux-install-ubuntu.md)
-- [Linux Port Check](os/linux-port-check.md)
-- [Linux Profile Bashrc](os/linux-profile-bashrc.md)
-- [Linux Shell Exit Status](os/linux-shell-exit-status.md)
-- [Linux Shell Script](os/linux-shell-script.md)
-- [Linux Symbolic Link](os/linux-symbolic-link.md)
-- [Linux Tar Gz](os/linux-tar-gz.md)
-- [Linux Ubuntu Dpkg](os/linux-ubuntu-dpkg.md)
-- [Synology Connect Via Https](os/synology-connect-via-https.md)
-- [Windows Ahk Scripts](os/windows-ahk-scripts.md)
-- [Windows Bat Datetime](os/windows-bat-datetime.md)
-- [Windows Disable Numlock At Startup](os/windows-disable-numlock-at-startup.md)
-- [Windows Remove Credentials](os/windows-remove-credentials.md)
-- [Windows Restart Aero Service](os/windows-restart-aero-service.md)
-- [Windows Subsystem Linux](os/windows-subsystem-linux.md)
+- [Spring Boot Autoconfigure](mybatis/mybatis-spring-boot-autoconfigure.md)
+- [Spring](mybatis/mybatis-spring.md)
+- [Mybatis](mybatis/mybatis.md)
 
-### tool
+### mysql
 
-- [Git Add And Commit](tool/git-add-and-commit.md)
-- [Git Auto Crlf](tool/git-auto-crlf.md)
-- [Git Branch](tool/git-branch.md)
-- [Git In Bash](tool/git-in-bash.md)
-- [Git Log](tool/git-log.md)
-- [Git Remote Repository](tool/git-remote-repository.md)
-- [Git Submodule](tool/git-submodule.md)
-- [Git Username Email](tool/git-username-email.md)
-- [Gradle Archive Name](tool/gradle-archive-name.md)
-- [Gradle Build Version With Date](tool/gradle-build-version-with-date.md)
-- [Gradle Build Without Tests](tool/gradle-build-without-tests.md)
-- [Gradle Create Executable Jar](tool/gradle-create-executable-jar.md)
-- [Gradle Dependency Report](tool/gradle-dependency-report.md)
-- [Gradle Init](tool/gradle-init.md)
-- [Gradle Update Wrapper Version](tool/gradle-update-wrapper-version.md)
-- [Gradle Use Local Jar File](tool/gradle-use-local-jar-file.md)
-- [Gradle](tool/gradle.md)
-- [P4 Change Workspace](tool/p4-change-workspace.md)
-- [P4 P4ignore](tool/p4-p4ignore.md)
-- [Tomcat Change Port](tool/tomcat-change-port.md)
+- [Function](mysql/mysql-function.md)
+- [Turn On General Log](mysql/mysql-turn-on-general-log.md)
+- [Variables](mysql/mysql-variables.md)
+
+### node
+
+- [Env](node/node-env.md)
+- [Express](node/node-express.md)
+- [Hexo](node/node-hexo.md)
+- [Npm](node/node-npm.md)
+- [Server Port Error](node/node-server-port-error.md)
+- [Winston](node/node-winston.md)
+
+### python
+
+- [Ssl Error](python/python-ssl-error.md)
+
+### react
+
+- [Create React App](react/react-create-react-app.md)
+- [Getting Started](react/react-getting-started.md)
+
+### spring
+
+- [Logback Rolling Policy](spring/logback-rolling-policy.md)
+- [Apply Logback Xml To Eclipse Console](spring/spring-apply-logback-xml-to-eclipse-console.md)
+- [Argument Resolver](spring/spring-argument-resolver.md)
+- [Component Vs Bean](spring/spring-component-vs-bean.md)
+- [Enable Batch Processing](spring/spring-enable-batch-processing.md)
+- [Externalized Configuration](spring/spring-externalized-configuration.md)
+- [Get Complete Url From Request](spring/spring-get-complete-url-from-request.md)
+- [Inject Mock Repository To Service](spring/spring-inject-mock-repository-to-service.md)
+- [Log Incoming Requests](spring/spring-log-incoming-requests.md)
+- [Mdc With Logback](spring/spring-mdc-with-logback.md)
+- [Print Jpa Queries](spring/spring-print-jpa-queries.md)
+- [Print Transaction Logs](spring/spring-print-transaction-logs.md)
+- [Proxy Settings](spring/spring-proxy-settings.md)
+- [Read Properties From Xml](spring/spring-read-properties-from-xml.md)
+- [Rest Docs](spring/spring-rest-docs.md)
+- [Rest Template](spring/spring-rest-template.md)
+- [Servlet Uri Components Builder](spring/spring-servlet-uri-components-builder.md)
+- [Swagger2](spring/spring-swagger2.md)
+- [Test Mock Mvc](spring/spring-test-mock-mvc.md)
+- [Value](spring/spring-value.md)
+
+### spring-batch
+
+- [Job Parameter Chunk Size](spring-batch/spring-batch-job-parameter-chunk-size.md)
+- [Meta Data](spring-batch/spring-batch-meta-data.md)
+- [Reader With Job Parameters](spring-batch/spring-batch-reader-with-job-parameters.md)
+- [Runidincrementer](spring-batch/spring-batch-runidincrementer.md)
+- [System Exit Code](spring-batch/spring-batch-system-exit-code.md)
+
+### spring-boot
+
+- [Configuration Properties](spring-boot/spring-boot-configuration-properties.md)
+- [Devtools](spring-boot/spring-boot-devtools.md)
+- [H2 Database](spring-boot/spring-boot-H2-database.md)
+- [Logback](spring-boot/spring-boot-logback.md)
+- [Mysql Load Data Infile](spring-boot/spring-boot-mysql-load-data-infile.md)
+- [Test](spring-boot/spring-boot-test.md)
+- [Using Yaml Insteadof Properties](spring-boot/spring-boot-using-yaml-insteadof-properties.md)
+
+### typescript
+
+- [Ts Getting Started](typescript/ts-getting-started.md)
+
+### vim
+
+- [Clear Search Highlighting](vim/vim-clear-search-highlighting.md)
+- [Folding](vim/vim-folding.md)
+- [Search And Replace](vim/vim-search-and-replace.md)
+- [You Complete Me](vim/vim-you-complete-me.md)
+
+### vscode
+
+- [Formatter](vscode/vscode-formatter.md)
+- [Javascript](vscode/vscode-javascript.md)
+- [Markdown](vscode/vscode-markdown.md)
+- [Nodejs](vscode/vscode-nodejs.md)
+- [Proxy Settings](vscode/vscode-proxy-settings.md)
+- [Vscode As Java Spring Ide](vscode/vscode-vscode-as-java-spring-ide.md)
+
+### windows
+
+- [Ahk Scripts](windows/windows-ahk-scripts.md)
+- [Bat Datetime](windows/windows-bat-datetime.md)
+- [Disable Numlock At Startup](windows/windows-disable-numlock-at-startup.md)
+- [Remove Credentials](windows/windows-remove-credentials.md)
+- [Restart Aero Service](windows/windows-restart-aero-service.md)
+- [Subsystem Linux](windows/windows-subsystem-linux.md)
