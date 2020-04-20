@@ -4,6 +4,9 @@
 
 ## Recently Modified
 
+- *2020-04-20* : [테스트에서 프로퍼티 사용하는법](spring-boot/spring-boot-test-properties.md)
+- *2020-04-20* : [Using YAML instead of Properties](spring-boot/spring-boot-using-yaml-insteadof-properties.md)
+- *2020-04-20* : [스프링 부트에서 H2 데이터베이스 사용하기](spring-boot/spring-boot-H2-database.md)
 - *2020-04-20* : [Swagger 문서에서 특정 파라미터 제외하기](spring/spring-swagger-ignore-parameter.md)
 - *2020-04-20* : [Git Credential 사용](git/git-credential.md)
 - *2020-04-20* : [DAO, DTO, VO](spring/spring-dao-dto-vo.md)
@@ -16,13 +19,10 @@
 - *2020-03-26* : [Git remote repository](git/git-remote-repository.md)
 - *2020-03-26* : [Git 로그 출력](git/git-log.md)
 - *2020-03-26* : [Git in bash](git/git-in-bash.md)
-- *2020-03-26* : [Git branch](git/git-branch.md)
-- *2020-03-26* : [AutoCRLF](git/git-auto-crlf.md)
-- *2020-03-26* : [Git add and commit in one command](git/git-add-and-commit.md)
 
 ## Categories
 
-Total `165` TILs
+Total `166` TILs
 
 - [aws](#aws) *(3)*
 - [dynamodb](#dynamodb) *(4)*
@@ -43,7 +43,7 @@ Total `165` TILs
 - [react](#react) *(2)*
 - [spring](#spring) *(22)*
 - [spring-batch](#spring-batch) *(5)*
-- [spring-boot](#spring-boot) *(8)*
+- [spring-boot](#spring-boot) *(9)*
 - [typescript](#typescript) *(1)*
 - [vim](#vim) *(4)*
 - [vscode](#vscode) *(6)*
@@ -253,6 +253,7 @@ Total `165` TILs
 - [스프링 부트에서 H2 데이터베이스 사용하기](spring-boot/spring-boot-H2-database.md)
 - [스프링 부트에서 로그백 사용하기](spring-boot/spring-boot-logback.md)
 - [Spring Boot and MySQL Load Data](spring-boot/spring-boot-mysql-load-data-infile.md)
+- [테스트에서 프로퍼티 사용하는법](spring-boot/spring-boot-test-properties.md)
 - [스프링 부트 테스트](spring-boot/spring-boot-test.md)
 - [Using YAML instead of Properties](spring-boot/spring-boot-using-yaml-insteadof-properties.md)
 - [Spring Boot War](spring-boot/spring-boot-war.md)

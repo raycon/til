@@ -6,12 +6,12 @@
 
 ```yml
 environments:
-    dev:
-        url: http://dev.bar.com
-        name: Developer Setup
-    prod:
-        url: http://foo.bar.com
-        name: My Cool App
+  dev:
+    url: http://dev.bar.com
+    name: Developer Setup
+  prod:
+    url: http://foo.bar.com
+    name: My Cool App
 ```
 
 위 YAML은 아래와 같다.
@@ -27,17 +27,17 @@ environments.prod.name=My Cool App
 
 ```yml
 server:
-    address: 192.168.1.100
+  address: 192.168.1.100
 ---
 spring:
-    profiles: development
+  profiles: development
 server:
-    address: 127.0.0.1
+  address: 127.0.0.1
 ---
 spring:
-    profiles: production
+  profiles: production
 server:
-    address: 192.168.1.120
+  address: 192.168.1.120
 ```
 
 위와 같이 설정할 경우 `profile`에 따라 값을 변경할 수 있다.
@@ -56,7 +56,11 @@ spring:
   profiles: dev
 foo:
   list:
-     - name: my another name
+    - name: my another name
 ```
 
 위와 같이 설정할 경우 `dev` 프로파일이 활성화 되면 foo의 list 는 `my another name`만을 자식으로 갖는다. 리스트는 병합되지 않고 교체된다.
+
+## YAML 단점
+
+YAML 파일은 `@PropertySource` 를 사용해서 로드할 수 없다. 이 어노테이션을 사용하려면 `properties` 파일을 사용해야 한다.
