@@ -4,7 +4,13 @@
 
 ## Recently Modified
 
-- *2020-03-26* : [Auto Hot Key](windows/windows-ahk-scripts.md)
+- *2020-04-20* : [Swagger 문서에서 특정 파라미터 제외하기](spring/spring-swagger-ignore-parameter.md)
+- *2020-04-20* : [Git Credential 사용](git/git-credential.md)
+- *2020-04-20* : [DAO, DTO, VO](spring/spring-dao-dto-vo.md)
+- *2020-04-20* : [Spring Boot War](spring-boot/spring-boot-war.md)
+- *2020-04-20* : [Spring Batch RunIdIncrementer](spring-batch/spring-batch-runidincrementer.md)
+- *2020-04-08* : [Auto Hot Key](windows/windows-ahk-scripts.md)
+- *2020-04-02* : [HttpServletRequest 에서 IP 조회](java/java-ip-from-request.md)
 - *2020-03-26* : [Git username and email](git/git-username-email.md)
 - *2020-03-26* : [Git Submodule](git/git-submodule.md)
 - *2020-03-26* : [Git remote repository](git/git-remote-repository.md)
@@ -13,27 +19,21 @@
 - *2020-03-26* : [Git branch](git/git-branch.md)
 - *2020-03-26* : [AutoCRLF](git/git-auto-crlf.md)
 - *2020-03-26* : [Git add and commit in one command](git/git-add-and-commit.md)
-- *2020-03-26* : [MySQL 변수 사용하기](mysql/mysql-variables.md)
-- *2020-03-26* : [Turn on general log](mysql/mysql-turn-on-general-log.md)
-- *2020-03-26* : [MySQL DATEDIFF](mysql/mysql-function.md)
-- *2020-03-26* : [Elasticsearch Example](elasticsearch/elastic-search-example.md)
-- *2020-03-26* : [Elasticsearch Field](elasticsearch/elastic-field.md)
-- *2020-03-26* : [DynamoDB Throughput Settings](dynamodb/dynamodb-throughput-settings.md)
 
 ## Categories
 
-Total `160` TILs
+Total `165` TILs
 
 - [aws](#aws) *(3)*
 - [dynamodb](#dynamodb) *(4)*
 - [eclipse](#eclipse) *(11)*
 - [elasticsearch](#elasticsearch) *(2)*
 - [etc](#etc) *(5)*
-- [git](#git) *(8)*
+- [git](#git) *(9)*
 - [gradle](#gradle) *(9)*
 - [hibernate](#hibernate) *(2)*
 - [intellij](#intellij) *(7)*
-- [java](#java) *(28)*
+- [java](#java) *(29)*
 - [javascript](#javascript) *(2)*
 - [linux](#linux) *(15)*
 - [mybatis](#mybatis) *(3)*
@@ -41,9 +41,9 @@ Total `160` TILs
 - [node](#node) *(6)*
 - [python](#python) *(1)*
 - [react](#react) *(2)*
-- [spring](#spring) *(20)*
+- [spring](#spring) *(22)*
 - [spring-batch](#spring-batch) *(5)*
-- [spring-boot](#spring-boot) *(7)*
+- [spring-boot](#spring-boot) *(8)*
 - [typescript](#typescript) *(1)*
 - [vim](#vim) *(4)*
 - [vscode](#vscode) *(6)*
@@ -94,6 +94,7 @@ Total `160` TILs
 - [Git add and commit in one command](git/git-add-and-commit.md)
 - [AutoCRLF](git/git-auto-crlf.md)
 - [Git branch](git/git-branch.md)
+- [Git Credential 사용](git/git-credential.md)
 - [Git in bash](git/git-in-bash.md)
 - [Git 로그 출력](git/git-log.md)
 - [Git remote repository](git/git-remote-repository.md)
@@ -143,6 +144,7 @@ Total `160` TILs
 - [Heap Pollution](java/java-heap-pollution.md)
 - [`InputStream` into a `ByteArray`](java/java-inputstream-to-bytearray.md)
 - [InputStream to String](java/java-inputstream-to-string.md)
+- [HttpServletRequest 에서 IP 조회](java/java-ip-from-request.md)
 - [Jackson Snake Case](java/java-jackson-snake-case.md)
 - [Jackson timezone](java/java-jackson-timezone.md)
 - [Jackson UnrecognizedPropertyException](java/java-jackson-unrecognized-property-exception.md)
@@ -217,6 +219,7 @@ Total `160` TILs
 - [이클립스 콘솔에 logback-spring.xml 설정 적용하기](spring/spring-apply-logback-xml-to-eclipse-console.md)
 - [HandlerMethodArgumentResolver](spring/spring-argument-resolver.md)
 - [@Component vs @Bean](spring/spring-component-vs-bean.md)
+- [DAO, DTO, VO](spring/spring-dao-dto-vo.md)
 - [@EnableBatchProcessing](spring/spring-enable-batch-processing.md)
 - [Externalized Configuration](spring/spring-externalized-configuration.md)
 - [HttpServletRequest to complete URL](spring/spring-get-complete-url-from-request.md)
@@ -230,6 +233,7 @@ Total `160` TILs
 - [Spring RestDocs](spring/spring-rest-docs.md)
 - [Spring 에서 Rest 요청 보내기](spring/spring-rest-template.md)
 - [ServletUriComponentsBuilder](spring/spring-servlet-uri-components-builder.md)
+- [Swagger 문서에서 특정 파라미터 제외하기](spring/spring-swagger-ignore-parameter.md)
 - [Spring Swagger2](spring/spring-swagger2.md)
 - [MockMvc 사용법](spring/spring-test-mock-mvc.md)
 - [@Value](spring/spring-value.md)
@@ -239,7 +243,7 @@ Total `160` TILs
 - [Batch chunk size](spring-batch/spring-batch-job-parameter-chunk-size.md)
 - [Spring Batch Meta-Data](spring-batch/spring-batch-meta-data.md)
 - [Spring Batch Reader With Job Parameters](spring-batch/spring-batch-reader-with-job-parameters.md)
-- [RunIdIncrementer 정의](spring-batch/spring-batch-runidincrementer.md)
+- [Spring Batch RunIdIncrementer](spring-batch/spring-batch-runidincrementer.md)
 - [Spring Batch System Exit Code](spring-batch/spring-batch-system-exit-code.md)
 
 ### spring-boot
@@ -251,6 +255,7 @@ Total `160` TILs
 - [Spring Boot and MySQL Load Data](spring-boot/spring-boot-mysql-load-data-infile.md)
 - [스프링 부트 테스트](spring-boot/spring-boot-test.md)
 - [Using YAML instead of Properties](spring-boot/spring-boot-using-yaml-insteadof-properties.md)
+- [Spring Boot War](spring-boot/spring-boot-war.md)
 
 ### typescript
 
