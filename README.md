@@ -4,6 +4,7 @@
 
 ## Recently Modified
 
+- *2020-04-21* : [IntelliJ Database Tool로 H2 접속하기](intellij/intellij-database-tool-with-h2.md)
 - *2020-04-20* : [테스트에서 프로퍼티 사용하는법](spring-boot/spring-boot-test-properties.md)
 - *2020-04-20* : [Using YAML instead of Properties](spring-boot/spring-boot-using-yaml-insteadof-properties.md)
 - *2020-04-20* : [스프링 부트에서 H2 데이터베이스 사용하기](spring-boot/spring-boot-H2-database.md)
@@ -18,11 +19,10 @@
 - *2020-03-26* : [Git Submodule](git/git-submodule.md)
 - *2020-03-26* : [Git remote repository](git/git-remote-repository.md)
 - *2020-03-26* : [Git 로그 출력](git/git-log.md)
-- *2020-03-26* : [Git in bash](git/git-in-bash.md)
 
 ## Categories
 
-Total `166` TILs
+Total `167` TILs
 
 - [aws](#aws) *(3)*
 - [dynamodb](#dynamodb) *(4)*
@@ -32,7 +32,7 @@ Total `166` TILs
 - [git](#git) *(9)*
 - [gradle](#gradle) *(9)*
 - [hibernate](#hibernate) *(2)*
-- [intellij](#intellij) *(7)*
+- [intellij](#intellij) *(8)*
 - [java](#java) *(29)*
 - [javascript](#javascript) *(2)*
 - [linux](#linux) *(15)*
@@ -120,6 +120,7 @@ Total `166` TILs
 
 ### intellij
 
+- [IntelliJ Database Tool로 H2 접속하기](intellij/intellij-database-tool-with-h2.md)
 - [Enable spring boot run dashboard](intellij/intellij-enable-spring-boot-run-dashboard.md)
 - [Create entity class from database](intellij/intellij-entity-from-database.md)
 - [IntelliJ HotSwap](intellij/intellij-hotswap.md)
