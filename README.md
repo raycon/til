@@ -4,6 +4,8 @@
 
 ## Recently Modified
 
+- *2020-04-22* : [DataSource auto-configuration in test](spring-boot/spring-boot-test-datasource-auto-configuration.md)
+- *2020-04-21* : [Git 로그 출력](git/git-log.md)
 - *2020-04-21* : [IntelliJ Database Tool로 H2 접속하기](intellij/intellij-database-tool-with-h2.md)
 - *2020-04-20* : [테스트에서 프로퍼티 사용하는법](spring-boot/spring-boot-test-properties.md)
 - *2020-04-20* : [Using YAML instead of Properties](spring-boot/spring-boot-using-yaml-insteadof-properties.md)
@@ -17,12 +19,10 @@
 - *2020-04-02* : [HttpServletRequest 에서 IP 조회](java/java-ip-from-request.md)
 - *2020-03-26* : [Git username and email](git/git-username-email.md)
 - *2020-03-26* : [Git Submodule](git/git-submodule.md)
-- *2020-03-26* : [Git remote repository](git/git-remote-repository.md)
-- *2020-03-26* : [Git 로그 출력](git/git-log.md)
 
 ## Categories
 
-Total `167` TILs
+Total `168` TILs
 
 - [aws](#aws) *(3)*
 - [dynamodb](#dynamodb) *(4)*
@@ -43,7 +43,7 @@ Total `167` TILs
 - [react](#react) *(2)*
 - [spring](#spring) *(22)*
 - [spring-batch](#spring-batch) *(5)*
-- [spring-boot](#spring-boot) *(9)*
+- [spring-boot](#spring-boot) *(10)*
 - [typescript](#typescript) *(1)*
 - [vim](#vim) *(4)*
 - [vscode](#vscode) *(6)*
@@ -254,6 +254,7 @@ Total `167` TILs
 - [스프링 부트에서 H2 데이터베이스 사용하기](spring-boot/spring-boot-H2-database.md)
 - [스프링 부트에서 로그백 사용하기](spring-boot/spring-boot-logback.md)
 - [Spring Boot and MySQL Load Data](spring-boot/spring-boot-mysql-load-data-infile.md)
+- [DataSource auto-configuration in test](spring-boot/spring-boot-test-datasource-auto-configuration.md)
 - [테스트에서 프로퍼티 사용하는법](spring-boot/spring-boot-test-properties.md)
 - [스프링 부트 테스트](spring-boot/spring-boot-test.md)
 - [Using YAML instead of Properties](spring-boot/spring-boot-using-yaml-insteadof-properties.md)
