@@ -1,18 +1,22 @@
 # Spring Boot DevTools
 
-클래스 바이트코드를 교체하는 HotSwap 방식으로 구현된 `spring-loaded` 를 사용하고 있었는데, 메소드 추가나 어노테이션 추가등을 제대로 인식하지 않는 문제가 있어서 다른 방법을 찾던 중 `spring-boot-devtools` 를 발견했다. `devtools`는 클래스파일의 변화를 감지하고 있다가 서버를 빠르게 재시작한다.
+자바 파일을 수정할 경우 어플리케이션을 재시작 하지 않고 수정사항을 반영하는 방법
 
-참고 :
+`build.gradle`에 `devtools` 의존성을 추가한다:
 
-* [DevTools in Spring Boot 1.3](https://spring.io/blog/2015/06/17/devtools-in-spring-boot-1-3)
-* [Using Spring Boot Developer tools](http://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/html/using-boot-devtools.html)
-
-build.gradle 에 아래 내용을 추가한다 :
-
-```gradle
+```
 dependencies {
-    compile("org.springframework.boot:spring-boot-devtools")
+    ...
+    runtimeOnly 'org.springframework.boot:spring-boot-devtools'
+    ...
 }
 ```
 
-Eclipse(STS) 에서 gradle dependencies 를 업데이트하고, `Project > Build Automatically` 옵션을 켠다. 부트 앱을 실행한 뒤 java 파일을 수정하고 저장하면 앱이 재실행된다.
+Run/Debug Configuration > Spring Boot > Running Application Update Policies 를 다음과 같이 설정한다.
+
+- On 'Update' action: Hot swap classes and update trigger file if failed
+- On frame deactivation: Update classes and resources
+
+어플리케이션을 **디버그 모드**로 실행한다.
+
+파일을 수정하고 `Run > Update [APP] Applicaton` 메뉴를 선택하거나 `Ctrl + F10` 단축키를 누르면 수정사항이 반영된다.
