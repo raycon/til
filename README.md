@@ -4,9 +4,13 @@
 
 ## Recently Modified
 
+- *2020-07-02* : [IdeaVim에서 EasyMotion 사용하는 방법](intellij/intellij-ideavim-easymotion.md)
+- *2020-07-02* : [Spring Boot DevTools](spring-boot/spring-boot-devtools.md)
+- *2020-07-01* : [Datasource Properties](spring-boot/spring-boot-data-source-properties.md)
+- *2020-07-01* : [Enable JPA Support in IntelliJ IDEA](intellij/intellij-enabling-jpa-support.md)
+- *2020-06-05* : [IntelliJ Database Tool로 H2 접속하기](intellij/intellij-database-tool-with-h2.md)
 - *2020-04-22* : [DataSource auto-configuration in test](spring-boot/spring-boot-test-datasource-auto-configuration.md)
 - *2020-04-21* : [Git 로그 출력](git/git-log.md)
-- *2020-04-21* : [IntelliJ Database Tool로 H2 접속하기](intellij/intellij-database-tool-with-h2.md)
 - *2020-04-20* : [테스트에서 프로퍼티 사용하는법](spring-boot/spring-boot-test-properties.md)
 - *2020-04-20* : [Using YAML instead of Properties](spring-boot/spring-boot-using-yaml-insteadof-properties.md)
 - *2020-04-20* : [스프링 부트에서 H2 데이터베이스 사용하기](spring-boot/spring-boot-H2-database.md)
@@ -15,14 +19,10 @@
 - *2020-04-20* : [DAO, DTO, VO](spring/spring-dao-dto-vo.md)
 - *2020-04-20* : [Spring Boot War](spring-boot/spring-boot-war.md)
 - *2020-04-20* : [Spring Batch RunIdIncrementer](spring-batch/spring-batch-runidincrementer.md)
-- *2020-04-08* : [Auto Hot Key](windows/windows-ahk-scripts.md)
-- *2020-04-02* : [HttpServletRequest 에서 IP 조회](java/java-ip-from-request.md)
-- *2020-03-26* : [Git username and email](git/git-username-email.md)
-- *2020-03-26* : [Git Submodule](git/git-submodule.md)
 
 ## Categories
 
-Total `168` TILs
+Total `171` TILs
 
 - [aws](#aws) *(3)*
 - [dynamodb](#dynamodb) *(4)*
@@ -32,7 +32,7 @@ Total `168` TILs
 - [git](#git) *(9)*
 - [gradle](#gradle) *(9)*
 - [hibernate](#hibernate) *(2)*
-- [intellij](#intellij) *(8)*
+- [intellij](#intellij) *(10)*
 - [java](#java) *(29)*
 - [javascript](#javascript) *(2)*
 - [linux](#linux) *(15)*
@@ -43,7 +43,7 @@ Total `168` TILs
 - [react](#react) *(2)*
 - [spring](#spring) *(22)*
 - [spring-batch](#spring-batch) *(5)*
-- [spring-boot](#spring-boot) *(10)*
+- [spring-boot](#spring-boot) *(11)*
 - [typescript](#typescript) *(1)*
 - [vim](#vim) *(4)*
 - [vscode](#vscode) *(6)*
@@ -122,8 +122,10 @@ Total `168` TILs
 
 - [IntelliJ Database Tool로 H2 접속하기](intellij/intellij-database-tool-with-h2.md)
 - [Enable spring boot run dashboard](intellij/intellij-enable-spring-boot-run-dashboard.md)
+- [Enable JPA Support in IntelliJ IDEA](intellij/intellij-enabling-jpa-support.md)
 - [Create entity class from database](intellij/intellij-entity-from-database.md)
 - [IntelliJ HotSwap](intellij/intellij-hotswap.md)
+- [IdeaVim에서 EasyMotion 사용하는 방법](intellij/intellij-ideavim-easymotion.md)
 - [톰캣에서 스프링 어플리케이션 실행](intellij/intellij-run-tomcat.md)
 - [IntelliJ Settings](intellij/intellij-settings.md)
 - [Intellij 자주 사용하는 단축키](intellij/intellij-shortcuts.md)
@@ -250,6 +252,7 @@ Total `168` TILs
 ### spring-boot
 
 - [@ConfigurationProperties](spring-boot/spring-boot-configuration-properties.md)
+- [Datasource Properties](spring-boot/spring-boot-data-source-properties.md)
 - [Spring Boot DevTools](spring-boot/spring-boot-devtools.md)
 - [스프링 부트에서 H2 데이터베이스 사용하기](spring-boot/spring-boot-H2-database.md)
 - [스프링 부트에서 로그백 사용하기](spring-boot/spring-boot-logback.md)
