@@ -4,50 +4,50 @@
 
 ## Recently Modified
 
-- *2020-07-02* : [IdeaVim에서 EasyMotion 사용하는 방법](intellij/intellij-ideavim-easymotion.md)
-- *2020-07-02* : [Spring Boot DevTools](spring-boot/spring-boot-devtools.md)
-- *2020-07-01* : [Datasource Properties](spring-boot/spring-boot-data-source-properties.md)
-- *2020-07-01* : [Enable JPA Support in IntelliJ IDEA](intellij/intellij-enabling-jpa-support.md)
-- *2020-06-05* : [IntelliJ Database Tool로 H2 접속하기](intellij/intellij-database-tool-with-h2.md)
-- *2020-04-22* : [DataSource auto-configuration in test](spring-boot/spring-boot-test-datasource-auto-configuration.md)
-- *2020-04-21* : [Git 로그 출력](git/git-log.md)
-- *2020-04-20* : [테스트에서 프로퍼티 사용하는법](spring-boot/spring-boot-test-properties.md)
-- *2020-04-20* : [Using YAML instead of Properties](spring-boot/spring-boot-using-yaml-insteadof-properties.md)
-- *2020-04-20* : [스프링 부트에서 H2 데이터베이스 사용하기](spring-boot/spring-boot-H2-database.md)
-- *2020-04-20* : [Swagger 문서에서 특정 파라미터 제외하기](spring/spring-swagger-ignore-parameter.md)
-- *2020-04-20* : [Git Credential 사용](git/git-credential.md)
-- *2020-04-20* : [DAO, DTO, VO](spring/spring-dao-dto-vo.md)
-- *2020-04-20* : [Spring Boot War](spring-boot/spring-boot-war.md)
-- *2020-04-20* : [Spring Batch RunIdIncrementer](spring-batch/spring-batch-runidincrementer.md)
+- _2020-07-02_ : [IdeaVim에서 EasyMotion 사용하는 방법](intellij/intellij-ideavim-easymotion.md)
+- _2020-07-02_ : [Spring Boot DevTools](spring-boot/spring-boot-devtools.md)
+- _2020-07-01_ : [Datasource Properties](spring-boot/spring-boot-data-source-properties.md)
+- _2020-07-01_ : [Enable JPA Support in IntelliJ IDEA](intellij/intellij-enabling-jpa-support.md)
+- _2020-06-05_ : [IntelliJ Database Tool로 H2 접속하기](intellij/intellij-database-tool-with-h2.md)
+- _2020-04-22_ : [DataSource auto-configuration in test](spring-boot/spring-boot-test-datasource-auto-configuration.md)
+- _2020-04-21_ : [Git 로그 출력](git/git-log.md)
+- _2020-04-20_ : [테스트에서 프로퍼티 사용하는법](spring-boot/spring-boot-test-properties.md)
+- _2020-04-20_ : [Using YAML instead of Properties](spring-boot/spring-boot-using-yaml-insteadof-properties.md)
+- _2020-04-20_ : [스프링 부트에서 H2 데이터베이스 사용하기](spring-boot/spring-boot-H2-database.md)
+- _2020-04-20_ : [Swagger 문서에서 특정 파라미터 제외하기](spring/spring-swagger-ignore-parameter.md)
+- _2020-04-20_ : [Git Credential 사용](git/git-credential.md)
+- _2020-04-20_ : [DAO, DTO, VO](spring/spring-dao-dto-vo.md)
+- _2020-04-20_ : [Spring Boot War](spring-boot/spring-boot-war.md)
+- _2020-04-20_ : [Spring Batch RunIdIncrementer](spring-batch/spring-batch-runidincrementer.md)
 
 ## Categories
 
 Total `171` TILs
 
-- [aws](#aws) *(3)*
-- [dynamodb](#dynamodb) *(4)*
-- [eclipse](#eclipse) *(11)*
-- [elasticsearch](#elasticsearch) *(2)*
-- [etc](#etc) *(5)*
-- [git](#git) *(9)*
-- [gradle](#gradle) *(9)*
-- [hibernate](#hibernate) *(2)*
-- [intellij](#intellij) *(10)*
-- [java](#java) *(29)*
-- [javascript](#javascript) *(2)*
-- [linux](#linux) *(15)*
-- [mybatis](#mybatis) *(3)*
-- [mysql](#mysql) *(3)*
-- [node](#node) *(6)*
-- [python](#python) *(1)*
-- [react](#react) *(2)*
-- [spring](#spring) *(22)*
-- [spring-batch](#spring-batch) *(5)*
-- [spring-boot](#spring-boot) *(11)*
-- [typescript](#typescript) *(1)*
-- [vim](#vim) *(4)*
-- [vscode](#vscode) *(6)*
-- [windows](#windows) *(6)*
+- [aws](#aws) _(3)_
+- [dynamodb](#dynamodb) _(4)_
+- [eclipse](#eclipse) _(11)_
+- [elasticsearch](#elasticsearch) _(2)_
+- [etc](#etc) _(5)_
+- [git](#git) _(9)_
+- [gradle](#gradle) _(9)_
+- [hibernate](#hibernate) _(2)_
+- [intellij](#intellij) _(10)_
+- [java](#java) _(29)_
+- [javascript](#javascript) _(2)_
+- [linux](#linux) _(15)_
+- [mybatis](#mybatis) _(3)_
+- [mysql](#mysql) _(3)_
+- [node](#node) _(6)_
+- [python](#python) _(1)_
+- [react](#react) _(2)_
+- [spring](#spring) _(22)_
+- [spring-batch](#spring-batch) _(5)_
+- [spring-boot](#spring-boot) _(11)_
+- [typescript](#typescript) _(1)_
+- [vim](#vim) _(4)_
+- [vscode](#vscode) _(6)_
+- [windows](#windows) _(6)_
 
 ### aws
 
